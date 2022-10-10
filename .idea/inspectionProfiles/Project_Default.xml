@@ -1,0 +1,109 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="82" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/2000/svg" />
+          <option value="http://www.w3.org/2000/10/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema-instance" />
+          <option value="http://www.w3.org/2001/XInclude" />
+          <option value="http://www.w3.org/2003/03/wsdl" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/xml/ns/" />
+          <option value="http://java.sun.com/jsp/" />
+          <option value="http://java.sun.com/JSP/" />
+          <option value="http://java.sun.com/j2ee/dtds/" />
+          <option value="http://java.sun.com/dtd/" />
+          <option value="http://xmlns.jcp.org/xml/ns/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://schemas.android.com/" />
+          <option value="http://jakarta.apache.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://odds.cs.stonybrook.edu" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyAttributeOutsideInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="29">
+            <item index="0" class="java.lang.String" itemvalue="faiss-gpu" />
+            <item index="1" class="java.lang.String" itemvalue="scipy" />
+            <item index="2" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="3" class="java.lang.String" itemvalue="sklearn" />
+            <item index="4" class="java.lang.String" itemvalue="json" />
+            <item index="5" class="java.lang.String" itemvalue="torch" />
+            <item index="6" class="java.lang.String" itemvalue="numpy" />
+            <item index="7" class="java.lang.String" itemvalue="torchvision" />
+            <item index="8" class="java.lang.String" itemvalue="Pillow" />
+            <item index="9" class="java.lang.String" itemvalue="mlflow" />
+            <item index="10" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="11" class="java.lang.String" itemvalue="google-cloud" />
+            <item index="12" class="java.lang.String" itemvalue="google-api-python-client" />
+            <item index="13" class="java.lang.String" itemvalue="pandas" />
+            <item index="14" class="java.lang.String" itemvalue="easydict" />
+            <item index="15" class="java.lang.String" itemvalue="tqdm" />
+            <item index="16" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="17" class="java.lang.String" itemvalue="seaborn" />
+            <item index="18" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="19" class="java.lang.String" itemvalue="xmltodict" />
+            <item index="20" class="java.lang.String" itemvalue="opencv-contrib-python" />
+            <item index="21" class="java.lang.String" itemvalue="setuptools" />
+            <item index="22" class="java.lang.String" itemvalue="Cython" />
+            <item index="23" class="java.lang.String" itemvalue="dash" />
+            <item index="24" class="java.lang.String" itemvalue="nltk" />
+            <item index="25" class="java.lang.String" itemvalue="transformers" />
+            <item index="26" class="java.lang.String" itemvalue="ftfy" />
+            <item index="27" class="java.lang.String" itemvalue="spacy" />
+            <item index="28" class="java.lang.String" itemvalue="networkx" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="torch.tensor.Tensor.extend" />
+          <option value="torch.utils.data" />
+          <option value="pymc3.summary" />
+          <option value="pymc3.plot_posterior" />
+          <option value="torch.utils.data.dataset.Dataset.labels_str" />
+          <option value="torch.utils.data.dataset.Dataset.path_to_label_and_bb" />
+          <option value="bool.__getitem__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
