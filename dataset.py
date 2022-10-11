@@ -1,5 +1,6 @@
 import os
 
+import dash_daq as daq
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -19,11 +20,26 @@ class Dataset:
     def get_dashboard(figures):
         app = Dash(__name__)  # TODO: prev, next; Boxes (turn_on); show labelled, unlabelled data;
 
-        graphs_list = [dcc.Graph(id=f'image-{fig_id}', figure=fig) for fig_id, fig in enumerate(figures)]
-        app.layout = html.Div([
-            *graphs_list
-        ])
+        # graphs_list = [dcc.Graph(id=f'image-{fig_id}', figure=fig) for fig_id, fig in enumerate(figures)]
 
+        app.layout = html.Div([
+
+            html.Div([
+                html.Label('Show Images Sample')],
+                style={'fontSize': 18, 'margin': '2%'}),
+
+            html.Div([
+                dcc.RadioItems(['with any boxes', 'without boxes'], 'with any boxes', inline=False,
+                               labelStyle={'display': 'block'})], style={'margin': '2%'}),
+
+            html.Div([
+                daq.BooleanSwitch(id='show-boxes-switch', on=True, label='Show Boxes',
+                                  labelPosition='Right', color=px.colors.qualitative.Prism[4]),
+            ], style={'margin': '2%', 'marginTop': '3%', 'width': '35%'})
+        ],
+            style={'background-color': px.colors.qualitative.Prism[10], 'fontSize': 18, 'font-family': 'monospace',
+                   'width': '20%', 'margin': '2%', 'padding': '0.5%', 'color': 'white'})
+        # px.colors.qualitative.G10[9]
         app.run_server()
 
         pass
