@@ -6,7 +6,7 @@ from dash import dcc
 from dash import html
 from dash_bootstrap_templates import load_figure_template
 
-from EDA import Dataset
+from dataset import Dataset
 
 load_figure_template('LUX')
 
