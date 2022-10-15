@@ -1,25 +1,33 @@
 import json
 import os
 import shutil
+from collections import Counter
+
 import numpy as np
 import pandas as pd
 import plotly.express as px
-from collections import Counter
 from PIL import Image
 
 
 class Dataset:
-    def __init__(self):
+    def __init__(self, cfg, logger):
 
-        with open('dataset_config.json') as json_file:
-            self.dataset_cfg = json.load(json_file)
+        self.cfg = cfg['dataset']
+        self.logger = logger
 
+        self.logger.info('initializing dataset as dataframe')
         self.dataset = self.get_dataset_as_dataframe()
+
+        self.logger.info('getting dataset stats for EDA')
+        self.get_common_stats()
         self.prepare_data_for_eda()
-        # self.split_data()
+
+        if self.cfg['split_data']:
+            self.logger.info('splitting dataset for training')
+            self.split_data()
 
     def get_dataset_as_dataframe(self):
-        files_list = np.asarray(os.listdir(self.dataset_cfg['data_path']))
+        files_list = np.asarray(os.listdir(self.cfg['data_path']))
         files_num = len(files_list)
         jpg_files_id = np.asarray([idx for idx, file_name in enumerate(files_list) if file_name.endswith('.jpg')])
         txt_files_id = np.setdiff1d(np.arange(files_num), jpg_files_id)
@@ -32,12 +40,15 @@ class Dataset:
         dataset_df = pd.DataFrame()
         dataset_df['img_path'] = files_list[jpg_files_id]
         dataset_df['label'] = labels
+
+        self.size = len(dataset_df)
+
         return dataset_df
 
     def read_labels(self, txt_files):
         labels = []
         for txt_file in txt_files:
-            with open(os.path.join(self.dataset_cfg['data_path'], txt_file), 'r') as f:
+            with open(os.path.join(self.cfg['data_path'], txt_file), 'r') as f:
                 text = f.readlines()
             if text:
                 boxes = [[int(num) if num_id == 0 else float(num) for num_id, num in
@@ -47,6 +58,41 @@ class Dataset:
             labels.append(boxes)
         return labels
 
+    @staticmethod
+    def get_sizes_stats(sizes):
+        sizes = np.asarray(sizes)
+        widths, heights = sizes[:, 0], sizes[:, 1]
+        sizes_stats = {'avg_w': int(round(widths.mean())), 'avg_h': int(round(heights.mean())),
+                       'min_w': int(round(widths.min())), 'min_h': int(round(heights.min())),
+                       'max_w': int(round(widths.max())), 'max_h': int(round(heights.max()))}
+        return sizes_stats
+
+    def get_common_stats(self):
+        images_sizes, bboxes_sizes = [], []
+        images_aspect_ratios, bboxes_aspect_ratios = [], []
+
+        # images
+        for row in self.dataset.iterrows():
+            image = Image.open(os.path.join(self.cfg['data_path'], row[1]['img_path']))
+            image_w, image_h = image.size
+            images_sizes.append(image.size)
+            images_aspect_ratios.append(image_h / image_w)
+
+            # boxes
+            if np.isnan(row[1]['label']).any():
+                continue
+
+            for label in row[1]['label']:
+                object_class, x, y, width, height = label
+                bbox_w, bbox_h = image_w * width, image_h * height
+                bboxes_sizes.append((bbox_w, bbox_h))
+                bboxes_aspect_ratios.append(bbox_h / bbox_w)
+
+        self.images_sizes_stats = self.get_sizes_stats(images_sizes)
+        self.bboxes_sizes_stats = self.get_sizes_stats(bboxes_sizes)
+        self.images_aspect_ratios = pd.DataFrame({'Images aspect ratio': images_aspect_ratios})
+        self.bboxes_aspect_ratios = pd.DataFrame({'Boxes aspect ratio': bboxes_aspect_ratios})
+
     def prepare_data_for_eda(self):
         # collect images samples to visualize in dashboard
         labeled_data_sample = self.dataset[~self.dataset.label.isna()]
@@ -54,7 +100,7 @@ class Dataset:
 
         figures = []
         for row in labeled_data_sample.head(10).iterrows():
-            image = Image.open(os.path.join(self.dataset_cfg['data_path'], row[1]['img_path']))
+            image = Image.open(os.path.join(self.cfg['data_path'], row[1]['img_path']))
             image_w, image_h = image.size
             fig = px.imshow(image)
 
@@ -84,7 +130,7 @@ class Dataset:
         objects_id_counter = Counter(
             np.concatenate(self.dataset.label[~self.dataset.label.isna()].to_list())[:, 0].astype(int))
         objects_id_dict = {
-            f'{self.dataset_cfg["class_id_2_class_name_mapping"][str(object_id)]}': boxes_num for
+            f'{self.cfg["class_id_2_class_name_mapping"][str(object_id)]}': boxes_num for
             object_id, boxes_num in objects_id_counter.items()}
 
         # self.objects_id_counter = objects_id_dict
@@ -93,15 +139,18 @@ class Dataset:
         self.objects_id_counter['class'] = list(objects_id_dict.keys())
         self.objects_id_counter['boxes_num'] = list(objects_id_dict.values())
 
+        self.classes_num = len(objects_id_dict)
+        self.bboxes_num = sum(self.objects_id_counter['boxes_num'])
+
     def split_data(self):
         """
         Splits data into train and valid sets.
         :return:
         """
         # split dataset ids
-        np.random.seed(int(self.dataset_cfg['seed']))
+        np.random.seed(int(self.cfg['seed']))
         dataset_size = len(self.dataset)
-        sets_division_thr = np.ceil(dataset_size * float(self.dataset_cfg["train_set_part"])).astype(int)
+        sets_division_thr = np.ceil(dataset_size * float(self.cfg["train_set_part"])).astype(int)
         shuffled_ids = np.random.permutation(np.arange(dataset_size))
         set_ids_dict = {'train': shuffled_ids[:sets_division_thr],
                         'test': shuffled_ids[sets_division_thr:]}
@@ -109,21 +158,17 @@ class Dataset:
         # generate files with train/valid sets paths which will be used while training
         images_names = self.dataset.img_path.to_numpy()
         for set_type, set_ids in set_ids_dict.items():
-            set_img_names = [os.path.join(self.dataset_cfg['path_prefix'] + f'{set_type}_set/', img_name) + '\n' for
+            set_img_names = [os.path.join(self.cfg['path_prefix'] + f'{set_type}_set/', img_name) + '\n' for
                              img_name in images_names[set_ids]]
-            with open(os.path.join(self.dataset_cfg['dir_to_save'], f'{set_type}.txt'), 'w') as f:
+            with open(os.path.join(self.cfg['dir_to_save'], f'{set_type}.txt'), 'w') as f:
                 f.writelines(set_img_names)
 
-            if not os.path.exists(self.dataset_cfg[f'{set_type}_set_path']):
-                os.makedirs(self.dataset_cfg[f'{set_type}_set_path'])
+            if not os.path.exists(self.cfg[f'{set_type}_set_path']):
+                os.makedirs(self.cfg[f'{set_type}_set_path'])
 
             for img_name in images_names[set_ids]:
-                shutil.copyfile(os.path.join(self.dataset_cfg['data_path'], img_name),
-                                os.path.join(self.dataset_cfg[f'{set_type}_set_path'], img_name))
+                shutil.copyfile(os.path.join(self.cfg['data_path'], img_name),
+                                os.path.join(self.cfg[f'{set_type}_set_path'], img_name))
                 txt_name = img_name.replace('.jpg', '.txt')
-                shutil.copyfile(os.path.join(self.dataset_cfg['data_path'], txt_name),
-                                os.path.join(self.dataset_cfg[f'{set_type}_set_path'], txt_name))
-
-
-if __name__ == '__main__':
-    dataset = Dataset()
+                shutil.copyfile(os.path.join(self.cfg['data_path'], txt_name),
+                                os.path.join(self.cfg[f'{set_type}_set_path'], txt_name))

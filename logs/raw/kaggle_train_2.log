@@ -1,0 +1,1013 @@
+ CUDNN_HALF=1 
+ Prepare additional network for mAP calculation...
+net.optimized_memory = 0 
+mini_batch = 1, batch = 16, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+yolov4-obj
+net.optimized_memory = 0 
+mini_batch = 4, batch = 64, time_steps = 1, train = 1 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 371 K-images (5 Kilo-batches_64) 
+Learning Rate: 0.001, Momentum: 0.949, Decay: 0.0005
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 0.000058 seconds
+
+ (next mAP calculation at 5961 iterations) ]2;5801/6000: loss=0.9 hours left=-1.0
+ 5801: 0.914021, 0.914021 avg loss, 0.000010 rate, 8.384349 seconds, 371264 images, -1.000000 hours left
+Loaded: 4.452815 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5802/6000: loss=0.8 hours left=0.5
+ 5802: 0.827931, 0.905412 avg loss, 0.000010 rate, 8.288708 seconds, 371328 images, 0.463473 hours left
+Loaded: 3.004144 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5803/6000: loss=1.1 hours left=0.5
+ 5803: 1.095229, 0.924394 avg loss, 0.000010 rate, 8.526952 seconds, 371392 images, 0.465847 hours left
+Loaded: 9.071259 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5804/6000: loss=1.2 hours left=0.5
+ 5804: 1.188571, 0.950811 avg loss, 0.000010 rate, 8.394840 seconds, 371456 images, 0.467498 hours left
+Loaded: 6.838102 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5805/6000: loss=1.2 hours left=0.5
+ 5805: 1.179735, 0.973704 avg loss, 0.000010 rate, 8.017564 seconds, 371520 images, 0.472332 hours left
+Loaded: 6.174985 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5806/6000: loss=1.1 hours left=0.5
+ 5806: 1.057601, 0.982093 avg loss, 0.000010 rate, 8.535382 seconds, 371584 images, 0.475656 hours left
+Loaded: 6.556815 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5807/6000: loss=1.1 hours left=0.5
+ 5807: 1.116790, 0.995563 avg loss, 0.000010 rate, 8.656061 seconds, 371648 images, 0.478827 hours left
+Loaded: 6.738587 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5808/6000: loss=1.3 hours left=0.5
+ 5808: 1.296841, 1.025691 avg loss, 0.000010 rate, 8.401250 seconds, 371712 images, 0.482194 hours left
+Loaded: 5.347275 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5809/6000: loss=1.2 hours left=0.5
+ 5809: 1.165084, 1.039630 avg loss, 0.000010 rate, 8.459527 seconds, 371776 images, 0.485447 hours left
+Loaded: 3.339920 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5810/6000: loss=0.8 hours left=0.5
+ 5810: 0.844066, 1.020074 avg loss, 0.000010 rate, 7.653109 seconds, 371840 images, 0.487918 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 14.222977 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5811/6000: loss=1.4 hours left=0.5
+ 5811: 1.375015, 1.055568 avg loss, 0.000010 rate, 8.400780 seconds, 371904 images, 0.488840 hours left
+Loaded: 7.510814 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5812/6000: loss=1.2 hours left=0.5
+ 5812: 1.194957, 1.069507 avg loss, 0.000010 rate, 8.214478 seconds, 371968 images, 0.495830 hours left
+Loaded: 1.080404 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5813/6000: loss=0.8 hours left=0.5
+ 5813: 0.778673, 1.040423 avg loss, 0.000010 rate, 7.932220 seconds, 372032 images, 0.499083 hours left
+Loaded: 0.853726 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5814/6000: loss=0.7 hours left=0.5
+ 5814: 0.696854, 1.006066 avg loss, 0.000010 rate, 8.029839 seconds, 372096 images, 0.498774 hours left
+Loaded: 9.335005 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5815/6000: loss=1.2 hours left=0.5
+ 5815: 1.151774, 1.020637 avg loss, 0.000010 rate, 8.671382 seconds, 372160 images, 0.498376 hours left
+Loaded: 5.029756 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5816/6000: loss=1.0 hours left=0.5
+ 5816: 1.012000, 1.019773 avg loss, 0.000010 rate, 8.102199 seconds, 372224 images, 0.502646 hours left
+Loaded: 4.071032 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5817/6000: loss=0.6 hours left=0.5
+ 5817: 0.583198, 0.976116 avg loss, 0.000010 rate, 8.266717 seconds, 372288 images, 0.504331 hours left
+Loaded: 6.885216 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5818/6000: loss=1.4 hours left=0.5
+ 5818: 1.375865, 1.016091 avg loss, 0.000010 rate, 8.283476 seconds, 372352 images, 0.505560 hours left
+Loaded: 5.413004 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5819/6000: loss=1.3 hours left=0.5
+ 5819: 1.339943, 1.048476 avg loss, 0.000010 rate, 8.388710 seconds, 372416 images, 0.508173 hours left
+Loaded: 3.544820 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5820/6000: loss=0.7 hours left=0.5
+ 5820: 0.697775, 1.013406 avg loss, 0.000010 rate, 7.770221 seconds, 372480 images, 0.510030 hours left
+Resizing, random_coef = 1.40 
+
+ 384 x 384 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 13.563430 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5821/6000: loss=0.8 hours left=0.5
+ 5821: 0.764984, 0.988564 avg loss, 0.000010 rate, 3.754953 seconds, 372544 images, 0.510587 hours left
+Loaded: 11.910553 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5822/6000: loss=0.9 hours left=0.5
+ 5822: 0.928771, 0.982584 avg loss, 0.000010 rate, 3.976486 seconds, 372608 images, 0.514093 hours left
+Loaded: 8.982482 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5823/6000: loss=0.8 hours left=0.5
+ 5823: 0.798788, 0.964205 avg loss, 0.000010 rate, 3.895998 seconds, 372672 images, 0.516807 hours left
+Loaded: 10.386507 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5824/6000: loss=1.0 hours left=0.5
+ 5824: 0.958840, 0.963668 avg loss, 0.000010 rate, 3.826553 seconds, 372736 images, 0.517971 hours left
+Loaded: 8.716109 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5825/6000: loss=0.7 hours left=0.5
+ 5825: 0.669889, 0.934290 avg loss, 0.000010 rate, 3.866794 seconds, 372800 images, 0.519740 hours left
+Loaded: 6.948214 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5826/6000: loss=0.7 hours left=0.5
+ 5826: 0.719303, 0.912792 avg loss, 0.000010 rate, 3.665441 seconds, 372864 images, 0.520659 hours left
+Loaded: 6.661328 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5827/6000: loss=0.7 hours left=0.5
+ 5827: 0.659275, 0.887440 avg loss, 0.000010 rate, 3.760607 seconds, 372928 images, 0.520582 hours left
+Loaded: 8.444249 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5828/6000: loss=0.7 hours left=0.5
+ 5828: 0.695177, 0.868214 avg loss, 0.000010 rate, 4.017012 seconds, 372992 images, 0.520385 hours left
+Loaded: 10.372362 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5829/6000: loss=0.8 hours left=0.5
+ 5829: 0.823271, 0.863719 avg loss, 0.000010 rate, 3.806226 seconds, 373056 images, 0.521135 hours left
+Loaded: 8.863901 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5830/6000: loss=0.9 hours left=0.5
+ 5830: 0.916880, 0.869035 avg loss, 0.000010 rate, 3.861559 seconds, 373120 images, 0.522658 hours left
+Resizing, random_coef = 1.40 
+
+ 384 x 384 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 8.690910 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5831/6000: loss=0.6 hours left=0.5
+ 5831: 0.550766, 0.837208 avg loss, 0.000010 rate, 3.755184 seconds, 373184 images, 0.523441 hours left
+Loaded: 6.224317 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5832/6000: loss=0.7 hours left=0.5
+ 5832: 0.661940, 0.819682 avg loss, 0.000010 rate, 4.003384 seconds, 373248 images, 0.524049 hours left
+Loaded: 12.555803 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5833/6000: loss=0.7 hours left=0.5
+ 5833: 0.662096, 0.803923 avg loss, 0.000010 rate, 3.621311 seconds, 373312 images, 0.523582 hours left
+Loaded: 9.279195 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5834/6000: loss=0.7 hours left=0.5
+ 5834: 0.676322, 0.791163 avg loss, 0.000010 rate, 3.807696 seconds, 373376 images, 0.525850 hours left
+Loaded: 8.841491 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5835/6000: loss=0.8 hours left=0.5
+ 5835: 0.835989, 0.795645 avg loss, 0.000010 rate, 3.695333 seconds, 373440 images, 0.526626 hours left
+Loaded: 4.227379 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5836/6000: loss=0.5 hours left=0.5
+ 5836: 0.510474, 0.767128 avg loss, 0.000010 rate, 3.623889 seconds, 373504 images, 0.527106 hours left
+Loaded: 6.690413 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5837/6000: loss=0.7 hours left=0.5
+ 5837: 0.678677, 0.758283 avg loss, 0.000010 rate, 3.884107 seconds, 373568 images, 0.525412 hours left
+Loaded: 10.666106 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5838/6000: loss=0.7 hours left=0.5
+ 5838: 0.736560, 0.756111 avg loss, 0.000010 rate, 3.748029 seconds, 373632 images, 0.524946 hours left
+Loaded: 6.175917 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5839/6000: loss=0.5 hours left=0.5
+ 5839: 0.505392, 0.731039 avg loss, 0.000010 rate, 3.581459 seconds, 373696 images, 0.526183 hours left
+Loaded: 10.618605 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5840/6000: loss=1.0 hours left=0.5
+ 5840: 0.974426, 0.755378 avg loss, 0.000010 rate, 4.196145 seconds, 373760 images, 0.525285 hours left
+Resizing, random_coef = 1.40 
+
+ 576 x 576 
+ try to allocate additional workspace_size = 95.55 MB 
+ CUDA allocate done! 
+Loaded: 2.468123 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5841/6000: loss=1.0 hours left=0.5
+ 5841: 1.011377, 0.780978 avg loss, 0.000010 rate, 7.653646 seconds, 373824 images, 0.526616 hours left
+Loaded: 8.291069 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5842/6000: loss=1.3 hours left=0.5
+ 5842: 1.301569, 0.833037 avg loss, 0.000010 rate, 7.674372 seconds, 373888 images, 0.525820 hours left
+Loaded: 5.711620 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5843/6000: loss=0.9 hours left=0.5
+ 5843: 0.926737, 0.842407 avg loss, 0.000010 rate, 7.471265 seconds, 373952 images, 0.527569 hours left
+Loaded: 4.210853 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5844/6000: loss=0.8 hours left=0.5
+ 5844: 0.754133, 0.833579 avg loss, 0.000010 rate, 7.544090 seconds, 374016 images, 0.528043 hours left
+Loaded: 7.856803 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5845/6000: loss=1.1 hours left=0.5
+ 5845: 1.129842, 0.863206 avg loss, 0.000010 rate, 6.997937 seconds, 374080 images, 0.527856 hours left
+Loaded: 0.000082 seconds
+
+ (next mAP calculation at 5961 iterations) ]2;5846/6000: loss=0.5 hours left=0.5
+ 5846: 0.525339, 0.829419 avg loss, 0.000010 rate, 7.512134 seconds, 374144 images, 0.528973 hours left
+Loaded: 6.613547 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5847/6000: loss=1.3 hours left=0.5
+ 5847: 1.254672, 0.871944 avg loss, 0.000010 rate, 7.817865 seconds, 374208 images, 0.526897 hours left
+Loaded: 10.649400 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5848/6000: loss=1.2 hours left=0.5
+ 5848: 1.220134, 0.906763 avg loss, 0.000010 rate, 7.896822 seconds, 374272 images, 0.527762 hours left
+Loaded: 7.963478 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5849/6000: loss=0.9 hours left=0.5
+ 5849: 0.923130, 0.908400 avg loss, 0.000010 rate, 7.256772 seconds, 374336 images, 0.530315 hours left
+Loaded: 3.746291 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5850/6000: loss=1.0 hours left=0.5
+ 5850: 0.951112, 0.912671 avg loss, 0.000010 rate, 7.619237 seconds, 374400 images, 0.531396 hours left
+Resizing, random_coef = 1.40 
+
+ 480 x 480 
+ try to allocate additional workspace_size = 66.36 MB 
+ CUDA allocate done! 
+Loaded: 5.992325 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5851/6000: loss=0.7 hours left=0.5
+ 5851: 0.682307, 0.889635 avg loss, 0.000010 rate, 5.618078 seconds, 374464 images, 0.530817 hours left
+Loaded: 10.837910 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5852/6000: loss=1.1 hours left=0.5
+ 5852: 1.144291, 0.915100 avg loss, 0.000010 rate, 5.976021 seconds, 374528 images, 0.530315 hours left
+Loaded: 2.736648 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5853/6000: loss=0.5 hours left=0.5
+ 5853: 0.473869, 0.870977 avg loss, 0.000010 rate, 5.530436 seconds, 374592 images, 0.531924 hours left
+Loaded: 12.904862 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5854/6000: loss=1.3 hours left=0.5
+ 5854: 1.253334, 0.909213 avg loss, 0.000010 rate, 5.715230 seconds, 374656 images, 0.529980 hours left
+Loaded: 7.790317 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5855/6000: loss=0.7 hours left=0.5
+ 5855: 0.736782, 0.891970 avg loss, 0.000010 rate, 5.459443 seconds, 374720 images, 0.532232 hours left
+Loaded: 9.141492 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5856/6000: loss=1.0 hours left=0.5
+ 5856: 1.032013, 0.905974 avg loss, 0.000010 rate, 5.649990 seconds, 374784 images, 0.532246 hours left
+Loaded: 2.710147 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5857/6000: loss=0.7 hours left=0.5
+ 5857: 0.708898, 0.886266 avg loss, 0.000010 rate, 5.803239 seconds, 374848 images, 0.532841 hours left
+Loaded: 7.748189 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5858/6000: loss=0.6 hours left=0.5
+ 5858: 0.635271, 0.861167 avg loss, 0.000010 rate, 5.611921 seconds, 374912 images, 0.530894 hours left
+Loaded: 7.372408 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5859/6000: loss=0.7 hours left=0.5
+ 5859: 0.708705, 0.845921 avg loss, 0.000010 rate, 5.379030 seconds, 374976 images, 0.530855 hours left
+Loaded: 13.030484 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5860/6000: loss=1.1 hours left=0.5
+ 5860: 1.058363, 0.867165 avg loss, 0.000010 rate, 5.831001 seconds, 375040 images, 0.530541 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 8.609631 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5861/6000: loss=0.6 hours left=0.5
+ 5861: 0.617865, 0.842235 avg loss, 0.000010 rate, 3.681118 seconds, 375104 images, 0.532570 hours left
+Loaded: 10.980736 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5862/6000: loss=0.7 hours left=0.5
+ 5862: 0.713199, 0.829331 avg loss, 0.000010 rate, 3.548448 seconds, 375168 images, 0.531990 hours left
+Loaded: 8.785554 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5863/6000: loss=0.6 hours left=0.5
+ 5863: 0.623020, 0.808700 avg loss, 0.000010 rate, 3.450748 seconds, 375232 images, 0.532240 hours left
+Loaded: 7.431072 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5864/6000: loss=0.6 hours left=0.5
+ 5864: 0.595057, 0.787336 avg loss, 0.000010 rate, 3.401008 seconds, 375296 images, 0.531574 hours left
+Loaded: 10.976291 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5865/6000: loss=0.9 hours left=0.5
+ 5865: 0.877001, 0.796302 avg loss, 0.000010 rate, 3.446456 seconds, 375360 images, 0.530350 hours left
+Loaded: 6.430554 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5866/6000: loss=0.5 hours left=0.5
+ 5866: 0.463766, 0.763049 avg loss, 0.000010 rate, 3.417415 seconds, 375424 images, 0.530455 hours left
+Loaded: 9.734999 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5867/6000: loss=0.6 hours left=0.5
+ 5867: 0.607743, 0.747518 avg loss, 0.000010 rate, 3.321480 seconds, 375488 images, 0.528817 hours left
+Loaded: 6.856158 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5868/6000: loss=0.6 hours left=0.5
+ 5868: 0.619202, 0.734687 avg loss, 0.000010 rate, 3.372142 seconds, 375552 images, 0.528352 hours left
+Loaded: 11.209803 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5869/6000: loss=0.8 hours left=0.5
+ 5869: 0.761613, 0.737379 avg loss, 0.000010 rate, 3.460718 seconds, 375616 images, 0.526819 hours left
+Loaded: 10.210874 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5870/6000: loss=0.9 hours left=0.5
+ 5870: 0.891571, 0.752798 avg loss, 0.000010 rate, 3.562874 seconds, 375680 images, 0.526889 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 11.091325 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5871/6000: loss=0.9 hours left=0.5
+ 5871: 0.914082, 0.768927 avg loss, 0.000010 rate, 3.334753 seconds, 375744 images, 0.526594 hours left
+Loaded: 10.832612 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5872/6000: loss=0.9 hours left=0.5
+ 5872: 0.947211, 0.786755 avg loss, 0.000010 rate, 3.577696 seconds, 375808 images, 0.526498 hours left
+Loaded: 10.970632 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5873/6000: loss=1.0 hours left=0.5
+ 5873: 0.999654, 0.808045 avg loss, 0.000010 rate, 3.485131 seconds, 375872 images, 0.526356 hours left
+Loaded: 8.714298 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5874/6000: loss=0.6 hours left=0.5
+ 5874: 0.577394, 0.784980 avg loss, 0.000010 rate, 3.301627 seconds, 375936 images, 0.526192 hours left
+Loaded: 12.398035 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5875/6000: loss=1.1 hours left=0.5
+ 5875: 1.078905, 0.814372 avg loss, 0.000010 rate, 3.688119 seconds, 376000 images, 0.525136 hours left
+Loaded: 12.559266 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5876/6000: loss=1.1 hours left=0.5
+ 5876: 1.139010, 0.846836 avg loss, 0.000010 rate, 3.478650 seconds, 376064 images, 0.525470 hours left
+Loaded: 9.224981 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5877/6000: loss=0.6 hours left=0.5
+ 5877: 0.578460, 0.819999 avg loss, 0.000010 rate, 3.424738 seconds, 376128 images, 0.525740 hours left
+Loaded: 11.280032 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5878/6000: loss=0.7 hours left=0.5
+ 5878: 0.724911, 0.810490 avg loss, 0.000010 rate, 3.380180 seconds, 376192 images, 0.524804 hours left
+Loaded: 6.816396 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5879/6000: loss=0.4 hours left=0.5
+ 5879: 0.431286, 0.772569 avg loss, 0.000010 rate, 3.229503 seconds, 376256 images, 0.524525 hours left
+Loaded: 9.869302 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5880/6000: loss=0.5 hours left=0.5
+ 5880: 0.547364, 0.750049 avg loss, 0.000010 rate, 3.310911 seconds, 376320 images, 0.522656 hours left
+Resizing, random_coef = 1.40 
+
+ 384 x 384 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 7.240994 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5881/6000: loss=0.8 hours left=0.5
+ 5881: 0.800891, 0.755133 avg loss, 0.000010 rate, 3.828737 seconds, 376384 images, 0.521823 hours left
+Loaded: 6.762372 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5882/6000: loss=0.6 hours left=0.5
+ 5882: 0.559047, 0.735525 avg loss, 0.000010 rate, 3.806275 seconds, 376448 images, 0.520264 hours left
+Loaded: 6.320158 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5883/6000: loss=0.7 hours left=0.5
+ 5883: 0.727732, 0.734745 avg loss, 0.000010 rate, 3.791543 seconds, 376512 images, 0.518525 hours left
+Loaded: 13.627755 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5884/6000: loss=1.1 hours left=0.5
+ 5884: 1.091006, 0.770371 avg loss, 0.000010 rate, 4.148008 seconds, 376576 images, 0.516626 hours left
+Loaded: 6.673605 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5885/6000: loss=0.6 hours left=0.5
+ 5885: 0.551515, 0.748486 avg loss, 0.000010 rate, 3.697601 seconds, 376640 images, 0.517188 hours left
+Loaded: 6.127782 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5886/6000: loss=0.7 hours left=0.5
+ 5886: 0.699061, 0.743543 avg loss, 0.000010 rate, 3.950485 seconds, 376704 images, 0.515329 hours left
+Loaded: 8.586731 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5887/6000: loss=0.8 hours left=0.5
+ 5887: 0.828437, 0.752033 avg loss, 0.000010 rate, 4.202596 seconds, 376768 images, 0.513367 hours left
+Loaded: 4.041646 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5888/6000: loss=0.3 hours left=0.5
+ 5888: 0.281301, 0.704960 avg loss, 0.000010 rate, 3.765097 seconds, 376832 images, 0.512248 hours left
+Loaded: 6.438183 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5889/6000: loss=0.5 hours left=0.5
+ 5889: 0.489887, 0.683452 avg loss, 0.000010 rate, 3.693395 seconds, 376896 images, 0.509554 hours left
+Loaded: 6.250163 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5890/6000: loss=0.6 hours left=0.5
+ 5890: 0.617314, 0.676839 avg loss, 0.000010 rate, 3.765980 seconds, 376960 images, 0.507583 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 6.563336 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5891/6000: loss=0.4 hours left=0.5
+ 5891: 0.437492, 0.652904 avg loss, 0.000010 rate, 3.358894 seconds, 377024 images, 0.505567 hours left
+Loaded: 1.058211 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5892/6000: loss=0.5 hours left=0.5
+ 5892: 0.485644, 0.636178 avg loss, 0.000010 rate, 3.428910 seconds, 377088 images, 0.503516 hours left
+Loaded: 12.852453 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5893/6000: loss=1.0 hours left=0.5
+ 5893: 1.046950, 0.677255 avg loss, 0.000010 rate, 3.379055 seconds, 377152 images, 0.499827 hours left
+Loaded: 8.520565 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5894/6000: loss=0.5 hours left=0.5
+ 5894: 0.511465, 0.660676 avg loss, 0.000010 rate, 3.260134 seconds, 377216 images, 0.499653 hours left
+Loaded: 8.948706 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5895/6000: loss=0.5 hours left=0.5
+ 5895: 0.525371, 0.647146 avg loss, 0.000010 rate, 3.206306 seconds, 377280 images, 0.498125 hours left
+Loaded: 4.960362 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5896/6000: loss=0.4 hours left=0.5
+ 5896: 0.448779, 0.627309 avg loss, 0.000010 rate, 3.201670 seconds, 377344 images, 0.496689 hours left
+Loaded: 10.461276 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5897/6000: loss=1.0 hours left=0.5
+ 5897: 1.010674, 0.665645 avg loss, 0.000010 rate, 3.399011 seconds, 377408 images, 0.494080 hours left
+Loaded: 10.670706 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5898/6000: loss=1.0 hours left=0.5
+ 5898: 0.991426, 0.698223 avg loss, 0.000010 rate, 3.716811 seconds, 377472 images, 0.493105 hours left
+Loaded: 10.847330 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5899/6000: loss=0.8 hours left=0.5
+ 5899: 0.842922, 0.712693 avg loss, 0.000010 rate, 3.358936 seconds, 377536 images, 0.492251 hours left
+Loaded: 8.995208 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5900/6000: loss=0.6 hours left=0.5
+ 5900: 0.568641, 0.698288 avg loss, 0.000010 rate, 3.473806 seconds, 377600 images, 0.491314 hours left
+Resizing, random_coef = 1.40 
+
+ 352 x 352 
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+Loaded: 9.134139 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5901/6000: loss=0.7 hours left=0.5
+ 5901: 0.666495, 0.695109 avg loss, 0.000010 rate, 3.372564 seconds, 377664 images, 0.489864 hours left
+Loaded: 4.258513 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5902/6000: loss=0.5 hours left=0.5
+ 5902: 0.539487, 0.679547 avg loss, 0.000010 rate, 3.374238 seconds, 377728 images, 0.488405 hours left
+Loaded: 7.180645 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5903/6000: loss=0.6 hours left=0.5
+ 5903: 0.588919, 0.670484 avg loss, 0.000010 rate, 3.468158 seconds, 377792 images, 0.485599 hours left
+Loaded: 11.292386 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5904/6000: loss=0.9 hours left=0.5
+ 5904: 0.891917, 0.692627 avg loss, 0.000010 rate, 3.396943 seconds, 377856 images, 0.483612 hours left
+Loaded: 12.765731 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5905/6000: loss=0.9 hours left=0.5
+ 5905: 0.927914, 0.716156 avg loss, 0.000010 rate, 3.590242 seconds, 377920 images, 0.482693 hours left
+Loaded: 9.186959 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5906/6000: loss=0.6 hours left=0.5
+ 5906: 0.570271, 0.701567 avg loss, 0.000010 rate, 3.447042 seconds, 377984 images, 0.482182 hours left
+Loaded: 11.425798 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5907/6000: loss=0.9 hours left=0.5
+ 5907: 0.880749, 0.719485 avg loss, 0.000010 rate, 3.539986 seconds, 378048 images, 0.480659 hours left
+Loaded: 9.509084 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5908/6000: loss=0.7 hours left=0.5
+ 5908: 0.673633, 0.714900 avg loss, 0.000010 rate, 3.378283 seconds, 378112 images, 0.479719 hours left
+Loaded: 9.082283 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5909/6000: loss=0.7 hours left=0.5
+ 5909: 0.732803, 0.716690 avg loss, 0.000010 rate, 3.261011 seconds, 378176 images, 0.478215 hours left
+Loaded: 5.302022 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5910/6000: loss=0.5 hours left=0.5
+ 5910: 0.494897, 0.694511 avg loss, 0.000010 rate, 3.400001 seconds, 378240 images, 0.476553 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 1.313492 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5911/6000: loss=1.2 hours left=0.5
+ 5911: 1.158313, 0.740891 avg loss, 0.000010 rate, 8.688517 seconds, 378304 images, 0.473963 hours left
+Loaded: 5.800345 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5912/6000: loss=1.1 hours left=0.5
+ 5912: 1.075777, 0.774380 avg loss, 0.000010 rate, 9.050369 seconds, 378368 images, 0.471696 hours left
+Loaded: 7.082827 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5913/6000: loss=1.4 hours left=0.5
+ 5913: 1.385279, 0.835470 avg loss, 0.000010 rate, 9.098206 seconds, 378432 images, 0.470610 hours left
+Loaded: 7.221966 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5914/6000: loss=1.6 hours left=0.5
+ 5914: 1.609409, 0.912864 avg loss, 0.000010 rate, 9.395120 seconds, 378496 images, 0.469814 hours left
+Loaded: 10.029073 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5915/6000: loss=1.4 hours left=0.5
+ 5915: 1.437174, 0.965295 avg loss, 0.000010 rate, 9.137590 seconds, 378560 images, 0.469085 hours left
+Loaded: 7.389588 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5916/6000: loss=0.7 hours left=0.5
+ 5916: 0.744628, 0.943228 avg loss, 0.000010 rate, 7.968357 seconds, 378624 images, 0.468920 hours left
+Loaded: 7.165863 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5917/6000: loss=1.2 hours left=0.5
+ 5917: 1.232725, 0.972178 avg loss, 0.000010 rate, 8.552311 seconds, 378688 images, 0.467814 hours left
+Loaded: 7.744668 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5918/6000: loss=1.3 hours left=0.5
+ 5918: 1.327535, 1.007713 avg loss, 0.000010 rate, 7.929799 seconds, 378752 images, 0.466760 hours left
+Loaded: 3.820410 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5919/6000: loss=0.8 hours left=0.5
+ 5919: 0.820594, 0.989002 avg loss, 0.000010 rate, 8.453385 seconds, 378816 images, 0.465663 hours left
+Loaded: 6.069446 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5920/6000: loss=1.1 hours left=0.5
+ 5920: 1.080717, 0.998173 avg loss, 0.000010 rate, 8.725583 seconds, 378880 images, 0.463768 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 8.741824 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5921/6000: loss=0.8 hours left=0.5
+ 5921: 0.814342, 0.979790 avg loss, 0.000010 rate, 8.494695 seconds, 378944 images, 0.462418 hours left
+Loaded: 6.050977 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5922/6000: loss=1.2 hours left=0.5
+ 5922: 1.228291, 1.004640 avg loss, 0.000010 rate, 8.160372 seconds, 379008 images, 0.461576 hours left
+Loaded: 3.557703 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5923/6000: loss=0.9 hours left=0.5
+ 5923: 0.907712, 0.994947 avg loss, 0.000010 rate, 9.023637 seconds, 379072 images, 0.460040 hours left
+Loaded: 9.388246 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5924/6000: loss=1.3 hours left=0.5
+ 5924: 1.277375, 1.023190 avg loss, 0.000010 rate, 8.956676 seconds, 379136 images, 0.458130 hours left
+Loaded: 7.998676 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5925/6000: loss=1.5 hours left=0.5
+ 5925: 1.516649, 1.072536 avg loss, 0.000010 rate, 8.477478 seconds, 379200 images, 0.457422 hours left
+Loaded: 5.274389 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5926/6000: loss=0.8 hours left=0.5
+ 5926: 0.768422, 1.042125 avg loss, 0.000010 rate, 8.184918 seconds, 379264 images, 0.456280 hours left
+Loaded: 5.545503 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5927/6000: loss=1.2 hours left=0.5
+ 5927: 1.181651, 1.056077 avg loss, 0.000010 rate, 8.631528 seconds, 379328 images, 0.454484 hours left
+Loaded: 7.652369 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5928/6000: loss=1.0 hours left=0.5
+ 5928: 1.032700, 1.053739 avg loss, 0.000010 rate, 8.551635 seconds, 379392 images, 0.452814 hours left
+Loaded: 6.895157 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5929/6000: loss=1.3 hours left=0.5
+ 5929: 1.259901, 1.074356 avg loss, 0.000010 rate, 8.972784 seconds, 379456 images, 0.451527 hours left
+Loaded: 7.273794 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5930/6000: loss=1.0 hours left=0.5
+ 5930: 0.972089, 1.064129 avg loss, 0.000010 rate, 8.708551 seconds, 379520 images, 0.450141 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 2.125261 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5931/6000: loss=0.5 hours left=0.4
+ 5931: 0.510328, 1.008749 avg loss, 0.000010 rate, 7.649808 seconds, 379584 images, 0.448747 hours left
+Loaded: 2.028139 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5932/6000: loss=0.8 hours left=0.4
+ 5932: 0.789008, 0.986775 avg loss, 0.000010 rate, 7.978098 seconds, 379648 images, 0.446133 hours left
+Loaded: 3.880572 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5933/6000: loss=0.9 hours left=0.4
+ 5933: 0.881549, 0.976252 avg loss, 0.000010 rate, 8.510040 seconds, 379712 images, 0.443562 hours left
+Loaded: 7.218081 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5934/6000: loss=1.2 hours left=0.4
+ 5934: 1.243083, 1.002935 avg loss, 0.000010 rate, 8.395553 seconds, 379776 images, 0.441432 hours left
+Loaded: 7.779959 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5935/6000: loss=1.1 hours left=0.4
+ 5935: 1.111262, 1.013768 avg loss, 0.000010 rate, 8.892712 seconds, 379840 images, 0.439880 hours left
+Loaded: 5.315814 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5936/6000: loss=1.2 hours left=0.4
+ 5936: 1.171680, 1.029559 avg loss, 0.000010 rate, 7.981111 seconds, 379904 images, 0.438492 hours left
+Loaded: 1.469920 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5937/6000: loss=0.6 hours left=0.4
+ 5937: 0.573992, 0.984002 avg loss, 0.000010 rate, 7.547093 seconds, 379968 images, 0.436471 hours left
+Loaded: 6.385929 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5938/6000: loss=0.9 hours left=0.4
+ 5938: 0.876152, 0.973217 avg loss, 0.000010 rate, 8.289922 seconds, 380032 images, 0.433684 hours left
+Loaded: 9.263430 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5939/6000: loss=1.7 hours left=0.4
+ 5939: 1.661094, 1.042005 avg loss, 0.000010 rate, 8.735317 seconds, 380096 images, 0.431875 hours left
+Loaded: 7.638999 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5940/6000: loss=1.5 hours left=0.4
+ 5940: 1.463572, 1.084162 avg loss, 0.000010 rate, 8.716375 seconds, 380160 images, 0.430606 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 10.573152 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5941/6000: loss=0.9 hours left=0.4
+ 5941: 0.903289, 1.066074 avg loss, 0.000010 rate, 8.454141 seconds, 380224 images, 0.429026 hours left
+Loaded: 6.216591 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5942/6000: loss=1.4 hours left=0.4
+ 5942: 1.444001, 1.103867 avg loss, 0.000010 rate, 7.701932 seconds, 380288 images, 0.427854 hours left
+Loaded: 0.000063 seconds
+
+ (next mAP calculation at 5961 iterations) ]2;5943/6000: loss=0.7 hours left=0.4
+ 5943: 0.708799, 1.064360 avg loss, 0.000010 rate, 7.718561 seconds, 380352 images, 0.425818 hours left
+Loaded: 4.122235 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5944/6000: loss=0.8 hours left=0.4
+ 5944: 0.827616, 1.040686 avg loss, 0.000010 rate, 8.361120 seconds, 380416 images, 0.422782 hours left
+Loaded: 7.755308 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5945/6000: loss=1.3 hours left=0.4
+ 5945: 1.264679, 1.063085 avg loss, 0.000010 rate, 8.235891 seconds, 380480 images, 0.420496 hours left
+Loaded: 5.523709 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5946/6000: loss=1.2 hours left=0.4
+ 5946: 1.208285, 1.077605 avg loss, 0.000010 rate, 8.498162 seconds, 380544 images, 0.418734 hours left
+Loaded: 4.149827 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5947/6000: loss=0.9 hours left=0.4
+ 5947: 0.905633, 1.060408 avg loss, 0.000010 rate, 8.051319 seconds, 380608 images, 0.416650 hours left
+Loaded: 4.482260 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5948/6000: loss=0.9 hours left=0.4
+ 5948: 0.913221, 1.045689 avg loss, 0.000010 rate, 8.261636 seconds, 380672 images, 0.414280 hours left
+Loaded: 6.419549 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5949/6000: loss=1.2 hours left=0.4
+ 5949: 1.205116, 1.061632 avg loss, 0.000010 rate, 7.890617 seconds, 380736 images, 0.411978 hours left
+Loaded: 1.831532 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5950/6000: loss=0.8 hours left=0.4
+ 5950: 0.779292, 1.033398 avg loss, 0.000010 rate, 8.171145 seconds, 380800 images, 0.409885 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 10.480820 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5951/6000: loss=1.1 hours left=0.4
+ 5951: 1.127259, 1.042784 avg loss, 0.000010 rate, 8.452305 seconds, 380864 images, 0.407176 hours left
+Loaded: 6.887459 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5952/6000: loss=1.0 hours left=0.4
+ 5952: 0.982594, 1.036765 avg loss, 0.000010 rate, 8.789656 seconds, 380928 images, 0.405681 hours left
+Loaded: 7.493959 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5953/6000: loss=1.2 hours left=0.4
+ 5953: 1.168875, 1.049976 avg loss, 0.000010 rate, 8.340691 seconds, 380992 images, 0.403714 hours left
+Loaded: 3.559126 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5954/6000: loss=1.1 hours left=0.4
+ 5954: 1.124581, 1.057436 avg loss, 0.000010 rate, 8.610375 seconds, 381056 images, 0.401745 hours left
+Loaded: 6.036460 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5955/6000: loss=1.3 hours left=0.4
+ 5955: 1.296852, 1.081378 avg loss, 0.000010 rate, 8.482975 seconds, 381120 images, 0.399282 hours left
+Loaded: 3.340713 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5956/6000: loss=1.3 hours left=0.4
+ 5956: 1.253148, 1.098555 avg loss, 0.000010 rate, 8.493269 seconds, 381184 images, 0.397104 hours left
+Loaded: 6.053393 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5957/6000: loss=1.1 hours left=0.4
+ 5957: 1.119579, 1.100657 avg loss, 0.000010 rate, 7.749054 seconds, 381248 images, 0.394580 hours left
+Loaded: 0.000078 seconds
+
+ (next mAP calculation at 5961 iterations) ]2;5958/6000: loss=0.6 hours left=0.4
+ 5958: 0.564252, 1.047017 avg loss, 0.000010 rate, 7.773295 seconds, 381312 images, 0.392282 hours left
+Loaded: 1.795570 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5959/6000: loss=0.6 hours left=0.4
+ 5959: 0.594011, 1.001716 avg loss, 0.000010 rate, 8.053787 seconds, 381376 images, 0.389266 hours left
+Loaded: 6.761907 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5960/6000: loss=0.9 hours left=0.4
+ 5960: 0.934764, 0.995021 avg loss, 0.000010 rate, 8.124869 seconds, 381440 images, 0.386496 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 11.650648 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 5961 iterations) ]2;5961/6000: loss=0.8 hours left=0.4
+ 5961: 0.834375, 0.978956 avg loss, 0.000010 rate, 8.622891 seconds, 381504 images, 0.384285 hours left
+Resizing to initial size: 416 x 416  try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+
+ calculation mAP (mean average precision)...
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+
+ detections_count = 8871, unique_truth_count = 4450  
+ rank = 0 of ranks = 8871  rank = 100 of ranks = 8871  rank = 200 of ranks = 8871  rank = 300 of ranks = 8871  rank = 400 of ranks = 8871  rank = 500 of ranks = 8871  rank = 600 of ranks = 8871  rank = 700 of ranks = 8871  rank = 800 of ranks = 8871  rank = 900 of ranks = 8871  rank = 1000 of ranks = 8871  rank = 1100 of ranks = 8871  rank = 1200 of ranks = 8871  rank = 1300 of ranks = 8871  rank = 1400 of ranks = 8871  rank = 1500 of ranks = 8871  rank = 1600 of ranks = 8871  rank = 1700 of ranks = 8871  rank = 1800 of ranks = 8871  rank = 1900 of ranks = 8871  rank = 2000 of ranks = 8871  rank = 2100 of ranks = 8871  rank = 2200 of ranks = 8871  rank = 2300 of ranks = 8871  rank = 2400 of ranks = 8871  rank = 2500 of ranks = 8871  rank = 2600 of ranks = 8871  rank = 2700 of ranks = 8871  rank = 2800 of ranks = 8871  rank = 2900 of ranks = 8871  rank = 3000 of ranks = 8871  rank = 3100 of ranks = 8871  rank = 3200 of ranks = 8871  rank = 3300 of ranks = 8871  rank = 3400 of ranks = 8871  rank = 3500 of ranks = 8871  rank = 3600 of ranks = 8871  rank = 3700 of ranks = 8871  rank = 3800 of ranks = 8871  rank = 3900 of ranks = 8871  rank = 4000 of ranks = 8871  rank = 4100 of ranks = 8871  rank = 4200 of ranks = 8871  rank = 4300 of ranks = 8871  rank = 4400 of ranks = 8871  rank = 4500 of ranks = 8871  rank = 4600 of ranks = 8871  rank = 4700 of ranks = 8871  rank = 4800 of ranks = 8871  rank = 4900 of ranks = 8871  rank = 5000 of ranks = 8871  rank = 5100 of ranks = 8871  rank = 5200 of ranks = 8871  rank = 5300 of ranks = 8871  rank = 5400 of ranks = 8871  rank = 5500 of ranks = 8871  rank = 5600 of ranks = 8871  rank = 5700 of ranks = 8871  rank = 5800 of ranks = 8871  rank = 5900 of ranks = 8871  rank = 6000 of ranks = 8871  rank = 6100 of ranks = 8871  rank = 6200 of ranks = 8871  rank = 6300 of ranks = 8871  rank = 6400 of ranks = 8871  rank = 6500 of ranks = 8871  rank = 6600 of ranks = 8871  rank = 6700 of ranks = 8871  rank = 6800 of ranks = 8871  rank = 6900 of ranks = 8871  rank = 7000 of ranks = 8871  rank = 7100 of ranks = 8871  rank = 7200 of ranks = 8871  rank = 7300 of ranks = 8871  rank = 7400 of ranks = 8871  rank = 7500 of ranks = 8871  rank = 7600 of ranks = 8871  rank = 7700 of ranks = 8871  rank = 7800 of ranks = 8871  rank = 7900 of ranks = 8871  rank = 8000 of ranks = 8871  rank = 8100 of ranks = 8871  rank = 8200 of ranks = 8871  rank = 8300 of ranks = 8871  rank = 8400 of ranks = 8871  rank = 8500 of ranks = 8871  rank = 8600 of ranks = 8871  rank = 8700 of ranks = 8871  rank = 8800 of ranks = 8871 class_id = 0, name = upper_body, ap = 91.60%   	 (TP = 1441, FP = 500) 
+class_id = 1, name = head, ap = 92.78%   	 (TP = 1196, FP = 151) 
+class_id = 2, name = whole_body, ap = 98.32%   	 (TP = 1569, FP = 452) 
+
+ for conf_thresh = 0.25, precision = 0.79, recall = 0.95, F1-score = 0.86 
+ for conf_thresh = 0.25, TP = 4206, FP = 1103, FN = 244, average IoU = 65.34 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.942355, or 94.24 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+ mean_average_precision (mAP@0.50) = 0.942355 
+New best mAP!
+Loaded: 0.000082 seconds
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5962/6000: loss=0.7 map=0.94 best=0.94 hours left=0.4
+ 5962: 0.676990, 0.948760 avg loss, 0.000010 rate, 4.589104 seconds, 381568 images, 0.390967 hours left
+Loaded: 9.502751 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5963/6000: loss=0.6 map=0.94 best=0.94 hours left=0.4
+ 5963: 0.580365, 0.911920 avg loss, 0.000010 rate, 4.251144 seconds, 381632 images, 0.387541 hours left
+Loaded: 10.554658 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5964/6000: loss=0.9 map=0.94 best=0.94 hours left=0.4
+ 5964: 0.855709, 0.906299 avg loss, 0.000010 rate, 4.503871 seconds, 381696 images, 0.385079 hours left
+Loaded: 10.299844 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5965/6000: loss=0.7 map=0.94 best=0.94 hours left=0.4
+ 5965: 0.712034, 0.886873 avg loss, 0.000010 rate, 4.812729 seconds, 381760 images, 0.382735 hours left
+Loaded: 9.057201 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5966/6000: loss=0.7 map=0.94 best=0.94 hours left=0.4
+ 5966: 0.747180, 0.872903 avg loss, 0.000010 rate, 4.347962 seconds, 381824 images, 0.380376 hours left
+Loaded: 0.485367 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5967/6000: loss=0.6 map=0.94 best=0.94 hours left=0.4
+ 5967: 0.573717, 0.842985 avg loss, 0.000010 rate, 4.159791 seconds, 381888 images, 0.377839 hours left
+Loaded: 9.071527 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5968/6000: loss=0.9 map=0.94 best=0.94 hours left=0.4
+ 5968: 0.939614, 0.852648 avg loss, 0.000010 rate, 4.756431 seconds, 381952 images, 0.374486 hours left
+Loaded: 8.830591 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5969/6000: loss=0.6 map=0.94 best=0.94 hours left=0.4
+ 5969: 0.602968, 0.827680 avg loss, 0.000010 rate, 4.549280 seconds, 382016 images, 0.371970 hours left
+Loaded: 9.244802 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5970/6000: loss=0.8 map=0.94 best=0.94 hours left=0.4
+ 5970: 0.831014, 0.828013 avg loss, 0.000010 rate, 4.616526 seconds, 382080 images, 0.369403 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 1.671082 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5971/6000: loss=1.0 map=0.94 best=0.94 hours left=0.4
+ 5971: 0.958292, 0.841041 avg loss, 0.000010 rate, 8.513393 seconds, 382144 images, 0.366864 hours left
+Loaded: 6.750420 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5972/6000: loss=1.0 map=0.94 best=0.94 hours left=0.4
+ 5972: 0.970108, 0.853948 avg loss, 0.000010 rate, 7.936205 seconds, 382208 images, 0.364016 hours left
+Loaded: 3.937561 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5973/6000: loss=1.1 map=0.94 best=0.94 hours left=0.4
+ 5973: 1.072491, 0.875802 avg loss, 0.000010 rate, 8.517876 seconds, 382272 images, 0.361518 hours left
+Loaded: 7.860854 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5974/6000: loss=1.2 map=0.94 best=0.94 hours left=0.4
+ 5974: 1.162107, 0.904432 avg loss, 0.000010 rate, 8.183650 seconds, 382336 images, 0.358837 hours left
+Loaded: 0.860913 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5975/6000: loss=0.7 map=0.94 best=0.94 hours left=0.4
+ 5975: 0.711457, 0.885135 avg loss, 0.000010 rate, 8.139272 seconds, 382400 images, 0.356407 hours left
+Loaded: 3.760657 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5976/6000: loss=0.8 map=0.94 best=0.94 hours left=0.4
+ 5976: 0.813580, 0.877979 avg loss, 0.000010 rate, 8.593875 seconds, 382464 images, 0.353468 hours left
+Loaded: 3.666401 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5977/6000: loss=1.1 map=0.94 best=0.94 hours left=0.4
+ 5977: 1.098556, 0.900037 avg loss, 0.000010 rate, 8.248009 seconds, 382528 images, 0.350757 hours left
+Loaded: 9.577629 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5978/6000: loss=1.2 map=0.94 best=0.94 hours left=0.3
+ 5978: 1.201149, 0.930148 avg loss, 0.000010 rate, 8.144955 seconds, 382592 images, 0.348011 hours left
+Loaded: 3.784605 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5979/6000: loss=0.9 map=0.94 best=0.94 hours left=0.3
+ 5979: 0.874866, 0.924620 avg loss, 0.000010 rate, 8.186870 seconds, 382656 images, 0.345614 hours left
+Loaded: 5.664591 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5980/6000: loss=1.0 map=0.94 best=0.94 hours left=0.3
+ 5980: 0.996207, 0.931779 avg loss, 0.000010 rate, 8.921592 seconds, 382720 images, 0.342856 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 8.336425 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5981/6000: loss=0.8 map=0.94 best=0.94 hours left=0.3
+ 5981: 0.821646, 0.920765 avg loss, 0.000010 rate, 8.654717 seconds, 382784 images, 0.340238 hours left
+Loaded: 9.039180 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5982/6000: loss=1.4 map=0.94 best=0.94 hours left=0.3
+ 5982: 1.362682, 0.964957 avg loss, 0.000010 rate, 9.365477 seconds, 382848 images, 0.337732 hours left
+Loaded: 7.585648 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5983/6000: loss=1.4 map=0.94 best=0.94 hours left=0.3
+ 5983: 1.381710, 1.006632 avg loss, 0.000010 rate, 8.081028 seconds, 382912 images, 0.335275 hours left
+Loaded: 1.371764 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5984/6000: loss=0.9 map=0.94 best=0.94 hours left=0.3
+ 5984: 0.851405, 0.991109 avg loss, 0.000010 rate, 8.045671 seconds, 382976 images, 0.332662 hours left
+Loaded: 1.624458 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5985/6000: loss=0.7 map=0.94 best=0.94 hours left=0.3
+ 5985: 0.737287, 0.965727 avg loss, 0.000010 rate, 7.868658 seconds, 383040 images, 0.329754 hours left
+Loaded: 3.724287 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5986/6000: loss=0.7 map=0.94 best=0.94 hours left=0.3
+ 5986: 0.698431, 0.938998 avg loss, 0.000010 rate, 8.129863 seconds, 383104 images, 0.326852 hours left
+Loaded: 9.852528 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5987/6000: loss=1.4 map=0.94 best=0.94 hours left=0.3
+ 5987: 1.438861, 0.988984 avg loss, 0.000010 rate, 9.305225 seconds, 383168 images, 0.324045 hours left
+Loaded: 7.259004 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5988/6000: loss=1.3 map=0.94 best=0.94 hours left=0.3
+ 5988: 1.256733, 1.015759 avg loss, 0.000010 rate, 8.875526 seconds, 383232 images, 0.321496 hours left
+Loaded: 7.668019 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5989/6000: loss=1.2 map=0.94 best=0.94 hours left=0.3
+ 5989: 1.151474, 1.029330 avg loss, 0.000010 rate, 8.783250 seconds, 383296 images, 0.318819 hours left
+Loaded: 7.676353 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5990/6000: loss=1.0 map=0.94 best=0.94 hours left=0.3
+ 5990: 0.986959, 1.025093 avg loss, 0.000010 rate, 8.332731 seconds, 383360 images, 0.316133 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 106.46 MB 
+ CUDA allocate done! 
+Loaded: 12.759224 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5991/6000: loss=1.4 map=0.94 best=0.94 hours left=0.3
+ 5991: 1.446650, 1.067249 avg loss, 0.000010 rate, 8.589400 seconds, 383424 images, 0.313417 hours left
+Loaded: 5.531863 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5992/6000: loss=0.8 map=0.94 best=0.94 hours left=0.3
+ 5992: 0.785965, 1.039120 avg loss, 0.000010 rate, 8.490700 seconds, 383488 images, 0.310816 hours left
+Loaded: 3.920217 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5993/6000: loss=0.9 map=0.94 best=0.94 hours left=0.3
+ 5993: 0.949663, 1.030175 avg loss, 0.000010 rate, 8.449275 seconds, 383552 images, 0.308020 hours left
+Loaded: 7.405211 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5994/6000: loss=1.1 map=0.94 best=0.94 hours left=0.3
+ 5994: 1.065510, 1.033708 avg loss, 0.000010 rate, 8.606427 seconds, 383616 images, 0.305180 hours left
+Loaded: 3.692102 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5995/6000: loss=0.9 map=0.94 best=0.94 hours left=0.3
+ 5995: 0.949067, 1.025244 avg loss, 0.000010 rate, 8.501013 seconds, 383680 images, 0.302395 hours left
+Loaded: 6.046410 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5996/6000: loss=0.9 map=0.94 best=0.94 hours left=0.3
+ 5996: 0.921496, 1.014869 avg loss, 0.000010 rate, 8.142205 seconds, 383744 images, 0.299540 hours left
+Loaded: 1.704148 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5997/6000: loss=0.7 map=0.94 best=0.94 hours left=0.3
+ 5997: 0.676356, 0.981018 avg loss, 0.000010 rate, 8.000250 seconds, 383808 images, 0.296703 hours left
+Loaded: 4.145394 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5998/6000: loss=0.7 map=0.94 best=0.94 hours left=0.3
+ 5998: 0.695237, 0.952440 avg loss, 0.000010 rate, 8.103113 seconds, 383872 images, 0.293817 hours left
+Loaded: 5.657824 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;5999/6000: loss=1.2 map=0.94 best=0.94 hours left=0.3
+ 5999: 1.218667, 0.979063 avg loss, 0.000010 rate, 9.054625 seconds, 383936 images, 0.290946 hours left
+Loaded: 7.357606 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 6122 iterations) 
+ Last accuracy mAP@0.50 = 94.24 %, best = 94.24 % ]2;6000/6000: loss=1.4 map=0.94 best=0.94 hours left=0.3
+ 6000: 1.435906, 1.024747 avg loss, 0.000010 rate, 8.505033 seconds, 384000 images, 0.288078 hours left
+Resizing to initial size: 416 x 416  try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+
+ calculation mAP (mean average precision)...
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+
+ detections_count = 8848, unique_truth_count = 4450  
+ rank = 0 of ranks = 8848  rank = 100 of ranks = 8848  rank = 200 of ranks = 8848  rank = 300 of ranks = 8848  rank = 400 of ranks = 8848  rank = 500 of ranks = 8848  rank = 600 of ranks = 8848  rank = 700 of ranks = 8848  rank = 800 of ranks = 8848  rank = 900 of ranks = 8848  rank = 1000 of ranks = 8848  rank = 1100 of ranks = 8848  rank = 1200 of ranks = 8848  rank = 1300 of ranks = 8848  rank = 1400 of ranks = 8848  rank = 1500 of ranks = 8848  rank = 1600 of ranks = 8848  rank = 1700 of ranks = 8848  rank = 1800 of ranks = 8848  rank = 1900 of ranks = 8848  rank = 2000 of ranks = 8848  rank = 2100 of ranks = 8848  rank = 2200 of ranks = 8848  rank = 2300 of ranks = 8848  rank = 2400 of ranks = 8848  rank = 2500 of ranks = 8848  rank = 2600 of ranks = 8848  rank = 2700 of ranks = 8848  rank = 2800 of ranks = 8848  rank = 2900 of ranks = 8848  rank = 3000 of ranks = 8848  rank = 3100 of ranks = 8848  rank = 3200 of ranks = 8848  rank = 3300 of ranks = 8848  rank = 3400 of ranks = 8848  rank = 3500 of ranks = 8848  rank = 3600 of ranks = 8848  rank = 3700 of ranks = 8848  rank = 3800 of ranks = 8848  rank = 3900 of ranks = 8848  rank = 4000 of ranks = 8848  rank = 4100 of ranks = 8848  rank = 4200 of ranks = 8848  rank = 4300 of ranks = 8848  rank = 4400 of ranks = 8848  rank = 4500 of ranks = 8848  rank = 4600 of ranks = 8848  rank = 4700 of ranks = 8848  rank = 4800 of ranks = 8848  rank = 4900 of ranks = 8848  rank = 5000 of ranks = 8848  rank = 5100 of ranks = 8848  rank = 5200 of ranks = 8848  rank = 5300 of ranks = 8848  rank = 5400 of ranks = 8848  rank = 5500 of ranks = 8848  rank = 5600 of ranks = 8848  rank = 5700 of ranks = 8848  rank = 5800 of ranks = 8848  rank = 5900 of ranks = 8848  rank = 6000 of ranks = 8848  rank = 6100 of ranks = 8848  rank = 6200 of ranks = 8848  rank = 6300 of ranks = 8848  rank = 6400 of ranks = 8848  rank = 6500 of ranks = 8848  rank = 6600 of ranks = 8848  rank = 6700 of ranks = 8848  rank = 6800 of ranks = 8848  rank = 6900 of ranks = 8848  rank = 7000 of ranks = 8848  rank = 7100 of ranks = 8848  rank = 7200 of ranks = 8848  rank = 7300 of ranks = 8848  rank = 7400 of ranks = 8848  rank = 7500 of ranks = 8848  rank = 7600 of ranks = 8848  rank = 7700 of ranks = 8848  rank = 7800 of ranks = 8848  rank = 7900 of ranks = 8848  rank = 8000 of ranks = 8848  rank = 8100 of ranks = 8848  rank = 8200 of ranks = 8848  rank = 8300 of ranks = 8848  rank = 8400 of ranks = 8848  rank = 8500 of ranks = 8848  rank = 8600 of ranks = 8848  rank = 8700 of ranks = 8848  rank = 8800 of ranks = 8848 class_id = 0, name = upper_body, ap = 91.79%   	 (TP = 1447, FP = 488) 
+class_id = 1, name = head, ap = 92.85%   	 (TP = 1196, FP = 145) 
+class_id = 2, name = whole_body, ap = 98.30%   	 (TP = 1568, FP = 455) 
+
+ for conf_thresh = 0.25, precision = 0.79, recall = 0.95, F1-score = 0.86 
+ for conf_thresh = 0.25, TP = 4211, FP = 1088, FN = 239, average IoU = 65.54 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.943147, or 94.31 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+ mean_average_precision (mAP@0.50) = 0.943147 
+New best mAP!
+If you want to train from the beginning, then use flag in the end of training command: -clear 

@@ -1,0 +1,29 @@
+{
+  "dataset": {
+    "data_path": "D:\\dataset",
+    "split_data": false,
+    "seed": "0",
+    "train_set_part": "0.8",
+    "path_prefix": "data/",
+    "dir_to_save": "D:\\",
+    "train_set_path": "D:\\train_set",
+    "test_set_path": "D:\\test_set",
+    "class_id_2_class_name_mapping": {
+      "0": "Upper Body",
+      "1": "Head",
+      "2": "Whole Body"
+    }
+  },
+
+  "dashboard": {
+    "debug_mode": false
+  },
+
+  "evaluation": {
+    "save_parsed_logs": true,
+    "logs_dir": {
+      "raw": "logs/raw",
+      "parsed": "logs/parsed"
+    }
+  }
+}
