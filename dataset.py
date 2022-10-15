@@ -1,7 +1,7 @@
-import json
 import os
 import shutil
 from collections import Counter
+from tqdm import tqdm
 
 import numpy as np
 import pandas as pd
@@ -19,12 +19,15 @@ class Dataset:
         self.dataset = self.get_dataset_as_dataframe()
 
         self.logger.info('getting dataset stats for EDA')
+        # collect dataset stats and info for eda
         self.get_common_stats()
-        self.prepare_data_for_eda()
 
         if self.cfg['split_data']:
             self.logger.info('splitting dataset for training')
             self.split_data()
+
+    def __len__(self):
+        return len(self.dataset)
 
     def get_dataset_as_dataframe(self):
         files_list = np.asarray(os.listdir(self.cfg['data_path']))
@@ -68,60 +71,53 @@ class Dataset:
         return sizes_stats
 
     def get_common_stats(self):
+        # collect images samples with bboxes to visualize in dashboard
+        # and get common stats about dataset
+
         images_sizes, bboxes_sizes = [], []
         images_aspect_ratios, bboxes_aspect_ratios = [], []
 
+        labeled_data_sample = self.dataset[~self.dataset.label.isna()]
+        non_labeled_data_sample = self.dataset[self.dataset.label.isna()]
+
+        # self.figures = []
         # images
-        for row in self.dataset.iterrows():
+        for row in tqdm(self.dataset.iterrows()):
             image = Image.open(os.path.join(self.cfg['data_path'], row[1]['img_path']))
+            # fig = px.imshow(image)
             image_w, image_h = image.size
             images_sizes.append(image.size)
             images_aspect_ratios.append(image_h / image_w)
 
-            # boxes
+            # draw boxes
             if np.isnan(row[1]['label']).any():
                 continue
 
             for label in row[1]['label']:
                 object_class, x, y, width, height = label
+                x_coord, y_coord = image_w * x, image_h * y  # center of box
                 bbox_w, bbox_h = image_w * width, image_h * height
+                width_half, height_half = bbox_w / 2, bbox_h / 2
                 bboxes_sizes.append((bbox_w, bbox_h))
                 bboxes_aspect_ratios.append(bbox_h / bbox_w)
+
+                # fig.add_shape(type="rect",
+                #               x0=x_coord - width_half, x1=x_coord + width_half,
+                #               y0=y_coord - height_half, y1=y_coord + height_half,
+                #               line=dict(color=px.colors.qualitative.Plotly[object_class], width=2))
+                # fig.update_shapes(dict(xref='x', yref='y'))
+                # images_layout = {'plot_bgcolor': 'white', 'paper_bgcolor': 'white', 'margin': dict(t=20, b=0, l=0, r=0),
+                #                  'xaxis': dict(showgrid=False, showticklabels=False, linewidth=0),
+                #                  'yaxis': dict(showgrid=False, showticklabels=False, linewidth=0),
+                #                  'hovermode': False}
+                # fig.update_layout(**images_layout)
+            # self.figures.append(fig)
 
         self.images_sizes_stats = self.get_sizes_stats(images_sizes)
         self.bboxes_sizes_stats = self.get_sizes_stats(bboxes_sizes)
         self.images_aspect_ratios = pd.DataFrame({'Images aspect ratio': images_aspect_ratios})
         self.bboxes_aspect_ratios = pd.DataFrame({'Boxes aspect ratio': bboxes_aspect_ratios})
 
-    def prepare_data_for_eda(self):
-        # collect images samples to visualize in dashboard
-        labeled_data_sample = self.dataset[~self.dataset.label.isna()]
-        non_labeled_data_sample = self.dataset[self.dataset.label.isna()]
-
-        figures = []
-        for row in labeled_data_sample.head(10).iterrows():
-            image = Image.open(os.path.join(self.cfg['data_path'], row[1]['img_path']))
-            image_w, image_h = image.size
-            fig = px.imshow(image)
-
-            # draw boxes
-            for label in row[1]['label']:
-                object_class, x, y, width, height = label
-                x_coord, y_coord = image_w * x, image_h * y  # center of box
-                width_half, height_half = image_w * width / 2, image_h * height / 2
-
-                fig.add_shape(type="rect",
-                              x0=x_coord - width_half, x1=x_coord + width_half,
-                              y0=y_coord - height_half, y1=y_coord + height_half,
-                              line=dict(color=px.colors.qualitative.Plotly[object_class], width=2),
-                              )
-                fig.update_shapes(dict(xref='x', yref='y'))
-                # fig.show()
-                # a = 1
-            figures.append(fig)
-
-        # self.get_dashboard(figures)
-        self.figures = figures
         self.labeled_and_non_labeled_data_num = pd.DataFrame()
         self.labeled_and_non_labeled_data_num['labeled_or_not'] = ['With',
                                                                    'Without']
@@ -132,8 +128,6 @@ class Dataset:
         objects_id_dict = {
             f'{self.cfg["class_id_2_class_name_mapping"][str(object_id)]}': boxes_num for
             object_id, boxes_num in objects_id_counter.items()}
-
-        # self.objects_id_counter = objects_id_dict
 
         self.objects_id_counter = pd.DataFrame()
         self.objects_id_counter['class'] = list(objects_id_dict.keys())

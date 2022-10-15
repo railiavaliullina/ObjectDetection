@@ -1,6 +1,7 @@
 import json
 import logging
 import sys
+import pickle
 
 from dataset import Dataset
 from evaluation import Evaluation
@@ -29,7 +30,14 @@ def init_config():
 if __name__ == '__main__':
     logger = init_logger()
     cfg = init_config()
-    dataset = Dataset(cfg=cfg, logger=logger)
+
+    # dataset = Dataset(cfg=cfg, logger=logger)
+    # with open('/dataset', 'wb') as f:
+    #     pickle.dump(dataset, f)
+
+    with open('/dataset', 'rb') as f:
+        dataset = pickle.load(f)
+
     evaluation_results = Evaluation(cfg=cfg, logger=logger).parsed_logs
     dashboard_obj = Dashboard(cfg=cfg, logger=logger, dataset=dataset, evaluation_results=evaluation_results)
     dashboard_obj()
