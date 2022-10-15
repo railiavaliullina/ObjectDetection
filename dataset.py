@@ -77,14 +77,11 @@ class Dataset:
         images_sizes, bboxes_sizes = [], []
         images_aspect_ratios, bboxes_aspect_ratios = [], []
 
-        labeled_data_sample = self.dataset[~self.dataset.label.isna()]
-        non_labeled_data_sample = self.dataset[self.dataset.label.isna()]
+        self.labeled_data_sample = self.dataset[~self.dataset.label.isna()]
+        self.non_labeled_data_sample = self.dataset[self.dataset.label.isna()]
 
-        # self.figures = []
-        # images
         for row in tqdm(self.dataset.iterrows()):
             image = Image.open(os.path.join(self.cfg['data_path'], row[1]['img_path']))
-            # fig = px.imshow(image)
             image_w, image_h = image.size
             images_sizes.append(image.size)
             images_aspect_ratios.append(image_h / image_w)
@@ -95,23 +92,9 @@ class Dataset:
 
             for label in row[1]['label']:
                 object_class, x, y, width, height = label
-                x_coord, y_coord = image_w * x, image_h * y  # center of box
                 bbox_w, bbox_h = image_w * width, image_h * height
-                width_half, height_half = bbox_w / 2, bbox_h / 2
                 bboxes_sizes.append((bbox_w, bbox_h))
                 bboxes_aspect_ratios.append(bbox_h / bbox_w)
-
-                # fig.add_shape(type="rect",
-                #               x0=x_coord - width_half, x1=x_coord + width_half,
-                #               y0=y_coord - height_half, y1=y_coord + height_half,
-                #               line=dict(color=px.colors.qualitative.Plotly[object_class], width=2))
-                # fig.update_shapes(dict(xref='x', yref='y'))
-                # images_layout = {'plot_bgcolor': 'white', 'paper_bgcolor': 'white', 'margin': dict(t=20, b=0, l=0, r=0),
-                #                  'xaxis': dict(showgrid=False, showticklabels=False, linewidth=0),
-                #                  'yaxis': dict(showgrid=False, showticklabels=False, linewidth=0),
-                #                  'hovermode': False}
-                # fig.update_layout(**images_layout)
-            # self.figures.append(fig)
 
         self.images_sizes_stats = self.get_sizes_stats(images_sizes)
         self.bboxes_sizes_stats = self.get_sizes_stats(bboxes_sizes)
@@ -121,8 +104,8 @@ class Dataset:
         self.labeled_and_non_labeled_data_num = pd.DataFrame()
         self.labeled_and_non_labeled_data_num['labeled_or_not'] = ['With',
                                                                    'Without']
-        self.labeled_and_non_labeled_data_num['num_images'] = [len(labeled_data_sample),
-                                                               len(non_labeled_data_sample)]
+        self.labeled_and_non_labeled_data_num['num_images'] = [len(self.labeled_data_sample),
+                                                               len(self.non_labeled_data_sample)]
         objects_id_counter = Counter(
             np.concatenate(self.dataset.label[~self.dataset.label.isna()].to_list())[:, 0].astype(int))
         objects_id_dict = {
