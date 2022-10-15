@@ -76,6 +76,7 @@ class Dataset:
 
         images_sizes, bboxes_sizes = [], []
         images_aspect_ratios, bboxes_aspect_ratios = [], []
+        num_boxes_per_image, boxes_area, classes_id = [], [], []
 
         self.labeled_data_sample = self.dataset[~self.dataset.label.isna()]
         self.non_labeled_data_sample = self.dataset[self.dataset.label.isna()]
@@ -90,20 +91,22 @@ class Dataset:
             if np.isnan(row[1]['label']).any():
                 continue
 
+            num_boxes_per_image.append(len(row[1]['label']))
             for label in row[1]['label']:
                 object_class, x, y, width, height = label
                 bbox_w, bbox_h = image_w * width, image_h * height
                 bboxes_sizes.append((bbox_w, bbox_h))
                 bboxes_aspect_ratios.append(bbox_h / bbox_w)
+                boxes_area.append(bbox_w * bbox_h)
+                classes_id.append(self.cfg['class_id_2_class_name_mapping'][str(object_class)])
 
         self.images_sizes_stats = self.get_sizes_stats(images_sizes)
         self.bboxes_sizes_stats = self.get_sizes_stats(bboxes_sizes)
         self.images_aspect_ratios = pd.DataFrame({'Images aspect ratio': images_aspect_ratios})
-        self.bboxes_aspect_ratios = pd.DataFrame({'Boxes aspect ratio': bboxes_aspect_ratios})
+        self.bboxes_aspect_ratios = pd.DataFrame({'Boxes aspect ratio': bboxes_aspect_ratios, 'Class': classes_id})
 
         self.labeled_and_non_labeled_data_num = pd.DataFrame()
-        self.labeled_and_non_labeled_data_num['labeled_or_not'] = ['With',
-                                                                   'Without']
+        self.labeled_and_non_labeled_data_num['labeled_or_not'] = ['With', 'Without']
         self.labeled_and_non_labeled_data_num['num_images'] = [len(self.labeled_data_sample),
                                                                len(self.non_labeled_data_sample)]
         objects_id_counter = Counter(
@@ -118,6 +121,8 @@ class Dataset:
 
         self.classes_num = len(objects_id_dict)
         self.bboxes_num = sum(self.objects_id_counter['boxes_num'])
+        self.num_boxes_per_image = pd.DataFrame({'Number of Boxes per Image': num_boxes_per_image})
+        self.boxes_area = pd.DataFrame({'Boxes Area': boxes_area, 'Class': classes_id})
 
     def split_data(self):
         """

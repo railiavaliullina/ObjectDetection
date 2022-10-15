@@ -58,7 +58,7 @@ class Dashboard:
                     dbc.Row([
                         dbc.Col(),
                         dbc.Col(html.H3('Dataset Common Info'), width=9, style={'marginTop': '4%',
-                                                                                'marginBottom': '1%'}),
+                                                                                'marginBottom': '1.5%'}),
                         html.P(f"Number of Images: {self.dataset.size}", style={'marginLeft': '27%',
                                                                                 'marginBottom': '0.5%'}),
                         html.P(f"Number of Classes: {self.dataset.classes_num}", style={'marginLeft': '27%',
@@ -89,14 +89,16 @@ class Dashboard:
                     dbc.Row([
                         dbc.Col(),
                         dbc.Col(html.H3('Dataset Analysis'), width=9, style={'marginTop': '2%'}),
+                        dbc.Col(html.P('1. Labels'), width=9,
+                                style={'marginTop': '1.5%', 'marginLeft': '27%'}),
                     ]),
                     dbc.Row(
                         [dbc.Col(),
                          dbc.Col(html.Div("Images with and without labels"),
                                  style={'marginLeft': '4.5%', 'width': '40%'}),
-                         dbc.Col(html.Div("Types of labels"), style={'marginLeft': '4.5%', 'width': '40%'}),
+                         dbc.Col(html.Div("Classes balance"), style={'marginLeft': '4.5%', 'width': '40%'}),
                          ],
-                        className="g-0", style={'marginTop': '2%'}
+                        className="g-0", style={'marginTop': '1%'}
                     ),
                     dbc.Row(
                         [
@@ -113,6 +115,8 @@ class Dashboard:
                         ], style={'marginLeft': '20%'}),
 
                     # aspect ratios
+                    dbc.Row([dbc.Col(html.P('2. Images and Boxes aspect ratios'), width=9,
+                                     style={'marginTop': '1%', 'marginLeft': '27%'})]),
                     dbc.Row([
                         dbc.Col(
                             dcc.Graph(id='img-aspect-ratio-hist', figure=px.histogram(self.dataset.images_aspect_ratios,
@@ -121,9 +125,24 @@ class Dashboard:
                             width=9, style={'width': '40%', 'display': 'inline-block', 'marginRight': '7%'}),
                         dbc.Col(
                             dcc.Graph(id='box-aspect-ratio-hist', figure=px.histogram(self.dataset.bboxes_aspect_ratios,
-                                                                                      x='Boxes aspect ratio')),
+                                                                                      x='Boxes aspect ratio',
+                                                                                      color='Class')),
                             width=9, style={'width': '40%', 'display': 'inline-block'})
                     ], style={'marginLeft': '25.7%'}),
+
+                    # distribution of boxes across images
+                    dbc.Row([dbc.Col(html.P('3. Distribution of boxes across images'), width=9,
+                                     style={'marginTop': '1%', 'marginLeft': '27%'})]),
+                    dbc.Row([
+                        dbc.Col(
+                            dcc.Graph(id='boxes-per-image-hist', figure=px.histogram(self.dataset.num_boxes_per_image,
+                                                                                     x='Number of Boxes per Image')),
+                            width=9, style={'width': '35%', 'display': 'inline-block', 'marginLeft': '27%'}),
+                        dbc.Col(
+                            dcc.Graph(id='boxes-per-image-hist', figure=px.histogram(self.dataset.boxes_area,
+                                                                                     x='Boxes Area', color='Class')),
+                            width=9, style={'width': '35%', 'display': 'inline-block'})
+                    ]),
 
                     # viewing dataset samples
                     dbc.Row([
@@ -156,7 +175,8 @@ class Dashboard:
                          dbc.Col(dcc.Graph(id='dataset-image-0', figure=self.figures[0]),
                                  style={'display': 'inline-block'}),
                          dbc.Col(dcc.Graph(id='dataset-image-1', figure=self.figures[1]),
-                                 style={'display': 'inline-block', 'marginRight': '10%'})
+                                 style={'display': 'inline-block', 'marginRight': '10%',
+                                        'marginBottom': '10%'})
                          ]),
                 ], id='main-part-div')
             else:
