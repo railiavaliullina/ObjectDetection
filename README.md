@@ -29,15 +29,15 @@ Test Assignment
 
 - Графики для EDA
 
-![img.png](eda_plots/1.png)
+![img.png](eda_plots/1.PNG)
 
-![img_1.png](eda_plots/2.png)
+![img_1.png](eda_plots/2.PNG)
 
-![img_2.png](eda_plots/3.png)
+![img_2.png](eda_plots/3.PNG)
 
-![img_3.png](eda_plots/4.png)
+![img_3.png](eda_plots/4.PNG)
 
-![img_4.png](eda_plots/5.png)
+![img_4.png](eda_plots/5.PNG)
 
 
 # Training Results
