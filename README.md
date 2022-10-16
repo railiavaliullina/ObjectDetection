@@ -14,11 +14,11 @@ Test Assignment
 # EDA
 - Был подготовлен dashboard с интерактивными графиками для более удобного анализа данных:
 
-![](../../../Downloads/videos_2_convert_2_gif/1.gif)
+![](dashboard_gifs/1.gif)
 
 - также в нем есть возможность просмотреть все изображения из датасета с аннотацией или без нее:
 
-![](../../../Downloads/videos_2_convert_2_gif/2.gif)
+![](dashboard_gifs/2.gif)
 
 ## How to run dashboard
 - dashboard запускается локально, для этого необходимо:
@@ -35,11 +35,11 @@ Test Assignment
 # Training Results
 - в dashboard также содержится информация о процессе обучения нейронной сети и о полученных результатах:
 
-![](../../../Downloads/videos_2_convert_2_gif/3.gif)
+![](dashboard_gifs/3.gif)
 
 - также можно посмотреть примеры предсказаний обученной сети на случайных тестовых изображениях:
 
-![](../../../Downloads/videos_2_convert_2_gif/4.gif)
+![](dashboard_gifs/4.gif)
 
 - Общая информация об обучении (скрины...)
 
