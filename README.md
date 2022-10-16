@@ -4,6 +4,7 @@
 ### Kaggle 
 - Tesla P100 16gb
 - Training time: ~ 25 hours
+- https://www.kaggle.com/railyavaliullina/testassignment
 
 ### Colab
 - Tesla T4 16gb
