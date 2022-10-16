@@ -27,20 +27,42 @@ Test Assignment
   описания тестового задания)
   - запустить main.py
 
-- Графики для EDA
+## Информация и графики из EDA
+
+- Основная информация о датасете
 
 ![img.png](eda_plots/1.PNG)
 
+- Информация об аннотации: 
+  - доля изображений без аннотации 
+  - доля объектов (боксов), приходящаяся на каждый из классов 
+
 ![img_1.png](eda_plots/2.PNG)
+
+- Соотношения сторон (height/width) изображений и боксов
+
+
+  Все изображения одинакового размера, поэтому соотношение сторон для всех изображений одно и то же.
+  Распределения соотношений сторон боксов для класса head ближе всего к 1, так как для головы боксы чаще будут иметь 
+  форму близкую к квадратной, что будет менее характерно для боксов с верхней частью тела (класс Upper Body) 
+  и боксов со всем телом (класс Whole Body).
 
 ![img_2.png](eda_plots/3.PNG)
 
+- Распределение количества боксов на изображение
+- Распределение площадей боксов для каждого из классов
+
 ![img_3.png](eda_plots/4.PNG)
+
+- Примеры изображений с аннотацией 
+- класс Head обозначен красным цветом, Upper Body - фиолетовым, Whole Body - зеленым
 
 ![img_4.png](eda_plots/5.PNG)
 
 
 # Training Results
+
+## Визуализация результатов обучения с dashboard
 - в dashboard также содержится информация о процессе обучения нейронной сети и о полученных результатах:
 
 ![](dashboard_gifs/3.gif)
@@ -49,20 +71,86 @@ Test Assignment
 
 ![](dashboard_gifs/4.gif)
 
-- Общая информация об обучении (скрины...)
+## Общая информация об обучении
 
-![img.png](training_process_plots/1.PNG)
+### гиперпараметры
+- были использованы рекомендуемые значения гиперпараметров
+- по рекомендациям из документации darknet был увеличен размер входного изображения 
+  (с [416, 416] до [512, 512], что позволило получить прирост в mAP с 97.29 % до 97.38 % и добавило 2 часа при обучении) 
 
+- подробные метрики с размером изображения [416, 416]:
+
+
+    detections_count = 8830, unique_truth_count = 4450  
+    class_id = 0, name = upper_body, ap = 96.70%   	 (TP = 1506, FP = 488) 
+    class_id = 1, name = head, ap = 96.19%   	 (TP = 1231, FP = 120) 
+    class_id = 2, name = whole_body, ap = 98.97%   	 (TP = 1584, FP = 479) 
+    
+    for conf_thresh = 0.25, precision = 0.80, recall = 0.97, F1-score = 0.88 
+    for conf_thresh = 0.25, TP = 4321, FP = 1087, FN = 129, average IoU = 67.07 % 
+    
+    IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+    mean average precision (mAP@0.50) = 0.972875, or 97.29 % 
+    Total Detection Time: 55 Seconds
+
+- подробные метрики с размером изображения [512, 512]:
+
+
+    detections_count = 8785, unique_truth_count = 4450  
+    class_id = 0, name = upper_body, ap = 97.17%   	 (TP = 1508, FP = 490) 
+    class_id = 1, name = head, ap = 96.02%   	 (TP = 1239, FP = 122) 
+    class_id = 2, name = whole_body, ap = 98.96%   	 (TP = 1585, FP = 500) 
+
+    for conf_thresh = 0.25, precision = 0.80, recall = 0.97, F1-score = 0.88 
+    for conf_thresh = 0.25, TP = 4332, FP = 1112, FN = 118, average IoU = 66.64 % 
+    
+    IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+    mean average precision (mAP@0.50) = 0.973817, or 97.38 % 
+    Total Detection Time: 55 Seconds
+
+- при использовании размера больше 512, памяти использованных GPU было недостаточно
+
+### Размеры train и test set
+
+
+    Train set size: 2578 (80% from dataset)
+    Test set size: 644 (20% from dataset)
+
+### GPU и время обучения:
+  
+
+    GPU: Tesla P100-PCIE-16GB (Kaggle), Tesla T4 16gb (Google Colab)
+    Training time on Kaggle: ~ 25 h
+    Training time on Google Colab: ~ 26 h
+    Number of Iterations: 6000
+
+[//]: # (![img.png]&#40;training_process_plots/1.PNG&#41;)
+
+### Метрики с лучшими полученными весами
 ![img.png](training_process_plots/2.PNG)
+
+### Графики целевой функции и mAP
+
+- Значения целевой функции в процессе обучения нейронной сети
 
 ![img.png](training_process_plots/3.PNG)
 
+- Значения mAP в процессе обучения нейронной сети (валидация происходила на тестовых данных)
+
 ![img.png](training_process_plots/4.PNG)
+
+### Примеры предсказаний нейронной сети на тестовых изображениях
+
+- Визуализация в dashboard
 
 ![img.png](training_process_plots/5.PNG)
 
-- metrics
-- images examples
+- Другие примеры
+
+![img.png](predictions_examples/1.jpg)
+![img.png](predictions_examples/2.jpg)
+![img.png](predictions_examples/3.jpg)
+![img.png](predictions_examples/4.jpg)
 
 
 # How to Train and Inference Net
