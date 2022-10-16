@@ -178,10 +178,10 @@ class Dashboard:
                         html.Div([
                             daq.BooleanSwitch(id='show-boxes-switch', on=True, label='Draw Boxes',
                                               labelPosition='Right', color=px.colors.qualitative.G10[3],
-                                              style={'width': '10%', 'marginTop': '1%'})]),
+                                              style={'width': '10%'})]),
                     ],
                         vertical=True, pills=True, id='settings-addition',
-                        style={'marginLeft': '30%', 'width': '100%', 'marginBottom': '3%'}
+                        style={'marginLeft': '30%', 'width': '100%', 'marginBottom': '1%'}
                     ),
 
                     dbc.Row([dcc.Slider(0, self.slider_size, 2, id='dataset-viewer-slider',
@@ -196,9 +196,8 @@ class Dashboard:
                          dbc.Col(dcc.Graph(id='dataset-image-0', figure=self.figures[0]),
                                  style={'display': 'inline-block'}),
                          dbc.Col(dcc.Graph(id='dataset-image-1', figure=self.figures[1]),
-                                 style={'display': 'inline-block', 'marginRight': '10%',
-                                        'marginBottom': '10%'})
-                         ]),
+                                 style={'display': 'inline-block', 'marginRight': '7%'})
+                         ], style={'marginBottom': '1%'}),
                 ], id='main-part-div')
             else:
                 updated_div = html.Div(children=[
@@ -216,7 +215,7 @@ class Dashboard:
                         dcc.Textarea(
                             id='textarea-training-details',
                             value=self.evaluation.training_details,
-                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 370, 'width': '33%'},
+                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 370, 'width': '40%'},
                         )]),
                     dbc.Row([
                         dbc.Col(),
@@ -225,7 +224,7 @@ class Dashboard:
                         dcc.Textarea(
                             id='textarea-inference-info',
                             value=self.evaluation.best_result_info,
-                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 400, 'width': '33%'},
+                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 400, 'width': '40%'},
                         )]),
                     dbc.Row([
                         dbc.Col(),
@@ -246,31 +245,28 @@ class Dashboard:
                                                          labels={"x": "Training Iteration", "y": "mAP"})),
                                 style={'marginLeft': '27%', 'marginBottom': '0.5%', 'marginRight': '10%'}),
                     ]),
-
                     dbc.Row([
                         dbc.Col(),
                         dbc.Col(html.H3('View Predictions Results'), width=9, style={'marginTop': '4%',
                                                                                      'marginBottom': '1.5%'}),
                         html.P(f"Chosen Threshold: {self.eval_cfg['default_thr']}",
-                               style={'marginLeft': '51%', 'marginBottom': '1%'}, id='chosen-thr-text'),
+                               style={'marginLeft': '53%', 'marginBottom': '1%'}, id='chosen-thr-text'),
                         dbc.Row([dcc.Slider(self.eval_cfg['thresholds'][0], self.eval_cfg['thresholds'][-1], 0.1,
                                             id='results-thr-slider', marks={i: self.eval_cfg['thresholds'][i]
                                                                             for i in
                                                                             range(self.results_thr_slider_size)},
                                             value=self.eval_cfg['default_thr'], updatemode='drag', )
-                                 ], style={'width': '30%', 'marginLeft': '40%'}),
-
+                                 ], style={'width': '30%', 'marginLeft': '45.5%'}),
                         dbc.Row(
                             [dbc.Col(self.sidebar, style={'display': 'inline-block'}),
                              dbc.Col(dcc.Graph(id='result-image-0', figure=self.predictions_figures[0]),
                                      style={'display': 'inline-block'}),
                              dbc.Col(dcc.Graph(id='result-image-1', figure=self.predictions_figures[1]),
-                                     style={'display': 'inline-block', 'marginRight': '10%',
-                                            'marginBottom': '1%'})
+                                     style={'display': 'inline-block', 'marginRight': '7%',
+                                            })
                              ]),
-
                         dbc.Row([dbc.Button("View Random Results", color="success", id='results-btn', n_clicks=0)
-                                 ], style={'width': '10%', 'marginLeft': '54%', 'marginBottom': '5%'}),
+                                 ], style={'width': '15%', 'marginLeft': '53.5%', 'marginBottom': '3%'}),
                     ]),
 
                 ], id='main-part-div')
@@ -348,7 +344,7 @@ class Dashboard:
                 ),
                 dbc.Nav(id='settings-addition'),
             ],
-            style={"position": "fixed", "top": 0, "left": 0, "bottom": 0, "width": "24rem", "padding": "2rem 1rem",
+            style={"position": "fixed", "top": 0, "left": 0, "bottom": 0, "width": "22rem", "padding": "2rem 1rem",
                    "background-color": "#f8f9fa"},
         )
 
