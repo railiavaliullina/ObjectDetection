@@ -5,7 +5,16 @@ Test Assignment
 * [Object Detection Problem](#object-detection-problem)
 * [EDA](#eda)
   * [How to run dashboard](#how-to-run-dashboard)
+  * [EDA Plots](#eda-plots)
 * [Training Results](#training-results)
+  * [Results visualization with dashboard](#results-visualization-with-dashboard)
+  * [Information about Training](#information-about-training)
+    * [hyperparameters](#hyperparameters)
+    * [Train and Test set](#train-and-test-set)
+    * [GPU and Training Time:](#gpu-and-training-time-)
+    * [Metrics with best weights](#metrics-with-best-weights)
+    * [Loss and mAP plots](#loss-and-map-plots)
+    * [Predictions examples on test set images](#predictions-examples-on-test-set-images)
 * [How to Train and Inference Net](#how-to-train-and-inference-net)
   * [Kaggle](#kaggle)
   * [Colab](#colab)
@@ -27,7 +36,7 @@ Test Assignment
   описания тестового задания)
   - запустить main.py
 
-## Информация и графики из EDA
+## EDA Plots 
 
 - Основная информация о датасете
 
@@ -62,7 +71,7 @@ Test Assignment
 
 # Training Results
 
-## Визуализация результатов обучения с dashboard
+## Results visualization with dashboard
 - в dashboard также содержится информация о процессе обучения нейронной сети и о полученных результатах:
 
 ![](dashboard_gifs/3.gif)
@@ -71,9 +80,9 @@ Test Assignment
 
 ![](dashboard_gifs/4.gif)
 
-## Общая информация об обучении
+## Information about Training
 
-### гиперпараметры
+### hyperparameters
 - были использованы рекомендуемые значения гиперпараметров
 - по рекомендациям из документации darknet был увеличен размер входного изображения 
   (с [416, 416] до [512, 512], что позволило получить прирост в mAP с 97.29 % до 97.38 % и добавило 2 часа при обучении) 
@@ -110,13 +119,13 @@ Test Assignment
 
 - при использовании размера больше 512, памяти использованных GPU было недостаточно
 
-### Размеры train и test set
+### Train and Test set
 
 
     Train set size: 2578 (80% from dataset)
     Test set size: 644 (20% from dataset)
 
-### GPU и время обучения:
+### GPU and Training Time:
   
 
     GPU: Tesla P100-PCIE-16GB (Kaggle), Tesla T4 16gb (Google Colab)
@@ -126,10 +135,10 @@ Test Assignment
 
 [//]: # (![img.png]&#40;training_process_plots/1.PNG&#41;)
 
-### Метрики с лучшими полученными весами
+### Metrics with best weights 
 ![img.png](training_process_plots/2.PNG)
 
-### Графики целевой функции и mAP
+### Loss and mAP plots
 
 - Значения целевой функции в процессе обучения нейронной сети
 
@@ -139,7 +148,7 @@ Test Assignment
 
 ![img.png](training_process_plots/4.PNG)
 
-### Примеры предсказаний нейронной сети на тестовых изображениях
+### Predictions examples on test set images
 
 - Визуализация в dashboard
 
