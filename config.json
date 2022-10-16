@@ -21,7 +21,7 @@
 
   "evaluation": {
     "save_parsed_logs": false,
-    "load_parsed_logs": false,
+    "load_parsed_logs": true,
     "logs_dir": {
       "raw": "logs/raw",
       "parsed": "logs/parsed"

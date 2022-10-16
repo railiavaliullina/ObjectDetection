@@ -216,7 +216,7 @@ class Dashboard:
                         dcc.Textarea(
                             id='textarea-training-details',
                             value=self.evaluation.training_details,
-                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 360, 'width': '30%'},
+                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 370, 'width': '30%'},
                         )]),
                     dbc.Row([
                         dbc.Col(),
