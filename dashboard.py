@@ -216,7 +216,7 @@ class Dashboard:
                         dcc.Textarea(
                             id='textarea-training-details',
                             value=self.evaluation.training_details,
-                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 370, 'width': '30%'},
+                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 370, 'width': '33%'},
                         )]),
                     dbc.Row([
                         dbc.Col(),
@@ -225,7 +225,7 @@ class Dashboard:
                         dcc.Textarea(
                             id='textarea-inference-info',
                             value=self.evaluation.best_result_info,
-                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 400, 'width': '30%'},
+                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 400, 'width': '33%'},
                         )]),
                     dbc.Row([
                         dbc.Col(),
