@@ -51,6 +51,15 @@ Test Assignment
 
 - Общая информация об обучении (скрины...)
 
+![img.png](training_process_plots/1.PNG)
+
+![img.png](training_process_plots/2.PNG)
+
+![img.png](training_process_plots/3.PNG)
+
+![img.png](training_process_plots/4.PNG)
+
+![img.png](training_process_plots/5.PNG)
 
 - metrics
 - images examples
