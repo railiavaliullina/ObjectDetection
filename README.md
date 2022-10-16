@@ -160,9 +160,7 @@ Test Assignment
 
 - Модель GPU: Tesla P100 16gb
 - Время обучения: ~ 25 hours (6000 iterations)
-
-- Notebook с кодом для обучения и инференса:
-https://www.kaggle.com/railyavaliullina/testassignment
+- Notebook с кодом для обучения и инференса: https://www.kaggle.com/railyavaliullina/testassignment
 
 ## Google Colab
 - Модель GPU: Tesla T4 16gb
