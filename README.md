@@ -152,7 +152,7 @@ Test Assignment
 ![img.png](predictions_examples/4.jpg)
 
 
-# How to Train and Inference Net
+# How to Train and Inference
 
 - общая информация об обучении (гиперпараметры, время, гпу и тд)
 - ссылки на ноутбуки с инструкциями
@@ -165,7 +165,7 @@ Test Assignment
 - Training time: ~ 25 hours (6000 iterations)
 - https://www.kaggle.com/railyavaliullina/testassignment
 
-## Colab
+## Google Colab
 - Tesla T4 16gb
 - Training time: ~ 27 hours (6000 iterations)
 - https://colab.research.google.com/drive/1NtEQRal8Yu_0k1TlSTvFIen5VBGEiEpj?usp=sharing
