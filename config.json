@@ -21,13 +21,15 @@
 
   "evaluation": {
     "save_parsed_logs": false,
-    "load_parsed_logs": true,
+    "load_parsed_logs": false,
     "logs_dir": {
       "raw": "logs/raw",
       "parsed": "logs/parsed"
     },
     "predictions_results_main_path": "predictions_results/",
     "thresholds": [0.3, 0.4, 0.5],
-    "default_thr": 0.5
+    "default_thr": 0.5,
+    "best_result_info_path": "best_result_info",
+    "training_details_path": "training_details"
   }
 }

@@ -1,0 +1,16 @@
+GPU: Tesla P100-PCIE-16GB
+Test set size: 644 (20% from dataset)
+Total Detection Time: 55 Seconds
+
+Best obtained Results:
+
+detections_count = 8785, unique_truth_count = 4450
+class_id = 0, name = upper_body, ap = 97.17%   	 (TP = 1508, FP = 490) 
+class_id = 1, name = head, ap = 96.02%   	 (TP = 1239, FP = 122) 
+class_id = 2, name = whole_body, ap = 98.96%   	 (TP = 1585, FP = 500) 
+
+for conf_thresh = 0.25, precision = 0.80, recall = 0.97, F1-score = 0.88 
+for conf_thresh = 0.25, TP = 4332, FP = 1112, FN = 118, average IoU = 66.64 % 
+
+IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+mean average precision (mAP@0.50) = 97.38 %

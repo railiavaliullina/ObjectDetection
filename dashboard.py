@@ -1,4 +1,5 @@
 import os
+
 import dash
 import dash_bootstrap_components as dbc
 import dash_daq as daq
@@ -17,6 +18,8 @@ class Dashboard:
         self.eval_cfg = cfg['evaluation']
         self.logger = logger
         self.dataset = dataset
+        self.evaluation = evaluation
+
         self.evaluation_results = evaluation.parsed_logs
         self.predictions_results_paths = evaluation.predictions_results_paths
         self.slider_size = len(self.dataset)
@@ -210,37 +213,51 @@ class Dashboard:
                         dbc.Col(),
                         dbc.Col(html.H3('Training details'), width=9, style={'marginTop': '4%',
                                                                              'marginBottom': '1.5%'}),
-                        html.P(f"Hyperparameters (recommended values)", style={'marginLeft': '27%',
-                                                                               'marginBottom': '0.5%'}),
-                        html.P(f"Train set, Test set sizes: {None}", style={'marginLeft': '27%',
-                                                                            'marginBottom': '0.5%'}),
-                        html.P(f"Training time on Kaggle (GPU: ): ~ 25 h", style={'marginLeft': '27%',
-                                                                                  'marginBottom': '0.5%'}),
-                        html.P(f"Training time on Google Colab (GPU: ): ~ 27 h", style={'marginLeft': '27%',
-                                                                                        'marginBottom': '0.5%'}),
-                        html.P(f"Number of Iterations: {None}", style={'marginLeft': '27%', 'marginBottom': '0.5%'}),
-                    ]),
-
+                        dcc.Textarea(
+                            id='textarea-training-details',
+                            value=self.evaluation.training_details,
+                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 360, 'width': '30%'},
+                        )]),
+                    dbc.Row([
+                        dbc.Col(),
+                        dbc.Col(html.H3('Inference on Test Set info'), width=9, style={'marginTop': '4%',
+                                                                                       'marginBottom': '1.5%'}),
+                        dcc.Textarea(
+                            id='textarea-inference-info',
+                            value=self.evaluation.best_result_info,
+                            style={'marginLeft': '27%', 'marginBottom': '0.5%', 'height': 400, 'width': '30%'},
+                        )]),
                     dbc.Row([
                         dbc.Col(),
                         dbc.Col(html.H3('Training Process Visualization'), width=9, style={'marginTop': '4%',
                                                                                            'marginBottom': '1.5%'}),
                         html.P('Loss on train set', style={'marginLeft': '27%', 'marginBottom': '0.5%'}),
-
+                        # loss scatter plot
+                        dbc.Col(dcc.Graph(id='loss',
+                                          figure=px.scatter(x=self.evaluation.losses_list[:, 0],
+                                                            y=self.evaluation.losses_list[:, 1],
+                                                            labels={"x": "Training Iteration", "y": "Loss"})),
+                                style={'marginLeft': '27%', 'marginBottom': '0.5%', 'marginRight': '10%'}),
+                        # mAP scatter plot
                         html.P('mAP on test set', style={'marginLeft': '27%', 'marginBottom': '0.5%'}),
-
+                        dbc.Col(dcc.Graph(id='mean-ap',
+                                          figure=px.line(x=self.evaluation.mean_ap_list[:, 0],
+                                                         y=self.evaluation.mean_ap_list[:, 1],
+                                                         labels={"x": "Training Iteration", "y": "mAP"})),
+                                style={'marginLeft': '27%', 'marginBottom': '0.5%', 'marginRight': '10%'}),
                     ]),
 
                     dbc.Row([
                         dbc.Col(),
-                        dbc.Col(html.H3('View Results'), width=9, style={'marginTop': '4%', 'marginBottom': '1.5%'}),
+                        dbc.Col(html.H3('View Predictions Results'), width=9, style={'marginTop': '4%',
+                                                                                     'marginBottom': '1.5%'}),
                         html.P(f"Chosen Threshold: {self.eval_cfg['default_thr']}",
                                style={'marginLeft': '51%', 'marginBottom': '1%'}, id='chosen-thr-text'),
                         dbc.Row([dcc.Slider(self.eval_cfg['thresholds'][0], self.eval_cfg['thresholds'][-1], 0.1,
                                             id='results-thr-slider', marks={i: self.eval_cfg['thresholds'][i]
                                                                             for i in
                                                                             range(self.results_thr_slider_size)},
-                                            value=self.eval_cfg['default_thr'], updatemode='drag',)
+                                            value=self.eval_cfg['default_thr'], updatemode='drag', )
                                  ], style={'width': '30%', 'marginLeft': '40%'}),
 
                         dbc.Row(

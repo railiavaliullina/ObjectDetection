@@ -1,5 +1,6 @@
 import os
 import pickle
+
 import numpy as np
 
 
@@ -10,8 +11,10 @@ class Evaluation:
         self.logger = logger
         self.parse_logs()
         self.predictions_results_paths = np.asarray(os.listdir(os.path.join(self.cfg["predictions_results_main_path"],
-                                                                 f'thr_{self.cfg["default_thr"]}')))
+                                                                            f'thr_{self.cfg["default_thr"]}')))
         self.thresholds_num = len(self.cfg['thresholds'])
+        self.get_meanAP_and_loss_values()
+        self.read_train_and_inference_details()
 
     def parse_logs(self):
         if self.cfg['load_parsed_logs']:
@@ -68,10 +71,31 @@ class Evaluation:
 
                                 assert validation_results.get(training_iteration, None) is not None
                                 parts = line.split(',')
-                                validation_results[training_iteration].append({'mAP@0.50': float(parts[0].split(' ')[-1])})
+                                validation_results[training_iteration].append(
+                                    {'mAP@0.50': float(parts[0].split(' ')[-1])})
 
                 self.parsed_logs[log_id] = {'loss': loss, 'validation_results': validation_results}
 
             if self.cfg['save_parsed_logs']:
                 pickle.dump(self.parsed_logs, open(os.path.join(self.cfg['logs_dir']['parsed'], 'parsed_logs'), 'wb'))
                 self.logger.info(f'successfully saved parsed logs to {self.cfg["logs_dir"]["parsed"]}')
+
+    def get_meanAP_and_loss_values(self):
+        mean_ap_list = [(0, .0)]
+        losses_list = []
+        for log_id, log_dict in self.parsed_logs.items():
+            for training_iter, validation_results in log_dict['validation_results'].items():
+                if mean_ap_list and training_iter in np.asarray(mean_ap_list)[:, 0]:
+                    continue
+                mean_ap = validation_results[-1]['mAP@0.50'] * 100
+                mean_ap_list.append((training_iter, mean_ap))
+            for training_iter, loss in log_dict['loss'].items():
+                if losses_list and training_iter in np.asarray(losses_list)[:, 0]:
+                    continue
+                losses_list.append((training_iter, loss))
+        self.mean_ap_list = np.asarray(mean_ap_list)
+        self.losses_list = np.asarray(losses_list)
+
+    def read_train_and_inference_details(self):
+        self.best_result_info = open(self.cfg['best_result_info_path']).read()
+        self.training_details = open(self.cfg['training_details_path']).read()

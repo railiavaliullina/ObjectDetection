@@ -297,43 +297,43 @@ Resizing, random_coef = 1.40
 Loaded: 2.366682 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;61/6000: loss=1539.7 hours left=14.6
- 61: 1539.730835, 859.051758 avg loss, 0.000000 rate, 3.913961 seconds, 3904 images, 14.640365 hours left
+ 61: 1539.730835, 759.051758 avg loss, 0.000000 rate, 3.913961 seconds, 3904 images, 14.640365 hours left
 Loaded: 6.488225 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;62/6000: loss=1527.8 hours left=14.6
- 62: 1527.840820, 925.930664 avg loss, 0.000000 rate, 4.004411 seconds, 3968 images, 14.597575 hours left
+ 62: 1527.840820, 725.930664 avg loss, 0.000000 rate, 4.004411 seconds, 3968 images, 14.597575 hours left
 Loaded: 8.238297 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;63/6000: loss=1517.3 hours left=14.6
- 63: 1517.253906, 985.062988 avg loss, 0.000000 rate, 4.355516 seconds, 4032 images, 14.624671 hours left
+ 63: 1517.253906, 726.062988 avg loss, 0.000000 rate, 4.355516 seconds, 4032 images, 14.624671 hours left
 Loaded: 5.971615 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;64/6000: loss=1505.3 hours left=14.7
- 64: 1505.285400, 1037.085205 avg loss, 0.000000 rate, 3.825951 seconds, 4096 images, 14.686118 hours left
+ 64: 1505.285400, 737.085205 avg loss, 0.000000 rate, 3.825951 seconds, 4096 images, 14.686118 hours left
 Loaded: 8.284758 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;65/6000: loss=1492.0 hours left=14.7
- 65: 1491.978516, 1082.574585 avg loss, 0.000000 rate, 4.104263 seconds, 4160 images, 14.700808 hours left
+ 65: 1491.978516, 730.574585 avg loss, 0.000000 rate, 4.104263 seconds, 4160 images, 14.700808 hours left
 Loaded: 8.363216 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;66/6000: loss=1478.5 hours left=14.8
- 66: 1478.454468, 1122.162598 avg loss, 0.000000 rate, 4.566983 seconds, 4224 images, 14.758047 hours left
+ 66: 1478.454468, 722.162598 avg loss, 0.000000 rate, 4.566983 seconds, 4224 images, 14.758047 hours left
 Loaded: 7.891292 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;67/6000: loss=1462.3 hours left=14.8
- 67: 1462.259155, 1156.172241 avg loss, 0.000000 rate, 4.316916 seconds, 4288 images, 14.823600 hours left
+ 67: 1462.259155, 712.172241 avg loss, 0.000000 rate, 4.316916 seconds, 4288 images, 14.823600 hours left
 Loaded: 3.686471 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;68/6000: loss=1444.3 hours left=14.9
- 68: 1444.333130, 1184.988281 avg loss, 0.000000 rate, 3.869740 seconds, 4352 images, 14.876563 hours left
+ 68: 1444.333130, 710.988281 avg loss, 0.000000 rate, 3.869740 seconds, 4352 images, 14.876563 hours left
 Loaded: 10.441504 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;69/6000: loss=1429.2 hours left=14.9
- 69: 1429.171631, 1209.406616 avg loss, 0.000000 rate, 4.347407 seconds, 4416 images, 14.852308 hours left
+ 69: 1429.171631, 709.406616 avg loss, 0.000000 rate, 4.347407 seconds, 4416 images, 14.852308 hours left
 Loaded: 8.068436 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;70/6000: loss=1408.5 hours left=14.9
- 70: 1408.487549, 1229.314697 avg loss, 0.000000 rate, 4.067831 seconds, 4480 images, 14.947433 hours left
+ 70: 1408.487549, 693.314697 avg loss, 0.000000 rate, 4.067831 seconds, 4480 images, 14.947433 hours left
 Resizing, random_coef = 1.40 
 
  576 x 576 
@@ -342,43 +342,43 @@ Resizing, random_coef = 1.40
 Loaded: 4.802959 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;71/6000: loss=1755.8 hours left=15.0
- 71: 1755.822632, 1281.965454 avg loss, 0.000000 rate, 5.516089 seconds, 4544 images, 14.997870 hours left
+ 71: 1755.822632, 688.965454 avg loss, 0.000000 rate, 5.516089 seconds, 4544 images, 14.997870 hours left
 Loaded: 8.796762 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;72/6000: loss=1726.9 hours left=15.0
- 72: 1726.907593, 1326.459717 avg loss, 0.000000 rate, 4.956761 seconds, 4608 images, 15.017841 hours left
+ 72: 1726.907593, 676.459717 avg loss, 0.000000 rate, 4.956761 seconds, 4608 images, 15.017841 hours left
 Loaded: 9.847504 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;73/6000: loss=1698.2 hours left=15.1
- 73: 1698.189819, 1363.632690 avg loss, 0.000000 rate, 5.471175 seconds, 4672 images, 15.094138 hours left
+ 73: 1698.189819, 663.632690 avg loss, 0.000000 rate, 5.471175 seconds, 4672 images, 15.094138 hours left
 Loaded: 4.933750 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;74/6000: loss=1663.9 hours left=15.2
- 74: 1663.937622, 1393.663208 avg loss, 0.000000 rate, 5.228681 seconds, 4736 images, 15.195403 hours left
+ 74: 1663.937622, 653.663208 avg loss, 0.000000 rate, 5.228681 seconds, 4736 images, 15.195403 hours left
 Loaded: 9.581652 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;75/6000: loss=1632.6 hours left=15.2
- 75: 1632.591919, 1417.556030 avg loss, 0.000000 rate, 5.646975 seconds, 4800 images, 15.210735 hours left
+ 75: 1632.591919, 647.556030 avg loss, 0.000000 rate, 5.646975 seconds, 4800 images, 15.210735 hours left
 Loaded: 6.693040 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;76/6000: loss=1594.3 hours left=15.3
- 76: 1594.312866, 1435.231689 avg loss, 0.000000 rate, 5.158454 seconds, 4864 images, 15.309266 hours left
+ 76: 1594.312866, 635.231689 avg loss, 0.000000 rate, 5.158454 seconds, 4864 images, 15.309266 hours left
 Loaded: 2.915808 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;77/6000: loss=1556.0 hours left=15.4
- 77: 1555.975220, 1447.306030 avg loss, 0.000000 rate, 5.011451 seconds, 4928 images, 15.351197 hours left
+ 77: 1555.975220, 637.306030 avg loss, 0.000000 rate, 5.011451 seconds, 4928 images, 15.351197 hours left
 Loaded: 4.940766 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;78/6000: loss=1515.2 hours left=15.3
- 78: 1515.224731, 1454.097900 avg loss, 0.000000 rate, 5.120539 seconds, 4992 images, 15.328112 hours left
+ 78: 1515.224731, 654.097900 avg loss, 0.000000 rate, 5.120539 seconds, 4992 images, 15.328112 hours left
 Loaded: 3.249255 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;79/6000: loss=1475.7 hours left=15.3
- 79: 1475.701538, 1456.258301 avg loss, 0.000000 rate, 5.113794 seconds, 5056 images, 15.340340 hours left
+ 79: 1475.701538, 656.258301 avg loss, 0.000000 rate, 5.113794 seconds, 5056 images, 15.340340 hours left
 Loaded: 5.127013 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;80/6000: loss=1432.2 hours left=15.3
- 80: 1432.247925, 1453.857300 avg loss, 0.000000 rate, 5.190312 seconds, 5120 images, 15.324486 hours left
+ 80: 1432.247925, 653.857300 avg loss, 0.000000 rate, 5.190312 seconds, 5120 images, 15.324486 hours left
 Resizing, random_coef = 1.40 
 
  416 x 416 
@@ -387,43 +387,43 @@ Resizing, random_coef = 1.40
 Loaded: 7.912735 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;81/6000: loss=726.6 hours left=15.3
- 81: 726.645630, 1381.136108 avg loss, 0.000000 rate, 2.929745 seconds, 5184 images, 15.340905 hours left
+ 81: 726.645630, 621.136108 avg loss, 0.000000 rate, 2.929745 seconds, 5184 images, 15.340905 hours left
 Loaded: 10.752300 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;82/6000: loss=702.9 hours left=15.4
- 82: 702.941650, 1313.316650 avg loss, 0.000000 rate, 2.968347 seconds, 5248 images, 15.365765 hours left
+ 82: 702.941650, 613.316650 avg loss, 0.000000 rate, 2.968347 seconds, 5248 images, 15.365765 hours left
 Loaded: 4.855540 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;83/6000: loss=677.1 hours left=15.4
- 83: 677.128235, 1249.697754 avg loss, 0.000000 rate, 2.878681 seconds, 5312 images, 15.437660 hours left
+ 83: 677.128235, 639.697754 avg loss, 0.000000 rate, 2.878681 seconds, 5312 images, 15.437660 hours left
 Loaded: 9.135811 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;84/6000: loss=655.1 hours left=15.4
- 84: 655.051880, 1190.233154 avg loss, 0.000000 rate, 2.842248 seconds, 5376 images, 15.410405 hours left
+ 84: 655.051880, 650.233154 avg loss, 0.000000 rate, 2.842248 seconds, 5376 images, 15.410405 hours left
 Loaded: 6.719162 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;85/6000: loss=631.0 hours left=15.5
- 85: 631.016724, 1134.311523 avg loss, 0.000000 rate, 2.856830 seconds, 5440 images, 15.453141 hours left
+ 85: 631.016724, 634.311523 avg loss, 0.000000 rate, 2.856830 seconds, 5440 images, 15.453141 hours left
 Loaded: 7.407701 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;86/6000: loss=607.5 hours left=15.5
- 86: 607.485291, 1081.628906 avg loss, 0.000000 rate, 2.825042 seconds, 5504 images, 15.455949 hours left
+ 86: 607.485291, 661.628906 avg loss, 0.000000 rate, 2.825042 seconds, 5504 images, 15.455949 hours left
 Loaded: 6.446319 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;87/6000: loss=587.4 hours left=15.5
- 87: 587.398743, 1032.205933 avg loss, 0.000000 rate, 3.036473 seconds, 5568 images, 15.469492 hours left
+ 87: 587.398743, 632.205933 avg loss, 0.000000 rate, 3.036473 seconds, 5568 images, 15.469492 hours left
 Loaded: 4.202926 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;88/6000: loss=562.9 hours left=15.5
- 88: 562.880493, 985.273376 avg loss, 0.000000 rate, 2.904525 seconds, 5632 images, 15.470552 hours left
+ 88: 562.880493, 655.273376 avg loss, 0.000000 rate, 2.904525 seconds, 5632 images, 15.470552 hours left
 Loaded: 8.867785 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;89/6000: loss=540.9 hours left=15.4
- 89: 540.947876, 940.840820 avg loss, 0.000000 rate, 3.221512 seconds, 5696 images, 15.432568 hours left
+ 89: 540.947876, 640.840820 avg loss, 0.000000 rate, 3.221512 seconds, 5696 images, 15.432568 hours left
 Loaded: 6.930986 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;90/6000: loss=517.8 hours left=15.5
- 90: 517.843079, 898.541016 avg loss, 0.000000 rate, 2.970526 seconds, 5760 images, 15.476742 hours left
+ 90: 517.843079, 648.541016 avg loss, 0.000000 rate, 2.970526 seconds, 5760 images, 15.476742 hours left
 Resizing, random_coef = 1.40 
 
  416 x 416 
@@ -432,31 +432,31 @@ Resizing, random_coef = 1.40
 Loaded: 5.473377 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;91/6000: loss=494.5 hours left=15.5
- 91: 494.531738, 858.140076 avg loss, 0.000000 rate, 2.930630 seconds, 5824 images, 15.484525 hours left
+ 91: 494.531738, 658.140076 avg loss, 0.000000 rate, 2.930630 seconds, 5824 images, 15.484525 hours left
 Loaded: 9.296289 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;92/6000: loss=474.3 hours left=15.5
- 92: 474.305145, 819.756592 avg loss, 0.000000 rate, 2.740643 seconds, 5888 images, 15.467623 hours left
+ 92: 474.305145, 629.756592 avg loss, 0.000000 rate, 2.740643 seconds, 5888 images, 15.467623 hours left
 Loaded: 9.191233 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;93/6000: loss=453.1 hours left=15.5
- 93: 453.139984, 783.094910 avg loss, 0.000000 rate, 2.765712 seconds, 5952 images, 15.510487 hours left
+ 93: 453.139984, 613.094910 avg loss, 0.000000 rate, 2.765712 seconds, 5952 images, 15.510487 hours left
 Loaded: 6.807117 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;94/6000: loss=432.7 hours left=15.6
- 94: 432.736603, 748.059082 avg loss, 0.000000 rate, 2.905040 seconds, 6016 images, 15.551577 hours left
+ 94: 432.736603, 648.059082 avg loss, 0.000000 rate, 2.905040 seconds, 6016 images, 15.551577 hours left
 Loaded: 4.552604 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;95/6000: loss=412.4 hours left=15.6
- 95: 412.448883, 714.498047 avg loss, 0.000000 rate, 2.717517 seconds, 6080 images, 15.555395 hours left
+ 95: 412.448883, 614.498047 avg loss, 0.000000 rate, 2.717517 seconds, 6080 images, 15.555395 hours left
 Loaded: 12.511683 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;96/6000: loss=397.1 hours left=15.5
- 96: 397.087860, 682.757019 avg loss, 0.000000 rate, 3.126124 seconds, 6144 images, 15.519097 hours left
+ 96: 397.087860, 622.757019 avg loss, 0.000000 rate, 3.126124 seconds, 6144 images, 15.519097 hours left
 Loaded: 6.483696 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;97/6000: loss=374.9 hours left=15.6
- 97: 374.942535, 651.975586 avg loss, 0.000000 rate, 2.987656 seconds, 6208 images, 15.620367 hours left
+ 97: 374.942535, 621.975586 avg loss, 0.000000 rate, 2.987656 seconds, 6208 images, 15.620367 hours left
 Loaded: 9.412276 seconds - performance bottleneck on CPU or Disk HDD/SSD
 
  (next mAP calculation at 1000 iterations) ]2;98/6000: loss=356.9 hours left=15.6
@@ -4528,7 +4528,183 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 17535, unique_truth_count = 4450  
- rank = 0 of ranks = 17535  rank = 100 of ranks = 17535  rank = 200 of ranks = 17535  rank = 300 of ranks = 17535  rank = 400 of ranks = 17535  rank = 500 of ranks = 17535  rank = 600 of ranks = 17535  rank = 700 of ranks = 17535  rank = 800 of ranks = 17535  rank = 900 of ranks = 17535  rank = 1000 of ranks = 17535  rank = 1100 of ranks = 17535  rank = 1200 of ranks = 17535  rank = 1300 of ranks = 17535  rank = 1400 of ranks = 17535  rank = 1500 of ranks = 17535  rank = 1600 of ranks = 17535  rank = 1700 of ranks = 17535  rank = 1800 of ranks = 17535  rank = 1900 of ranks = 17535  rank = 2000 of ranks = 17535  rank = 2100 of ranks = 17535  rank = 2200 of ranks = 17535  rank = 2300 of ranks = 17535  rank = 2400 of ranks = 17535  rank = 2500 of ranks = 17535  rank = 2600 of ranks = 17535  rank = 2700 of ranks = 17535  rank = 2800 of ranks = 17535  rank = 2900 of ranks = 17535  rank = 3000 of ranks = 17535  rank = 3100 of ranks = 17535  rank = 3200 of ranks = 17535  rank = 3300 of ranks = 17535  rank = 3400 of ranks = 17535  rank = 3500 of ranks = 17535  rank = 3600 of ranks = 17535  rank = 3700 of ranks = 17535  rank = 3800 of ranks = 17535  rank = 3900 of ranks = 17535  rank = 4000 of ranks = 17535  rank = 4100 of ranks = 17535  rank = 4200 of ranks = 17535  rank = 4300 of ranks = 17535  rank = 4400 of ranks = 17535  rank = 4500 of ranks = 17535  rank = 4600 of ranks = 17535  rank = 4700 of ranks = 17535  rank = 4800 of ranks = 17535  rank = 4900 of ranks = 17535  rank = 5000 of ranks = 17535  rank = 5100 of ranks = 17535  rank = 5200 of ranks = 17535  rank = 5300 of ranks = 17535  rank = 5400 of ranks = 17535  rank = 5500 of ranks = 17535  rank = 5600 of ranks = 17535  rank = 5700 of ranks = 17535  rank = 5800 of ranks = 17535  rank = 5900 of ranks = 17535  rank = 6000 of ranks = 17535  rank = 6100 of ranks = 17535  rank = 6200 of ranks = 17535  rank = 6300 of ranks = 17535  rank = 6400 of ranks = 17535  rank = 6500 of ranks = 17535  rank = 6600 of ranks = 17535  rank = 6700 of ranks = 17535  rank = 6800 of ranks = 17535  rank = 6900 of ranks = 17535  rank = 7000 of ranks = 17535  rank = 7100 of ranks = 17535  rank = 7200 of ranks = 17535  rank = 7300 of ranks = 17535  rank = 7400 of ranks = 17535  rank = 7500 of ranks = 17535  rank = 7600 of ranks = 17535  rank = 7700 of ranks = 17535  rank = 7800 of ranks = 17535  rank = 7900 of ranks = 17535  rank = 8000 of ranks = 17535  rank = 8100 of ranks = 17535  rank = 8200 of ranks = 17535  rank = 8300 of ranks = 17535  rank = 8400 of ranks = 17535  rank = 8500 of ranks = 17535  rank = 8600 of ranks = 17535  rank = 8700 of ranks = 17535  rank = 8800 of ranks = 17535  rank = 8900 of ranks = 17535  rank = 9000 of ranks = 17535  rank = 9100 of ranks = 17535  rank = 9200 of ranks = 17535  rank = 9300 of ranks = 17535  rank = 9400 of ranks = 17535  rank = 9500 of ranks = 17535  rank = 9600 of ranks = 17535  rank = 9700 of ranks = 17535  rank = 9800 of ranks = 17535  rank = 9900 of ranks = 17535  rank = 10000 of ranks = 17535  rank = 10100 of ranks = 17535  rank = 10200 of ranks = 17535  rank = 10300 of ranks = 17535  rank = 10400 of ranks = 17535  rank = 10500 of ranks = 17535  rank = 10600 of ranks = 17535  rank = 10700 of ranks = 17535  rank = 10800 of ranks = 17535  rank = 10900 of ranks = 17535  rank = 11000 of ranks = 17535  rank = 11100 of ranks = 17535  rank = 11200 of ranks = 17535  rank = 11300 of ranks = 17535  rank = 11400 of ranks = 17535  rank = 11500 of ranks = 17535  rank = 11600 of ranks = 17535  rank = 11700 of ranks = 17535  rank = 11800 of ranks = 17535  rank = 11900 of ranks = 17535  rank = 12000 of ranks = 17535  rank = 12100 of ranks = 17535  rank = 12200 of ranks = 17535  rank = 12300 of ranks = 17535  rank = 12400 of ranks = 17535  rank = 12500 of ranks = 17535  rank = 12600 of ranks = 17535  rank = 12700 of ranks = 17535  rank = 12800 of ranks = 17535  rank = 12900 of ranks = 17535  rank = 13000 of ranks = 17535  rank = 13100 of ranks = 17535  rank = 13200 of ranks = 17535  rank = 13300 of ranks = 17535  rank = 13400 of ranks = 17535  rank = 13500 of ranks = 17535  rank = 13600 of ranks = 17535  rank = 13700 of ranks = 17535  rank = 13800 of ranks = 17535  rank = 13900 of ranks = 17535  rank = 14000 of ranks = 17535  rank = 14100 of ranks = 17535  rank = 14200 of ranks = 17535  rank = 14300 of ranks = 17535  rank = 14400 of ranks = 17535  rank = 14500 of ranks = 17535  rank = 14600 of ranks = 17535  rank = 14700 of ranks = 17535  rank = 14800 of ranks = 17535  rank = 14900 of ranks = 17535  rank = 15000 of ranks = 17535  rank = 15100 of ranks = 17535  rank = 15200 of ranks = 17535  rank = 15300 of ranks = 17535  rank = 15400 of ranks = 17535  rank = 15500 of ranks = 17535  rank = 15600 of ranks = 17535  rank = 15700 of ranks = 17535  rank = 15800 of ranks = 17535  rank = 15900 of ranks = 17535  rank = 16000 of ranks = 17535  rank = 16100 of ranks = 17535  rank = 16200 of ranks = 17535  rank = 16300 of ranks = 17535  rank = 16400 of ranks = 17535  rank = 16500 of ranks = 17535  rank = 16600 of ranks = 17535  rank = 16700 of ranks = 17535  rank = 16800 of ranks = 17535  rank = 16900 of ranks = 17535  rank = 17000 of ranks = 17535  rank = 17100 of ranks = 17535  rank = 17200 of ranks = 17535  rank = 17300 of ranks = 17535  rank = 17400 of ranks = 17535  rank = 17500 of ranks = 17535 class_id = 0, name = upper_body, ap = 85.22%   	 (TP = 1356, FP = 649) 
+ rank = 0 of ranks = 17535 
+ rank = 100 of ranks = 17535 
+ rank = 200 of ranks = 17535 
+ rank = 300 of ranks = 17535 
+ rank = 400 of ranks = 17535 
+ rank = 500 of ranks = 17535 
+ rank = 600 of ranks = 17535 
+ rank = 700 of ranks = 17535 
+ rank = 800 of ranks = 17535 
+ rank = 900 of ranks = 17535 
+ rank = 1000 of ranks = 17535 
+ rank = 1100 of ranks = 17535 
+ rank = 1200 of ranks = 17535 
+ rank = 1300 of ranks = 17535 
+ rank = 1400 of ranks = 17535 
+ rank = 1500 of ranks = 17535 
+ rank = 1600 of ranks = 17535 
+ rank = 1700 of ranks = 17535 
+ rank = 1800 of ranks = 17535 
+ rank = 1900 of ranks = 17535 
+ rank = 2000 of ranks = 17535 
+ rank = 2100 of ranks = 17535 
+ rank = 2200 of ranks = 17535 
+ rank = 2300 of ranks = 17535 
+ rank = 2400 of ranks = 17535 
+ rank = 2500 of ranks = 17535 
+ rank = 2600 of ranks = 17535 
+ rank = 2700 of ranks = 17535 
+ rank = 2800 of ranks = 17535 
+ rank = 2900 of ranks = 17535 
+ rank = 3000 of ranks = 17535 
+ rank = 3100 of ranks = 17535 
+ rank = 3200 of ranks = 17535 
+ rank = 3300 of ranks = 17535 
+ rank = 3400 of ranks = 17535 
+ rank = 3500 of ranks = 17535 
+ rank = 3600 of ranks = 17535 
+ rank = 3700 of ranks = 17535 
+ rank = 3800 of ranks = 17535 
+ rank = 3900 of ranks = 17535 
+ rank = 4000 of ranks = 17535 
+ rank = 4100 of ranks = 17535 
+ rank = 4200 of ranks = 17535 
+ rank = 4300 of ranks = 17535 
+ rank = 4400 of ranks = 17535 
+ rank = 4500 of ranks = 17535 
+ rank = 4600 of ranks = 17535 
+ rank = 4700 of ranks = 17535 
+ rank = 4800 of ranks = 17535 
+ rank = 4900 of ranks = 17535 
+ rank = 5000 of ranks = 17535 
+ rank = 5100 of ranks = 17535 
+ rank = 5200 of ranks = 17535 
+ rank = 5300 of ranks = 17535 
+ rank = 5400 of ranks = 17535 
+ rank = 5500 of ranks = 17535 
+ rank = 5600 of ranks = 17535 
+ rank = 5700 of ranks = 17535 
+ rank = 5800 of ranks = 17535 
+ rank = 5900 of ranks = 17535 
+ rank = 6000 of ranks = 17535 
+ rank = 6100 of ranks = 17535 
+ rank = 6200 of ranks = 17535 
+ rank = 6300 of ranks = 17535 
+ rank = 6400 of ranks = 17535 
+ rank = 6500 of ranks = 17535 
+ rank = 6600 of ranks = 17535 
+ rank = 6700 of ranks = 17535 
+ rank = 6800 of ranks = 17535 
+ rank = 6900 of ranks = 17535 
+ rank = 7000 of ranks = 17535 
+ rank = 7100 of ranks = 17535 
+ rank = 7200 of ranks = 17535 
+ rank = 7300 of ranks = 17535 
+ rank = 7400 of ranks = 17535 
+ rank = 7500 of ranks = 17535 
+ rank = 7600 of ranks = 17535 
+ rank = 7700 of ranks = 17535 
+ rank = 7800 of ranks = 17535 
+ rank = 7900 of ranks = 17535 
+ rank = 8000 of ranks = 17535 
+ rank = 8100 of ranks = 17535 
+ rank = 8200 of ranks = 17535 
+ rank = 8300 of ranks = 17535 
+ rank = 8400 of ranks = 17535 
+ rank = 8500 of ranks = 17535 
+ rank = 8600 of ranks = 17535 
+ rank = 8700 of ranks = 17535 
+ rank = 8800 of ranks = 17535 
+ rank = 8900 of ranks = 17535 
+ rank = 9000 of ranks = 17535 
+ rank = 9100 of ranks = 17535 
+ rank = 9200 of ranks = 17535 
+ rank = 9300 of ranks = 17535 
+ rank = 9400 of ranks = 17535 
+ rank = 9500 of ranks = 17535 
+ rank = 9600 of ranks = 17535 
+ rank = 9700 of ranks = 17535 
+ rank = 9800 of ranks = 17535 
+ rank = 9900 of ranks = 17535 
+ rank = 10000 of ranks = 17535 
+ rank = 10100 of ranks = 17535 
+ rank = 10200 of ranks = 17535 
+ rank = 10300 of ranks = 17535 
+ rank = 10400 of ranks = 17535 
+ rank = 10500 of ranks = 17535 
+ rank = 10600 of ranks = 17535 
+ rank = 10700 of ranks = 17535 
+ rank = 10800 of ranks = 17535 
+ rank = 10900 of ranks = 17535 
+ rank = 11000 of ranks = 17535 
+ rank = 11100 of ranks = 17535 
+ rank = 11200 of ranks = 17535 
+ rank = 11300 of ranks = 17535 
+ rank = 11400 of ranks = 17535 
+ rank = 11500 of ranks = 17535 
+ rank = 11600 of ranks = 17535 
+ rank = 11700 of ranks = 17535 
+ rank = 11800 of ranks = 17535 
+ rank = 11900 of ranks = 17535 
+ rank = 12000 of ranks = 17535 
+ rank = 12100 of ranks = 17535 
+ rank = 12200 of ranks = 17535 
+ rank = 12300 of ranks = 17535 
+ rank = 12400 of ranks = 17535 
+ rank = 12500 of ranks = 17535 
+ rank = 12600 of ranks = 17535 
+ rank = 12700 of ranks = 17535 
+ rank = 12800 of ranks = 17535 
+ rank = 12900 of ranks = 17535 
+ rank = 13000 of ranks = 17535 
+ rank = 13100 of ranks = 17535 
+ rank = 13200 of ranks = 17535 
+ rank = 13300 of ranks = 17535 
+ rank = 13400 of ranks = 17535 
+ rank = 13500 of ranks = 17535 
+ rank = 13600 of ranks = 17535 
+ rank = 13700 of ranks = 17535 
+ rank = 13800 of ranks = 17535 
+ rank = 13900 of ranks = 17535 
+ rank = 14000 of ranks = 17535 
+ rank = 14100 of ranks = 17535 
+ rank = 14200 of ranks = 17535 
+ rank = 14300 of ranks = 17535 
+ rank = 14400 of ranks = 17535 
+ rank = 14500 of ranks = 17535 
+ rank = 14600 of ranks = 17535 
+ rank = 14700 of ranks = 17535 
+ rank = 14800 of ranks = 17535 
+ rank = 14900 of ranks = 17535 
+ rank = 15000 of ranks = 17535 
+ rank = 15100 of ranks = 17535 
+ rank = 15200 of ranks = 17535 
+ rank = 15300 of ranks = 17535 
+ rank = 15400 of ranks = 17535 
+ rank = 15500 of ranks = 17535 
+ rank = 15600 of ranks = 17535 
+ rank = 15700 of ranks = 17535 
+ rank = 15800 of ranks = 17535 
+ rank = 15900 of ranks = 17535 
+ rank = 16000 of ranks = 17535 
+ rank = 16100 of ranks = 17535 
+ rank = 16200 of ranks = 17535 
+ rank = 16300 of ranks = 17535 
+ rank = 16400 of ranks = 17535 
+ rank = 16500 of ranks = 17535 
+ rank = 16600 of ranks = 17535 
+ rank = 16700 of ranks = 17535 
+ rank = 16800 of ranks = 17535 
+ rank = 16900 of ranks = 17535 
+ rank = 17000 of ranks = 17535 
+ rank = 17100 of ranks = 17535 
+ rank = 17200 of ranks = 17535 
+ rank = 17300 of ranks = 17535 
+ rank = 17400 of ranks = 17535 
+ rank = 17500 of ranks = 17535 
+class_id = 0, name = upper_body, ap = 85.22%   	 (TP = 1356, FP = 649) 
 class_id = 1, name = head, ap = 77.25%   	 (TP = 1016, FP = 372) 
 class_id = 2, name = whole_body, ap = 94.28%   	 (TP = 1495, FP = 611) 
 
@@ -5444,7 +5620,196 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 18863, unique_truth_count = 4450  
- rank = 0 of ranks = 18863  rank = 100 of ranks = 18863  rank = 200 of ranks = 18863  rank = 300 of ranks = 18863  rank = 400 of ranks = 18863  rank = 500 of ranks = 18863  rank = 600 of ranks = 18863  rank = 700 of ranks = 18863  rank = 800 of ranks = 18863  rank = 900 of ranks = 18863  rank = 1000 of ranks = 18863  rank = 1100 of ranks = 18863  rank = 1200 of ranks = 18863  rank = 1300 of ranks = 18863  rank = 1400 of ranks = 18863  rank = 1500 of ranks = 18863  rank = 1600 of ranks = 18863  rank = 1700 of ranks = 18863  rank = 1800 of ranks = 18863  rank = 1900 of ranks = 18863  rank = 2000 of ranks = 18863  rank = 2100 of ranks = 18863  rank = 2200 of ranks = 18863  rank = 2300 of ranks = 18863  rank = 2400 of ranks = 18863  rank = 2500 of ranks = 18863  rank = 2600 of ranks = 18863  rank = 2700 of ranks = 18863  rank = 2800 of ranks = 18863  rank = 2900 of ranks = 18863  rank = 3000 of ranks = 18863  rank = 3100 of ranks = 18863  rank = 3200 of ranks = 18863  rank = 3300 of ranks = 18863  rank = 3400 of ranks = 18863  rank = 3500 of ranks = 18863  rank = 3600 of ranks = 18863  rank = 3700 of ranks = 18863  rank = 3800 of ranks = 18863  rank = 3900 of ranks = 18863  rank = 4000 of ranks = 18863  rank = 4100 of ranks = 18863  rank = 4200 of ranks = 18863  rank = 4300 of ranks = 18863  rank = 4400 of ranks = 18863  rank = 4500 of ranks = 18863  rank = 4600 of ranks = 18863  rank = 4700 of ranks = 18863  rank = 4800 of ranks = 18863  rank = 4900 of ranks = 18863  rank = 5000 of ranks = 18863  rank = 5100 of ranks = 18863  rank = 5200 of ranks = 18863  rank = 5300 of ranks = 18863  rank = 5400 of ranks = 18863  rank = 5500 of ranks = 18863  rank = 5600 of ranks = 18863  rank = 5700 of ranks = 18863  rank = 5800 of ranks = 18863  rank = 5900 of ranks = 18863  rank = 6000 of ranks = 18863  rank = 6100 of ranks = 18863  rank = 6200 of ranks = 18863  rank = 6300 of ranks = 18863  rank = 6400 of ranks = 18863  rank = 6500 of ranks = 18863  rank = 6600 of ranks = 18863  rank = 6700 of ranks = 18863  rank = 6800 of ranks = 18863  rank = 6900 of ranks = 18863  rank = 7000 of ranks = 18863  rank = 7100 of ranks = 18863  rank = 7200 of ranks = 18863  rank = 7300 of ranks = 18863  rank = 7400 of ranks = 18863  rank = 7500 of ranks = 18863  rank = 7600 of ranks = 18863  rank = 7700 of ranks = 18863  rank = 7800 of ranks = 18863  rank = 7900 of ranks = 18863  rank = 8000 of ranks = 18863  rank = 8100 of ranks = 18863  rank = 8200 of ranks = 18863  rank = 8300 of ranks = 18863  rank = 8400 of ranks = 18863  rank = 8500 of ranks = 18863  rank = 8600 of ranks = 18863  rank = 8700 of ranks = 18863  rank = 8800 of ranks = 18863  rank = 8900 of ranks = 18863  rank = 9000 of ranks = 18863  rank = 9100 of ranks = 18863  rank = 9200 of ranks = 18863  rank = 9300 of ranks = 18863  rank = 9400 of ranks = 18863  rank = 9500 of ranks = 18863  rank = 9600 of ranks = 18863  rank = 9700 of ranks = 18863  rank = 9800 of ranks = 18863  rank = 9900 of ranks = 18863  rank = 10000 of ranks = 18863  rank = 10100 of ranks = 18863  rank = 10200 of ranks = 18863  rank = 10300 of ranks = 18863  rank = 10400 of ranks = 18863  rank = 10500 of ranks = 18863  rank = 10600 of ranks = 18863  rank = 10700 of ranks = 18863  rank = 10800 of ranks = 18863  rank = 10900 of ranks = 18863  rank = 11000 of ranks = 18863  rank = 11100 of ranks = 18863  rank = 11200 of ranks = 18863  rank = 11300 of ranks = 18863  rank = 11400 of ranks = 18863  rank = 11500 of ranks = 18863  rank = 11600 of ranks = 18863  rank = 11700 of ranks = 18863  rank = 11800 of ranks = 18863  rank = 11900 of ranks = 18863  rank = 12000 of ranks = 18863  rank = 12100 of ranks = 18863  rank = 12200 of ranks = 18863  rank = 12300 of ranks = 18863  rank = 12400 of ranks = 18863  rank = 12500 of ranks = 18863  rank = 12600 of ranks = 18863  rank = 12700 of ranks = 18863  rank = 12800 of ranks = 18863  rank = 12900 of ranks = 18863  rank = 13000 of ranks = 18863  rank = 13100 of ranks = 18863  rank = 13200 of ranks = 18863  rank = 13300 of ranks = 18863  rank = 13400 of ranks = 18863  rank = 13500 of ranks = 18863  rank = 13600 of ranks = 18863  rank = 13700 of ranks = 18863  rank = 13800 of ranks = 18863  rank = 13900 of ranks = 18863  rank = 14000 of ranks = 18863  rank = 14100 of ranks = 18863  rank = 14200 of ranks = 18863  rank = 14300 of ranks = 18863  rank = 14400 of ranks = 18863  rank = 14500 of ranks = 18863  rank = 14600 of ranks = 18863  rank = 14700 of ranks = 18863  rank = 14800 of ranks = 18863  rank = 14900 of ranks = 18863  rank = 15000 of ranks = 18863  rank = 15100 of ranks = 18863  rank = 15200 of ranks = 18863  rank = 15300 of ranks = 18863  rank = 15400 of ranks = 18863  rank = 15500 of ranks = 18863  rank = 15600 of ranks = 18863  rank = 15700 of ranks = 18863  rank = 15800 of ranks = 18863  rank = 15900 of ranks = 18863  rank = 16000 of ranks = 18863  rank = 16100 of ranks = 18863  rank = 16200 of ranks = 18863  rank = 16300 of ranks = 18863  rank = 16400 of ranks = 18863  rank = 16500 of ranks = 18863  rank = 16600 of ranks = 18863  rank = 16700 of ranks = 18863  rank = 16800 of ranks = 18863  rank = 16900 of ranks = 18863  rank = 17000 of ranks = 18863  rank = 17100 of ranks = 18863  rank = 17200 of ranks = 18863  rank = 17300 of ranks = 18863  rank = 17400 of ranks = 18863  rank = 17500 of ranks = 18863  rank = 17600 of ranks = 18863  rank = 17700 of ranks = 18863  rank = 17800 of ranks = 18863  rank = 17900 of ranks = 18863  rank = 18000 of ranks = 18863  rank = 18100 of ranks = 18863  rank = 18200 of ranks = 18863  rank = 18300 of ranks = 18863  rank = 18400 of ranks = 18863  rank = 18500 of ranks = 18863  rank = 18600 of ranks = 18863  rank = 18700 of ranks = 18863  rank = 18800 of ranks = 18863 class_id = 0, name = upper_body, ap = 88.83%   	 (TP = 1313, FP = 763) 
+ rank = 0 of ranks = 18863 
+ rank = 100 of ranks = 18863 
+ rank = 200 of ranks = 18863 
+ rank = 300 of ranks = 18863 
+ rank = 400 of ranks = 18863 
+ rank = 500 of ranks = 18863 
+ rank = 600 of ranks = 18863 
+ rank = 700 of ranks = 18863 
+ rank = 800 of ranks = 18863 
+ rank = 900 of ranks = 18863 
+ rank = 1000 of ranks = 18863 
+ rank = 1100 of ranks = 18863 
+ rank = 1200 of ranks = 18863 
+ rank = 1300 of ranks = 18863 
+ rank = 1400 of ranks = 18863 
+ rank = 1500 of ranks = 18863 
+ rank = 1600 of ranks = 18863 
+ rank = 1700 of ranks = 18863 
+ rank = 1800 of ranks = 18863 
+ rank = 1900 of ranks = 18863 
+ rank = 2000 of ranks = 18863 
+ rank = 2100 of ranks = 18863 
+ rank = 2200 of ranks = 18863 
+ rank = 2300 of ranks = 18863 
+ rank = 2400 of ranks = 18863 
+ rank = 2500 of ranks = 18863 
+ rank = 2600 of ranks = 18863 
+ rank = 2700 of ranks = 18863 
+ rank = 2800 of ranks = 18863 
+ rank = 2900 of ranks = 18863 
+ rank = 3000 of ranks = 18863 
+ rank = 3100 of ranks = 18863 
+ rank = 3200 of ranks = 18863 
+ rank = 3300 of ranks = 18863 
+ rank = 3400 of ranks = 18863 
+ rank = 3500 of ranks = 18863 
+ rank = 3600 of ranks = 18863 
+ rank = 3700 of ranks = 18863 
+ rank = 3800 of ranks = 18863 
+ rank = 3900 of ranks = 18863 
+ rank = 4000 of ranks = 18863 
+ rank = 4100 of ranks = 18863 
+ rank = 4200 of ranks = 18863 
+ rank = 4300 of ranks = 18863 
+ rank = 4400 of ranks = 18863 
+ rank = 4500 of ranks = 18863 
+ rank = 4600 of ranks = 18863 
+ rank = 4700 of ranks = 18863 
+ rank = 4800 of ranks = 18863 
+ rank = 4900 of ranks = 18863 
+ rank = 5000 of ranks = 18863 
+ rank = 5100 of ranks = 18863 
+ rank = 5200 of ranks = 18863 
+ rank = 5300 of ranks = 18863 
+ rank = 5400 of ranks = 18863 
+ rank = 5500 of ranks = 18863 
+ rank = 5600 of ranks = 18863 
+ rank = 5700 of ranks = 18863 
+ rank = 5800 of ranks = 18863 
+ rank = 5900 of ranks = 18863 
+ rank = 6000 of ranks = 18863 
+ rank = 6100 of ranks = 18863 
+ rank = 6200 of ranks = 18863 
+ rank = 6300 of ranks = 18863 
+ rank = 6400 of ranks = 18863 
+ rank = 6500 of ranks = 18863 
+ rank = 6600 of ranks = 18863 
+ rank = 6700 of ranks = 18863 
+ rank = 6800 of ranks = 18863 
+ rank = 6900 of ranks = 18863 
+ rank = 7000 of ranks = 18863 
+ rank = 7100 of ranks = 18863 
+ rank = 7200 of ranks = 18863 
+ rank = 7300 of ranks = 18863 
+ rank = 7400 of ranks = 18863 
+ rank = 7500 of ranks = 18863 
+ rank = 7600 of ranks = 18863 
+ rank = 7700 of ranks = 18863 
+ rank = 7800 of ranks = 18863 
+ rank = 7900 of ranks = 18863 
+ rank = 8000 of ranks = 18863 
+ rank = 8100 of ranks = 18863 
+ rank = 8200 of ranks = 18863 
+ rank = 8300 of ranks = 18863 
+ rank = 8400 of ranks = 18863 
+ rank = 8500 of ranks = 18863 
+ rank = 8600 of ranks = 18863 
+ rank = 8700 of ranks = 18863 
+ rank = 8800 of ranks = 18863 
+ rank = 8900 of ranks = 18863 
+ rank = 9000 of ranks = 18863 
+ rank = 9100 of ranks = 18863 
+ rank = 9200 of ranks = 18863 
+ rank = 9300 of ranks = 18863 
+ rank = 9400 of ranks = 18863 
+ rank = 9500 of ranks = 18863 
+ rank = 9600 of ranks = 18863 
+ rank = 9700 of ranks = 18863 
+ rank = 9800 of ranks = 18863 
+ rank = 9900 of ranks = 18863 
+ rank = 10000 of ranks = 18863 
+ rank = 10100 of ranks = 18863 
+ rank = 10200 of ranks = 18863 
+ rank = 10300 of ranks = 18863 
+ rank = 10400 of ranks = 18863 
+ rank = 10500 of ranks = 18863 
+ rank = 10600 of ranks = 18863 
+ rank = 10700 of ranks = 18863 
+ rank = 10800 of ranks = 18863 
+ rank = 10900 of ranks = 18863 
+ rank = 11000 of ranks = 18863 
+ rank = 11100 of ranks = 18863 
+ rank = 11200 of ranks = 18863 
+ rank = 11300 of ranks = 18863 
+ rank = 11400 of ranks = 18863 
+ rank = 11500 of ranks = 18863 
+ rank = 11600 of ranks = 18863 
+ rank = 11700 of ranks = 18863 
+ rank = 11800 of ranks = 18863 
+ rank = 11900 of ranks = 18863 
+ rank = 12000 of ranks = 18863 
+ rank = 12100 of ranks = 18863 
+ rank = 12200 of ranks = 18863 
+ rank = 12300 of ranks = 18863 
+ rank = 12400 of ranks = 18863 
+ rank = 12500 of ranks = 18863 
+ rank = 12600 of ranks = 18863 
+ rank = 12700 of ranks = 18863 
+ rank = 12800 of ranks = 18863 
+ rank = 12900 of ranks = 18863 
+ rank = 13000 of ranks = 18863 
+ rank = 13100 of ranks = 18863 
+ rank = 13200 of ranks = 18863 
+ rank = 13300 of ranks = 18863 
+ rank = 13400 of ranks = 18863 
+ rank = 13500 of ranks = 18863 
+ rank = 13600 of ranks = 18863 
+ rank = 13700 of ranks = 18863 
+ rank = 13800 of ranks = 18863 
+ rank = 13900 of ranks = 18863 
+ rank = 14000 of ranks = 18863 
+ rank = 14100 of ranks = 18863 
+ rank = 14200 of ranks = 18863 
+ rank = 14300 of ranks = 18863 
+ rank = 14400 of ranks = 18863 
+ rank = 14500 of ranks = 18863 
+ rank = 14600 of ranks = 18863 
+ rank = 14700 of ranks = 18863 
+ rank = 14800 of ranks = 18863 
+ rank = 14900 of ranks = 18863 
+ rank = 15000 of ranks = 18863 
+ rank = 15100 of ranks = 18863 
+ rank = 15200 of ranks = 18863 
+ rank = 15300 of ranks = 18863 
+ rank = 15400 of ranks = 18863 
+ rank = 15500 of ranks = 18863 
+ rank = 15600 of ranks = 18863 
+ rank = 15700 of ranks = 18863 
+ rank = 15800 of ranks = 18863 
+ rank = 15900 of ranks = 18863 
+ rank = 16000 of ranks = 18863 
+ rank = 16100 of ranks = 18863 
+ rank = 16200 of ranks = 18863 
+ rank = 16300 of ranks = 18863 
+ rank = 16400 of ranks = 18863 
+ rank = 16500 of ranks = 18863 
+ rank = 16600 of ranks = 18863 
+ rank = 16700 of ranks = 18863 
+ rank = 16800 of ranks = 18863 
+ rank = 16900 of ranks = 18863 
+ rank = 17000 of ranks = 18863 
+ rank = 17100 of ranks = 18863 
+ rank = 17200 of ranks = 18863 
+ rank = 17300 of ranks = 18863 
+ rank = 17400 of ranks = 18863 
+ rank = 17500 of ranks = 18863 
+ rank = 17600 of ranks = 18863 
+ rank = 17700 of ranks = 18863 
+ rank = 17800 of ranks = 18863 
+ rank = 17900 of ranks = 18863 
+ rank = 18000 of ranks = 18863 
+ rank = 18100 of ranks = 18863 
+ rank = 18200 of ranks = 18863 
+ rank = 18300 of ranks = 18863 
+ rank = 18400 of ranks = 18863 
+ rank = 18500 of ranks = 18863 
+ rank = 18600 of ranks = 18863 
+ rank = 18700 of ranks = 18863 
+ rank = 18800 of ranks = 18863 
+class_id = 0, name = upper_body, ap = 88.83%   	 (TP = 1313, FP = 763) 
 class_id = 1, name = head, ap = 85.99%   	 (TP = 1120, FP = 300) 
 class_id = 2, name = whole_body, ap = 95.70%   	 (TP = 1512, FP = 661) 
 
@@ -6355,7 +6720,165 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 15782, unique_truth_count = 4450  
- rank = 0 of ranks = 15782  rank = 100 of ranks = 15782  rank = 200 of ranks = 15782  rank = 300 of ranks = 15782  rank = 400 of ranks = 15782  rank = 500 of ranks = 15782  rank = 600 of ranks = 15782  rank = 700 of ranks = 15782  rank = 800 of ranks = 15782  rank = 900 of ranks = 15782  rank = 1000 of ranks = 15782  rank = 1100 of ranks = 15782  rank = 1200 of ranks = 15782  rank = 1300 of ranks = 15782  rank = 1400 of ranks = 15782  rank = 1500 of ranks = 15782  rank = 1600 of ranks = 15782  rank = 1700 of ranks = 15782  rank = 1800 of ranks = 15782  rank = 1900 of ranks = 15782  rank = 2000 of ranks = 15782  rank = 2100 of ranks = 15782  rank = 2200 of ranks = 15782  rank = 2300 of ranks = 15782  rank = 2400 of ranks = 15782  rank = 2500 of ranks = 15782  rank = 2600 of ranks = 15782  rank = 2700 of ranks = 15782  rank = 2800 of ranks = 15782  rank = 2900 of ranks = 15782  rank = 3000 of ranks = 15782  rank = 3100 of ranks = 15782  rank = 3200 of ranks = 15782  rank = 3300 of ranks = 15782  rank = 3400 of ranks = 15782  rank = 3500 of ranks = 15782  rank = 3600 of ranks = 15782  rank = 3700 of ranks = 15782  rank = 3800 of ranks = 15782  rank = 3900 of ranks = 15782  rank = 4000 of ranks = 15782  rank = 4100 of ranks = 15782  rank = 4200 of ranks = 15782  rank = 4300 of ranks = 15782  rank = 4400 of ranks = 15782  rank = 4500 of ranks = 15782  rank = 4600 of ranks = 15782  rank = 4700 of ranks = 15782  rank = 4800 of ranks = 15782  rank = 4900 of ranks = 15782  rank = 5000 of ranks = 15782  rank = 5100 of ranks = 15782  rank = 5200 of ranks = 15782  rank = 5300 of ranks = 15782  rank = 5400 of ranks = 15782  rank = 5500 of ranks = 15782  rank = 5600 of ranks = 15782  rank = 5700 of ranks = 15782  rank = 5800 of ranks = 15782  rank = 5900 of ranks = 15782  rank = 6000 of ranks = 15782  rank = 6100 of ranks = 15782  rank = 6200 of ranks = 15782  rank = 6300 of ranks = 15782  rank = 6400 of ranks = 15782  rank = 6500 of ranks = 15782  rank = 6600 of ranks = 15782  rank = 6700 of ranks = 15782  rank = 6800 of ranks = 15782  rank = 6900 of ranks = 15782  rank = 7000 of ranks = 15782  rank = 7100 of ranks = 15782  rank = 7200 of ranks = 15782  rank = 7300 of ranks = 15782  rank = 7400 of ranks = 15782  rank = 7500 of ranks = 15782  rank = 7600 of ranks = 15782  rank = 7700 of ranks = 15782  rank = 7800 of ranks = 15782  rank = 7900 of ranks = 15782  rank = 8000 of ranks = 15782  rank = 8100 of ranks = 15782  rank = 8200 of ranks = 15782  rank = 8300 of ranks = 15782  rank = 8400 of ranks = 15782  rank = 8500 of ranks = 15782  rank = 8600 of ranks = 15782  rank = 8700 of ranks = 15782  rank = 8800 of ranks = 15782  rank = 8900 of ranks = 15782  rank = 9000 of ranks = 15782  rank = 9100 of ranks = 15782  rank = 9200 of ranks = 15782  rank = 9300 of ranks = 15782  rank = 9400 of ranks = 15782  rank = 9500 of ranks = 15782  rank = 9600 of ranks = 15782  rank = 9700 of ranks = 15782  rank = 9800 of ranks = 15782  rank = 9900 of ranks = 15782  rank = 10000 of ranks = 15782  rank = 10100 of ranks = 15782  rank = 10200 of ranks = 15782  rank = 10300 of ranks = 15782  rank = 10400 of ranks = 15782  rank = 10500 of ranks = 15782  rank = 10600 of ranks = 15782  rank = 10700 of ranks = 15782  rank = 10800 of ranks = 15782  rank = 10900 of ranks = 15782  rank = 11000 of ranks = 15782  rank = 11100 of ranks = 15782  rank = 11200 of ranks = 15782  rank = 11300 of ranks = 15782  rank = 11400 of ranks = 15782  rank = 11500 of ranks = 15782  rank = 11600 of ranks = 15782  rank = 11700 of ranks = 15782  rank = 11800 of ranks = 15782  rank = 11900 of ranks = 15782  rank = 12000 of ranks = 15782  rank = 12100 of ranks = 15782  rank = 12200 of ranks = 15782  rank = 12300 of ranks = 15782  rank = 12400 of ranks = 15782  rank = 12500 of ranks = 15782  rank = 12600 of ranks = 15782  rank = 12700 of ranks = 15782  rank = 12800 of ranks = 15782  rank = 12900 of ranks = 15782  rank = 13000 of ranks = 15782  rank = 13100 of ranks = 15782  rank = 13200 of ranks = 15782  rank = 13300 of ranks = 15782  rank = 13400 of ranks = 15782  rank = 13500 of ranks = 15782  rank = 13600 of ranks = 15782  rank = 13700 of ranks = 15782  rank = 13800 of ranks = 15782  rank = 13900 of ranks = 15782  rank = 14000 of ranks = 15782  rank = 14100 of ranks = 15782  rank = 14200 of ranks = 15782  rank = 14300 of ranks = 15782  rank = 14400 of ranks = 15782  rank = 14500 of ranks = 15782  rank = 14600 of ranks = 15782  rank = 14700 of ranks = 15782  rank = 14800 of ranks = 15782  rank = 14900 of ranks = 15782  rank = 15000 of ranks = 15782  rank = 15100 of ranks = 15782  rank = 15200 of ranks = 15782  rank = 15300 of ranks = 15782  rank = 15400 of ranks = 15782  rank = 15500 of ranks = 15782  rank = 15600 of ranks = 15782  rank = 15700 of ranks = 15782 class_id = 0, name = upper_body, ap = 89.38%   	 (TP = 1329, FP = 659) 
+ rank = 0 of ranks = 15782 
+ rank = 100 of ranks = 15782 
+ rank = 200 of ranks = 15782 
+ rank = 300 of ranks = 15782 
+ rank = 400 of ranks = 15782 
+ rank = 500 of ranks = 15782 
+ rank = 600 of ranks = 15782 
+ rank = 700 of ranks = 15782 
+ rank = 800 of ranks = 15782 
+ rank = 900 of ranks = 15782 
+ rank = 1000 of ranks = 15782 
+ rank = 1100 of ranks = 15782 
+ rank = 1200 of ranks = 15782 
+ rank = 1300 of ranks = 15782 
+ rank = 1400 of ranks = 15782 
+ rank = 1500 of ranks = 15782 
+ rank = 1600 of ranks = 15782 
+ rank = 1700 of ranks = 15782 
+ rank = 1800 of ranks = 15782 
+ rank = 1900 of ranks = 15782 
+ rank = 2000 of ranks = 15782 
+ rank = 2100 of ranks = 15782 
+ rank = 2200 of ranks = 15782 
+ rank = 2300 of ranks = 15782 
+ rank = 2400 of ranks = 15782 
+ rank = 2500 of ranks = 15782 
+ rank = 2600 of ranks = 15782 
+ rank = 2700 of ranks = 15782 
+ rank = 2800 of ranks = 15782 
+ rank = 2900 of ranks = 15782 
+ rank = 3000 of ranks = 15782 
+ rank = 3100 of ranks = 15782 
+ rank = 3200 of ranks = 15782 
+ rank = 3300 of ranks = 15782 
+ rank = 3400 of ranks = 15782 
+ rank = 3500 of ranks = 15782 
+ rank = 3600 of ranks = 15782 
+ rank = 3700 of ranks = 15782 
+ rank = 3800 of ranks = 15782 
+ rank = 3900 of ranks = 15782 
+ rank = 4000 of ranks = 15782 
+ rank = 4100 of ranks = 15782 
+ rank = 4200 of ranks = 15782 
+ rank = 4300 of ranks = 15782 
+ rank = 4400 of ranks = 15782 
+ rank = 4500 of ranks = 15782 
+ rank = 4600 of ranks = 15782 
+ rank = 4700 of ranks = 15782 
+ rank = 4800 of ranks = 15782 
+ rank = 4900 of ranks = 15782 
+ rank = 5000 of ranks = 15782 
+ rank = 5100 of ranks = 15782 
+ rank = 5200 of ranks = 15782 
+ rank = 5300 of ranks = 15782 
+ rank = 5400 of ranks = 15782 
+ rank = 5500 of ranks = 15782 
+ rank = 5600 of ranks = 15782 
+ rank = 5700 of ranks = 15782 
+ rank = 5800 of ranks = 15782 
+ rank = 5900 of ranks = 15782 
+ rank = 6000 of ranks = 15782 
+ rank = 6100 of ranks = 15782 
+ rank = 6200 of ranks = 15782 
+ rank = 6300 of ranks = 15782 
+ rank = 6400 of ranks = 15782 
+ rank = 6500 of ranks = 15782 
+ rank = 6600 of ranks = 15782 
+ rank = 6700 of ranks = 15782 
+ rank = 6800 of ranks = 15782 
+ rank = 6900 of ranks = 15782 
+ rank = 7000 of ranks = 15782 
+ rank = 7100 of ranks = 15782 
+ rank = 7200 of ranks = 15782 
+ rank = 7300 of ranks = 15782 
+ rank = 7400 of ranks = 15782 
+ rank = 7500 of ranks = 15782 
+ rank = 7600 of ranks = 15782 
+ rank = 7700 of ranks = 15782 
+ rank = 7800 of ranks = 15782 
+ rank = 7900 of ranks = 15782 
+ rank = 8000 of ranks = 15782 
+ rank = 8100 of ranks = 15782 
+ rank = 8200 of ranks = 15782 
+ rank = 8300 of ranks = 15782 
+ rank = 8400 of ranks = 15782 
+ rank = 8500 of ranks = 15782 
+ rank = 8600 of ranks = 15782 
+ rank = 8700 of ranks = 15782 
+ rank = 8800 of ranks = 15782 
+ rank = 8900 of ranks = 15782 
+ rank = 9000 of ranks = 15782 
+ rank = 9100 of ranks = 15782 
+ rank = 9200 of ranks = 15782 
+ rank = 9300 of ranks = 15782 
+ rank = 9400 of ranks = 15782 
+ rank = 9500 of ranks = 15782 
+ rank = 9600 of ranks = 15782 
+ rank = 9700 of ranks = 15782 
+ rank = 9800 of ranks = 15782 
+ rank = 9900 of ranks = 15782 
+ rank = 10000 of ranks = 15782 
+ rank = 10100 of ranks = 15782 
+ rank = 10200 of ranks = 15782 
+ rank = 10300 of ranks = 15782 
+ rank = 10400 of ranks = 15782 
+ rank = 10500 of ranks = 15782 
+ rank = 10600 of ranks = 15782 
+ rank = 10700 of ranks = 15782 
+ rank = 10800 of ranks = 15782 
+ rank = 10900 of ranks = 15782 
+ rank = 11000 of ranks = 15782 
+ rank = 11100 of ranks = 15782 
+ rank = 11200 of ranks = 15782 
+ rank = 11300 of ranks = 15782 
+ rank = 11400 of ranks = 15782 
+ rank = 11500 of ranks = 15782 
+ rank = 11600 of ranks = 15782 
+ rank = 11700 of ranks = 15782 
+ rank = 11800 of ranks = 15782 
+ rank = 11900 of ranks = 15782 
+ rank = 12000 of ranks = 15782 
+ rank = 12100 of ranks = 15782 
+ rank = 12200 of ranks = 15782 
+ rank = 12300 of ranks = 15782 
+ rank = 12400 of ranks = 15782 
+ rank = 12500 of ranks = 15782 
+ rank = 12600 of ranks = 15782 
+ rank = 12700 of ranks = 15782 
+ rank = 12800 of ranks = 15782 
+ rank = 12900 of ranks = 15782 
+ rank = 13000 of ranks = 15782 
+ rank = 13100 of ranks = 15782 
+ rank = 13200 of ranks = 15782 
+ rank = 13300 of ranks = 15782 
+ rank = 13400 of ranks = 15782 
+ rank = 13500 of ranks = 15782 
+ rank = 13600 of ranks = 15782 
+ rank = 13700 of ranks = 15782 
+ rank = 13800 of ranks = 15782 
+ rank = 13900 of ranks = 15782 
+ rank = 14000 of ranks = 15782 
+ rank = 14100 of ranks = 15782 
+ rank = 14200 of ranks = 15782 
+ rank = 14300 of ranks = 15782 
+ rank = 14400 of ranks = 15782 
+ rank = 14500 of ranks = 15782 
+ rank = 14600 of ranks = 15782 
+ rank = 14700 of ranks = 15782 
+ rank = 14800 of ranks = 15782 
+ rank = 14900 of ranks = 15782 
+ rank = 15000 of ranks = 15782 
+ rank = 15100 of ranks = 15782 
+ rank = 15200 of ranks = 15782 
+ rank = 15300 of ranks = 15782 
+ rank = 15400 of ranks = 15782 
+ rank = 15500 of ranks = 15782 
+ rank = 15600 of ranks = 15782 
+ rank = 15700 of ranks = 15782 
+class_id = 0, name = upper_body, ap = 89.38%   	 (TP = 1329, FP = 659) 
 class_id = 1, name = head, ap = 79.59%   	 (TP = 1072, FP = 261) 
 class_id = 2, name = whole_body, ap = 96.76%   	 (TP = 1538, FP = 510) 
 
@@ -7265,7 +7788,151 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 14311, unique_truth_count = 4450  
- rank = 0 of ranks = 14311  rank = 100 of ranks = 14311  rank = 200 of ranks = 14311  rank = 300 of ranks = 14311  rank = 400 of ranks = 14311  rank = 500 of ranks = 14311  rank = 600 of ranks = 14311  rank = 700 of ranks = 14311  rank = 800 of ranks = 14311  rank = 900 of ranks = 14311  rank = 1000 of ranks = 14311  rank = 1100 of ranks = 14311  rank = 1200 of ranks = 14311  rank = 1300 of ranks = 14311  rank = 1400 of ranks = 14311  rank = 1500 of ranks = 14311  rank = 1600 of ranks = 14311  rank = 1700 of ranks = 14311  rank = 1800 of ranks = 14311  rank = 1900 of ranks = 14311  rank = 2000 of ranks = 14311  rank = 2100 of ranks = 14311  rank = 2200 of ranks = 14311  rank = 2300 of ranks = 14311  rank = 2400 of ranks = 14311  rank = 2500 of ranks = 14311  rank = 2600 of ranks = 14311  rank = 2700 of ranks = 14311  rank = 2800 of ranks = 14311  rank = 2900 of ranks = 14311  rank = 3000 of ranks = 14311  rank = 3100 of ranks = 14311  rank = 3200 of ranks = 14311  rank = 3300 of ranks = 14311  rank = 3400 of ranks = 14311  rank = 3500 of ranks = 14311  rank = 3600 of ranks = 14311  rank = 3700 of ranks = 14311  rank = 3800 of ranks = 14311  rank = 3900 of ranks = 14311  rank = 4000 of ranks = 14311  rank = 4100 of ranks = 14311  rank = 4200 of ranks = 14311  rank = 4300 of ranks = 14311  rank = 4400 of ranks = 14311  rank = 4500 of ranks = 14311  rank = 4600 of ranks = 14311  rank = 4700 of ranks = 14311  rank = 4800 of ranks = 14311  rank = 4900 of ranks = 14311  rank = 5000 of ranks = 14311  rank = 5100 of ranks = 14311  rank = 5200 of ranks = 14311  rank = 5300 of ranks = 14311  rank = 5400 of ranks = 14311  rank = 5500 of ranks = 14311  rank = 5600 of ranks = 14311  rank = 5700 of ranks = 14311  rank = 5800 of ranks = 14311  rank = 5900 of ranks = 14311  rank = 6000 of ranks = 14311  rank = 6100 of ranks = 14311  rank = 6200 of ranks = 14311  rank = 6300 of ranks = 14311  rank = 6400 of ranks = 14311  rank = 6500 of ranks = 14311  rank = 6600 of ranks = 14311  rank = 6700 of ranks = 14311  rank = 6800 of ranks = 14311  rank = 6900 of ranks = 14311  rank = 7000 of ranks = 14311  rank = 7100 of ranks = 14311  rank = 7200 of ranks = 14311  rank = 7300 of ranks = 14311  rank = 7400 of ranks = 14311  rank = 7500 of ranks = 14311  rank = 7600 of ranks = 14311  rank = 7700 of ranks = 14311  rank = 7800 of ranks = 14311  rank = 7900 of ranks = 14311  rank = 8000 of ranks = 14311  rank = 8100 of ranks = 14311  rank = 8200 of ranks = 14311  rank = 8300 of ranks = 14311  rank = 8400 of ranks = 14311  rank = 8500 of ranks = 14311  rank = 8600 of ranks = 14311  rank = 8700 of ranks = 14311  rank = 8800 of ranks = 14311  rank = 8900 of ranks = 14311  rank = 9000 of ranks = 14311  rank = 9100 of ranks = 14311  rank = 9200 of ranks = 14311  rank = 9300 of ranks = 14311  rank = 9400 of ranks = 14311  rank = 9500 of ranks = 14311  rank = 9600 of ranks = 14311  rank = 9700 of ranks = 14311  rank = 9800 of ranks = 14311  rank = 9900 of ranks = 14311  rank = 10000 of ranks = 14311  rank = 10100 of ranks = 14311  rank = 10200 of ranks = 14311  rank = 10300 of ranks = 14311  rank = 10400 of ranks = 14311  rank = 10500 of ranks = 14311  rank = 10600 of ranks = 14311  rank = 10700 of ranks = 14311  rank = 10800 of ranks = 14311  rank = 10900 of ranks = 14311  rank = 11000 of ranks = 14311  rank = 11100 of ranks = 14311  rank = 11200 of ranks = 14311  rank = 11300 of ranks = 14311  rank = 11400 of ranks = 14311  rank = 11500 of ranks = 14311  rank = 11600 of ranks = 14311  rank = 11700 of ranks = 14311  rank = 11800 of ranks = 14311  rank = 11900 of ranks = 14311  rank = 12000 of ranks = 14311  rank = 12100 of ranks = 14311  rank = 12200 of ranks = 14311  rank = 12300 of ranks = 14311  rank = 12400 of ranks = 14311  rank = 12500 of ranks = 14311  rank = 12600 of ranks = 14311  rank = 12700 of ranks = 14311  rank = 12800 of ranks = 14311  rank = 12900 of ranks = 14311  rank = 13000 of ranks = 14311  rank = 13100 of ranks = 14311  rank = 13200 of ranks = 14311  rank = 13300 of ranks = 14311  rank = 13400 of ranks = 14311  rank = 13500 of ranks = 14311  rank = 13600 of ranks = 14311  rank = 13700 of ranks = 14311  rank = 13800 of ranks = 14311  rank = 13900 of ranks = 14311  rank = 14000 of ranks = 14311  rank = 14100 of ranks = 14311  rank = 14200 of ranks = 14311  rank = 14300 of ranks = 14311 class_id = 0, name = upper_body, ap = 87.01%   	 (TP = 1307, FP = 690) 
+ rank = 0 of ranks = 14311 
+ rank = 100 of ranks = 14311 
+ rank = 200 of ranks = 14311 
+ rank = 300 of ranks = 14311 
+ rank = 400 of ranks = 14311 
+ rank = 500 of ranks = 14311 
+ rank = 600 of ranks = 14311 
+ rank = 700 of ranks = 14311 
+ rank = 800 of ranks = 14311 
+ rank = 900 of ranks = 14311 
+ rank = 1000 of ranks = 14311 
+ rank = 1100 of ranks = 14311 
+ rank = 1200 of ranks = 14311 
+ rank = 1300 of ranks = 14311 
+ rank = 1400 of ranks = 14311 
+ rank = 1500 of ranks = 14311 
+ rank = 1600 of ranks = 14311 
+ rank = 1700 of ranks = 14311 
+ rank = 1800 of ranks = 14311 
+ rank = 1900 of ranks = 14311 
+ rank = 2000 of ranks = 14311 
+ rank = 2100 of ranks = 14311 
+ rank = 2200 of ranks = 14311 
+ rank = 2300 of ranks = 14311 
+ rank = 2400 of ranks = 14311 
+ rank = 2500 of ranks = 14311 
+ rank = 2600 of ranks = 14311 
+ rank = 2700 of ranks = 14311 
+ rank = 2800 of ranks = 14311 
+ rank = 2900 of ranks = 14311 
+ rank = 3000 of ranks = 14311 
+ rank = 3100 of ranks = 14311 
+ rank = 3200 of ranks = 14311 
+ rank = 3300 of ranks = 14311 
+ rank = 3400 of ranks = 14311 
+ rank = 3500 of ranks = 14311 
+ rank = 3600 of ranks = 14311 
+ rank = 3700 of ranks = 14311 
+ rank = 3800 of ranks = 14311 
+ rank = 3900 of ranks = 14311 
+ rank = 4000 of ranks = 14311 
+ rank = 4100 of ranks = 14311 
+ rank = 4200 of ranks = 14311 
+ rank = 4300 of ranks = 14311 
+ rank = 4400 of ranks = 14311 
+ rank = 4500 of ranks = 14311 
+ rank = 4600 of ranks = 14311 
+ rank = 4700 of ranks = 14311 
+ rank = 4800 of ranks = 14311 
+ rank = 4900 of ranks = 14311 
+ rank = 5000 of ranks = 14311 
+ rank = 5100 of ranks = 14311 
+ rank = 5200 of ranks = 14311 
+ rank = 5300 of ranks = 14311 
+ rank = 5400 of ranks = 14311 
+ rank = 5500 of ranks = 14311 
+ rank = 5600 of ranks = 14311 
+ rank = 5700 of ranks = 14311 
+ rank = 5800 of ranks = 14311 
+ rank = 5900 of ranks = 14311 
+ rank = 6000 of ranks = 14311 
+ rank = 6100 of ranks = 14311 
+ rank = 6200 of ranks = 14311 
+ rank = 6300 of ranks = 14311 
+ rank = 6400 of ranks = 14311 
+ rank = 6500 of ranks = 14311 
+ rank = 6600 of ranks = 14311 
+ rank = 6700 of ranks = 14311 
+ rank = 6800 of ranks = 14311 
+ rank = 6900 of ranks = 14311 
+ rank = 7000 of ranks = 14311 
+ rank = 7100 of ranks = 14311 
+ rank = 7200 of ranks = 14311 
+ rank = 7300 of ranks = 14311 
+ rank = 7400 of ranks = 14311 
+ rank = 7500 of ranks = 14311 
+ rank = 7600 of ranks = 14311 
+ rank = 7700 of ranks = 14311 
+ rank = 7800 of ranks = 14311 
+ rank = 7900 of ranks = 14311 
+ rank = 8000 of ranks = 14311 
+ rank = 8100 of ranks = 14311 
+ rank = 8200 of ranks = 14311 
+ rank = 8300 of ranks = 14311 
+ rank = 8400 of ranks = 14311 
+ rank = 8500 of ranks = 14311 
+ rank = 8600 of ranks = 14311 
+ rank = 8700 of ranks = 14311 
+ rank = 8800 of ranks = 14311 
+ rank = 8900 of ranks = 14311 
+ rank = 9000 of ranks = 14311 
+ rank = 9100 of ranks = 14311 
+ rank = 9200 of ranks = 14311 
+ rank = 9300 of ranks = 14311 
+ rank = 9400 of ranks = 14311 
+ rank = 9500 of ranks = 14311 
+ rank = 9600 of ranks = 14311 
+ rank = 9700 of ranks = 14311 
+ rank = 9800 of ranks = 14311 
+ rank = 9900 of ranks = 14311 
+ rank = 10000 of ranks = 14311 
+ rank = 10100 of ranks = 14311 
+ rank = 10200 of ranks = 14311 
+ rank = 10300 of ranks = 14311 
+ rank = 10400 of ranks = 14311 
+ rank = 10500 of ranks = 14311 
+ rank = 10600 of ranks = 14311 
+ rank = 10700 of ranks = 14311 
+ rank = 10800 of ranks = 14311 
+ rank = 10900 of ranks = 14311 
+ rank = 11000 of ranks = 14311 
+ rank = 11100 of ranks = 14311 
+ rank = 11200 of ranks = 14311 
+ rank = 11300 of ranks = 14311 
+ rank = 11400 of ranks = 14311 
+ rank = 11500 of ranks = 14311 
+ rank = 11600 of ranks = 14311 
+ rank = 11700 of ranks = 14311 
+ rank = 11800 of ranks = 14311 
+ rank = 11900 of ranks = 14311 
+ rank = 12000 of ranks = 14311 
+ rank = 12100 of ranks = 14311 
+ rank = 12200 of ranks = 14311 
+ rank = 12300 of ranks = 14311 
+ rank = 12400 of ranks = 14311 
+ rank = 12500 of ranks = 14311 
+ rank = 12600 of ranks = 14311 
+ rank = 12700 of ranks = 14311 
+ rank = 12800 of ranks = 14311 
+ rank = 12900 of ranks = 14311 
+ rank = 13000 of ranks = 14311 
+ rank = 13100 of ranks = 14311 
+ rank = 13200 of ranks = 14311 
+ rank = 13300 of ranks = 14311 
+ rank = 13400 of ranks = 14311 
+ rank = 13500 of ranks = 14311 
+ rank = 13600 of ranks = 14311 
+ rank = 13700 of ranks = 14311 
+ rank = 13800 of ranks = 14311 
+ rank = 13900 of ranks = 14311 
+ rank = 14000 of ranks = 14311 
+ rank = 14100 of ranks = 14311 
+ rank = 14200 of ranks = 14311 
+ rank = 14300 of ranks = 14311 
+class_id = 0, name = upper_body, ap = 87.01%   	 (TP = 1307, FP = 690) 
 class_id = 1, name = head, ap = 87.18%   	 (TP = 1141, FP = 266) 
 class_id = 2, name = whole_body, ap = 96.86%   	 (TP = 1538, FP = 519) 
 
@@ -8176,7 +8843,156 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 14804, unique_truth_count = 4450  
- rank = 0 of ranks = 14804  rank = 100 of ranks = 14804  rank = 200 of ranks = 14804  rank = 300 of ranks = 14804  rank = 400 of ranks = 14804  rank = 500 of ranks = 14804  rank = 600 of ranks = 14804  rank = 700 of ranks = 14804  rank = 800 of ranks = 14804  rank = 900 of ranks = 14804  rank = 1000 of ranks = 14804  rank = 1100 of ranks = 14804  rank = 1200 of ranks = 14804  rank = 1300 of ranks = 14804  rank = 1400 of ranks = 14804  rank = 1500 of ranks = 14804  rank = 1600 of ranks = 14804  rank = 1700 of ranks = 14804  rank = 1800 of ranks = 14804  rank = 1900 of ranks = 14804  rank = 2000 of ranks = 14804  rank = 2100 of ranks = 14804  rank = 2200 of ranks = 14804  rank = 2300 of ranks = 14804  rank = 2400 of ranks = 14804  rank = 2500 of ranks = 14804  rank = 2600 of ranks = 14804  rank = 2700 of ranks = 14804  rank = 2800 of ranks = 14804  rank = 2900 of ranks = 14804  rank = 3000 of ranks = 14804  rank = 3100 of ranks = 14804  rank = 3200 of ranks = 14804  rank = 3300 of ranks = 14804  rank = 3400 of ranks = 14804  rank = 3500 of ranks = 14804  rank = 3600 of ranks = 14804  rank = 3700 of ranks = 14804  rank = 3800 of ranks = 14804  rank = 3900 of ranks = 14804  rank = 4000 of ranks = 14804  rank = 4100 of ranks = 14804  rank = 4200 of ranks = 14804  rank = 4300 of ranks = 14804  rank = 4400 of ranks = 14804  rank = 4500 of ranks = 14804  rank = 4600 of ranks = 14804  rank = 4700 of ranks = 14804  rank = 4800 of ranks = 14804  rank = 4900 of ranks = 14804  rank = 5000 of ranks = 14804  rank = 5100 of ranks = 14804  rank = 5200 of ranks = 14804  rank = 5300 of ranks = 14804  rank = 5400 of ranks = 14804  rank = 5500 of ranks = 14804  rank = 5600 of ranks = 14804  rank = 5700 of ranks = 14804  rank = 5800 of ranks = 14804  rank = 5900 of ranks = 14804  rank = 6000 of ranks = 14804  rank = 6100 of ranks = 14804  rank = 6200 of ranks = 14804  rank = 6300 of ranks = 14804  rank = 6400 of ranks = 14804  rank = 6500 of ranks = 14804  rank = 6600 of ranks = 14804  rank = 6700 of ranks = 14804  rank = 6800 of ranks = 14804  rank = 6900 of ranks = 14804  rank = 7000 of ranks = 14804  rank = 7100 of ranks = 14804  rank = 7200 of ranks = 14804  rank = 7300 of ranks = 14804  rank = 7400 of ranks = 14804  rank = 7500 of ranks = 14804  rank = 7600 of ranks = 14804  rank = 7700 of ranks = 14804  rank = 7800 of ranks = 14804  rank = 7900 of ranks = 14804  rank = 8000 of ranks = 14804  rank = 8100 of ranks = 14804  rank = 8200 of ranks = 14804  rank = 8300 of ranks = 14804  rank = 8400 of ranks = 14804  rank = 8500 of ranks = 14804  rank = 8600 of ranks = 14804  rank = 8700 of ranks = 14804  rank = 8800 of ranks = 14804  rank = 8900 of ranks = 14804  rank = 9000 of ranks = 14804  rank = 9100 of ranks = 14804  rank = 9200 of ranks = 14804  rank = 9300 of ranks = 14804  rank = 9400 of ranks = 14804  rank = 9500 of ranks = 14804  rank = 9600 of ranks = 14804  rank = 9700 of ranks = 14804  rank = 9800 of ranks = 14804  rank = 9900 of ranks = 14804  rank = 10000 of ranks = 14804  rank = 10100 of ranks = 14804  rank = 10200 of ranks = 14804  rank = 10300 of ranks = 14804  rank = 10400 of ranks = 14804  rank = 10500 of ranks = 14804  rank = 10600 of ranks = 14804  rank = 10700 of ranks = 14804  rank = 10800 of ranks = 14804  rank = 10900 of ranks = 14804  rank = 11000 of ranks = 14804  rank = 11100 of ranks = 14804  rank = 11200 of ranks = 14804  rank = 11300 of ranks = 14804  rank = 11400 of ranks = 14804  rank = 11500 of ranks = 14804  rank = 11600 of ranks = 14804  rank = 11700 of ranks = 14804  rank = 11800 of ranks = 14804  rank = 11900 of ranks = 14804  rank = 12000 of ranks = 14804  rank = 12100 of ranks = 14804  rank = 12200 of ranks = 14804  rank = 12300 of ranks = 14804  rank = 12400 of ranks = 14804  rank = 12500 of ranks = 14804  rank = 12600 of ranks = 14804  rank = 12700 of ranks = 14804  rank = 12800 of ranks = 14804  rank = 12900 of ranks = 14804  rank = 13000 of ranks = 14804  rank = 13100 of ranks = 14804  rank = 13200 of ranks = 14804  rank = 13300 of ranks = 14804  rank = 13400 of ranks = 14804  rank = 13500 of ranks = 14804  rank = 13600 of ranks = 14804  rank = 13700 of ranks = 14804  rank = 13800 of ranks = 14804  rank = 13900 of ranks = 14804  rank = 14000 of ranks = 14804  rank = 14100 of ranks = 14804  rank = 14200 of ranks = 14804  rank = 14300 of ranks = 14804  rank = 14400 of ranks = 14804  rank = 14500 of ranks = 14804  rank = 14600 of ranks = 14804  rank = 14700 of ranks = 14804  rank = 14800 of ranks = 14804 class_id = 0, name = upper_body, ap = 88.71%   	 (TP = 1259, FP = 786) 
+ rank = 0 of ranks = 14804 
+ rank = 100 of ranks = 14804 
+ rank = 200 of ranks = 14804 
+ rank = 300 of ranks = 14804 
+ rank = 400 of ranks = 14804 
+ rank = 500 of ranks = 14804 
+ rank = 600 of ranks = 14804 
+ rank = 700 of ranks = 14804 
+ rank = 800 of ranks = 14804 
+ rank = 900 of ranks = 14804 
+ rank = 1000 of ranks = 14804 
+ rank = 1100 of ranks = 14804 
+ rank = 1200 of ranks = 14804 
+ rank = 1300 of ranks = 14804 
+ rank = 1400 of ranks = 14804 
+ rank = 1500 of ranks = 14804 
+ rank = 1600 of ranks = 14804 
+ rank = 1700 of ranks = 14804 
+ rank = 1800 of ranks = 14804 
+ rank = 1900 of ranks = 14804 
+ rank = 2000 of ranks = 14804 
+ rank = 2100 of ranks = 14804 
+ rank = 2200 of ranks = 14804 
+ rank = 2300 of ranks = 14804 
+ rank = 2400 of ranks = 14804 
+ rank = 2500 of ranks = 14804 
+ rank = 2600 of ranks = 14804 
+ rank = 2700 of ranks = 14804 
+ rank = 2800 of ranks = 14804 
+ rank = 2900 of ranks = 14804 
+ rank = 3000 of ranks = 14804 
+ rank = 3100 of ranks = 14804 
+ rank = 3200 of ranks = 14804 
+ rank = 3300 of ranks = 14804 
+ rank = 3400 of ranks = 14804 
+ rank = 3500 of ranks = 14804 
+ rank = 3600 of ranks = 14804 
+ rank = 3700 of ranks = 14804 
+ rank = 3800 of ranks = 14804 
+ rank = 3900 of ranks = 14804 
+ rank = 4000 of ranks = 14804 
+ rank = 4100 of ranks = 14804 
+ rank = 4200 of ranks = 14804 
+ rank = 4300 of ranks = 14804 
+ rank = 4400 of ranks = 14804 
+ rank = 4500 of ranks = 14804 
+ rank = 4600 of ranks = 14804 
+ rank = 4700 of ranks = 14804 
+ rank = 4800 of ranks = 14804 
+ rank = 4900 of ranks = 14804 
+ rank = 5000 of ranks = 14804 
+ rank = 5100 of ranks = 14804 
+ rank = 5200 of ranks = 14804 
+ rank = 5300 of ranks = 14804 
+ rank = 5400 of ranks = 14804 
+ rank = 5500 of ranks = 14804 
+ rank = 5600 of ranks = 14804 
+ rank = 5700 of ranks = 14804 
+ rank = 5800 of ranks = 14804 
+ rank = 5900 of ranks = 14804 
+ rank = 6000 of ranks = 14804 
+ rank = 6100 of ranks = 14804 
+ rank = 6200 of ranks = 14804 
+ rank = 6300 of ranks = 14804 
+ rank = 6400 of ranks = 14804 
+ rank = 6500 of ranks = 14804 
+ rank = 6600 of ranks = 14804 
+ rank = 6700 of ranks = 14804 
+ rank = 6800 of ranks = 14804 
+ rank = 6900 of ranks = 14804 
+ rank = 7000 of ranks = 14804 
+ rank = 7100 of ranks = 14804 
+ rank = 7200 of ranks = 14804 
+ rank = 7300 of ranks = 14804 
+ rank = 7400 of ranks = 14804 
+ rank = 7500 of ranks = 14804 
+ rank = 7600 of ranks = 14804 
+ rank = 7700 of ranks = 14804 
+ rank = 7800 of ranks = 14804 
+ rank = 7900 of ranks = 14804 
+ rank = 8000 of ranks = 14804 
+ rank = 8100 of ranks = 14804 
+ rank = 8200 of ranks = 14804 
+ rank = 8300 of ranks = 14804 
+ rank = 8400 of ranks = 14804 
+ rank = 8500 of ranks = 14804 
+ rank = 8600 of ranks = 14804 
+ rank = 8700 of ranks = 14804 
+ rank = 8800 of ranks = 14804 
+ rank = 8900 of ranks = 14804 
+ rank = 9000 of ranks = 14804 
+ rank = 9100 of ranks = 14804 
+ rank = 9200 of ranks = 14804 
+ rank = 9300 of ranks = 14804 
+ rank = 9400 of ranks = 14804 
+ rank = 9500 of ranks = 14804 
+ rank = 9600 of ranks = 14804 
+ rank = 9700 of ranks = 14804 
+ rank = 9800 of ranks = 14804 
+ rank = 9900 of ranks = 14804 
+ rank = 10000 of ranks = 14804 
+ rank = 10100 of ranks = 14804 
+ rank = 10200 of ranks = 14804 
+ rank = 10300 of ranks = 14804 
+ rank = 10400 of ranks = 14804 
+ rank = 10500 of ranks = 14804 
+ rank = 10600 of ranks = 14804 
+ rank = 10700 of ranks = 14804 
+ rank = 10800 of ranks = 14804 
+ rank = 10900 of ranks = 14804 
+ rank = 11000 of ranks = 14804 
+ rank = 11100 of ranks = 14804 
+ rank = 11200 of ranks = 14804 
+ rank = 11300 of ranks = 14804 
+ rank = 11400 of ranks = 14804 
+ rank = 11500 of ranks = 14804 
+ rank = 11600 of ranks = 14804 
+ rank = 11700 of ranks = 14804 
+ rank = 11800 of ranks = 14804 
+ rank = 11900 of ranks = 14804 
+ rank = 12000 of ranks = 14804 
+ rank = 12100 of ranks = 14804 
+ rank = 12200 of ranks = 14804 
+ rank = 12300 of ranks = 14804 
+ rank = 12400 of ranks = 14804 
+ rank = 12500 of ranks = 14804 
+ rank = 12600 of ranks = 14804 
+ rank = 12700 of ranks = 14804 
+ rank = 12800 of ranks = 14804 
+ rank = 12900 of ranks = 14804 
+ rank = 13000 of ranks = 14804 
+ rank = 13100 of ranks = 14804 
+ rank = 13200 of ranks = 14804 
+ rank = 13300 of ranks = 14804 
+ rank = 13400 of ranks = 14804 
+ rank = 13500 of ranks = 14804 
+ rank = 13600 of ranks = 14804 
+ rank = 13700 of ranks = 14804 
+ rank = 13800 of ranks = 14804 
+ rank = 13900 of ranks = 14804 
+ rank = 14000 of ranks = 14804 
+ rank = 14100 of ranks = 14804 
+ rank = 14200 of ranks = 14804 
+ rank = 14300 of ranks = 14804 
+ rank = 14400 of ranks = 14804 
+ rank = 14500 of ranks = 14804 
+ rank = 14600 of ranks = 14804 
+ rank = 14700 of ranks = 14804 
+ rank = 14800 of ranks = 14804 
+class_id = 0, name = upper_body, ap = 88.71%   	 (TP = 1259, FP = 786) 
 class_id = 1, name = head, ap = 88.49%   	 (TP = 1146, FP = 230) 
 class_id = 2, name = whole_body, ap = 96.61%   	 (TP = 1538, FP = 612) 
 
@@ -9087,7 +9903,139 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 13136, unique_truth_count = 4450  
- rank = 0 of ranks = 13136  rank = 100 of ranks = 13136  rank = 200 of ranks = 13136  rank = 300 of ranks = 13136  rank = 400 of ranks = 13136  rank = 500 of ranks = 13136  rank = 600 of ranks = 13136  rank = 700 of ranks = 13136  rank = 800 of ranks = 13136  rank = 900 of ranks = 13136  rank = 1000 of ranks = 13136  rank = 1100 of ranks = 13136  rank = 1200 of ranks = 13136  rank = 1300 of ranks = 13136  rank = 1400 of ranks = 13136  rank = 1500 of ranks = 13136  rank = 1600 of ranks = 13136  rank = 1700 of ranks = 13136  rank = 1800 of ranks = 13136  rank = 1900 of ranks = 13136  rank = 2000 of ranks = 13136  rank = 2100 of ranks = 13136  rank = 2200 of ranks = 13136  rank = 2300 of ranks = 13136  rank = 2400 of ranks = 13136  rank = 2500 of ranks = 13136  rank = 2600 of ranks = 13136  rank = 2700 of ranks = 13136  rank = 2800 of ranks = 13136  rank = 2900 of ranks = 13136  rank = 3000 of ranks = 13136  rank = 3100 of ranks = 13136  rank = 3200 of ranks = 13136  rank = 3300 of ranks = 13136  rank = 3400 of ranks = 13136  rank = 3500 of ranks = 13136  rank = 3600 of ranks = 13136  rank = 3700 of ranks = 13136  rank = 3800 of ranks = 13136  rank = 3900 of ranks = 13136  rank = 4000 of ranks = 13136  rank = 4100 of ranks = 13136  rank = 4200 of ranks = 13136  rank = 4300 of ranks = 13136  rank = 4400 of ranks = 13136  rank = 4500 of ranks = 13136  rank = 4600 of ranks = 13136  rank = 4700 of ranks = 13136  rank = 4800 of ranks = 13136  rank = 4900 of ranks = 13136  rank = 5000 of ranks = 13136  rank = 5100 of ranks = 13136  rank = 5200 of ranks = 13136  rank = 5300 of ranks = 13136  rank = 5400 of ranks = 13136  rank = 5500 of ranks = 13136  rank = 5600 of ranks = 13136  rank = 5700 of ranks = 13136  rank = 5800 of ranks = 13136  rank = 5900 of ranks = 13136  rank = 6000 of ranks = 13136  rank = 6100 of ranks = 13136  rank = 6200 of ranks = 13136  rank = 6300 of ranks = 13136  rank = 6400 of ranks = 13136  rank = 6500 of ranks = 13136  rank = 6600 of ranks = 13136  rank = 6700 of ranks = 13136  rank = 6800 of ranks = 13136  rank = 6900 of ranks = 13136  rank = 7000 of ranks = 13136  rank = 7100 of ranks = 13136  rank = 7200 of ranks = 13136  rank = 7300 of ranks = 13136  rank = 7400 of ranks = 13136  rank = 7500 of ranks = 13136  rank = 7600 of ranks = 13136  rank = 7700 of ranks = 13136  rank = 7800 of ranks = 13136  rank = 7900 of ranks = 13136  rank = 8000 of ranks = 13136  rank = 8100 of ranks = 13136  rank = 8200 of ranks = 13136  rank = 8300 of ranks = 13136  rank = 8400 of ranks = 13136  rank = 8500 of ranks = 13136  rank = 8600 of ranks = 13136  rank = 8700 of ranks = 13136  rank = 8800 of ranks = 13136  rank = 8900 of ranks = 13136  rank = 9000 of ranks = 13136  rank = 9100 of ranks = 13136  rank = 9200 of ranks = 13136  rank = 9300 of ranks = 13136  rank = 9400 of ranks = 13136  rank = 9500 of ranks = 13136  rank = 9600 of ranks = 13136  rank = 9700 of ranks = 13136  rank = 9800 of ranks = 13136  rank = 9900 of ranks = 13136  rank = 10000 of ranks = 13136  rank = 10100 of ranks = 13136  rank = 10200 of ranks = 13136  rank = 10300 of ranks = 13136  rank = 10400 of ranks = 13136  rank = 10500 of ranks = 13136  rank = 10600 of ranks = 13136  rank = 10700 of ranks = 13136  rank = 10800 of ranks = 13136  rank = 10900 of ranks = 13136  rank = 11000 of ranks = 13136  rank = 11100 of ranks = 13136  rank = 11200 of ranks = 13136  rank = 11300 of ranks = 13136  rank = 11400 of ranks = 13136  rank = 11500 of ranks = 13136  rank = 11600 of ranks = 13136  rank = 11700 of ranks = 13136  rank = 11800 of ranks = 13136  rank = 11900 of ranks = 13136  rank = 12000 of ranks = 13136  rank = 12100 of ranks = 13136  rank = 12200 of ranks = 13136  rank = 12300 of ranks = 13136  rank = 12400 of ranks = 13136  rank = 12500 of ranks = 13136  rank = 12600 of ranks = 13136  rank = 12700 of ranks = 13136  rank = 12800 of ranks = 13136  rank = 12900 of ranks = 13136  rank = 13000 of ranks = 13136  rank = 13100 of ranks = 13136 class_id = 0, name = upper_body, ap = 86.96%   	 (TP = 1374, FP = 517) 
+ rank = 0 of ranks = 13136 
+ rank = 100 of ranks = 13136 
+ rank = 200 of ranks = 13136 
+ rank = 300 of ranks = 13136 
+ rank = 400 of ranks = 13136 
+ rank = 500 of ranks = 13136 
+ rank = 600 of ranks = 13136 
+ rank = 700 of ranks = 13136 
+ rank = 800 of ranks = 13136 
+ rank = 900 of ranks = 13136 
+ rank = 1000 of ranks = 13136 
+ rank = 1100 of ranks = 13136 
+ rank = 1200 of ranks = 13136 
+ rank = 1300 of ranks = 13136 
+ rank = 1400 of ranks = 13136 
+ rank = 1500 of ranks = 13136 
+ rank = 1600 of ranks = 13136 
+ rank = 1700 of ranks = 13136 
+ rank = 1800 of ranks = 13136 
+ rank = 1900 of ranks = 13136 
+ rank = 2000 of ranks = 13136 
+ rank = 2100 of ranks = 13136 
+ rank = 2200 of ranks = 13136 
+ rank = 2300 of ranks = 13136 
+ rank = 2400 of ranks = 13136 
+ rank = 2500 of ranks = 13136 
+ rank = 2600 of ranks = 13136 
+ rank = 2700 of ranks = 13136 
+ rank = 2800 of ranks = 13136 
+ rank = 2900 of ranks = 13136 
+ rank = 3000 of ranks = 13136 
+ rank = 3100 of ranks = 13136 
+ rank = 3200 of ranks = 13136 
+ rank = 3300 of ranks = 13136 
+ rank = 3400 of ranks = 13136 
+ rank = 3500 of ranks = 13136 
+ rank = 3600 of ranks = 13136 
+ rank = 3700 of ranks = 13136 
+ rank = 3800 of ranks = 13136 
+ rank = 3900 of ranks = 13136 
+ rank = 4000 of ranks = 13136 
+ rank = 4100 of ranks = 13136 
+ rank = 4200 of ranks = 13136 
+ rank = 4300 of ranks = 13136 
+ rank = 4400 of ranks = 13136 
+ rank = 4500 of ranks = 13136 
+ rank = 4600 of ranks = 13136 
+ rank = 4700 of ranks = 13136 
+ rank = 4800 of ranks = 13136 
+ rank = 4900 of ranks = 13136 
+ rank = 5000 of ranks = 13136 
+ rank = 5100 of ranks = 13136 
+ rank = 5200 of ranks = 13136 
+ rank = 5300 of ranks = 13136 
+ rank = 5400 of ranks = 13136 
+ rank = 5500 of ranks = 13136 
+ rank = 5600 of ranks = 13136 
+ rank = 5700 of ranks = 13136 
+ rank = 5800 of ranks = 13136 
+ rank = 5900 of ranks = 13136 
+ rank = 6000 of ranks = 13136 
+ rank = 6100 of ranks = 13136 
+ rank = 6200 of ranks = 13136 
+ rank = 6300 of ranks = 13136 
+ rank = 6400 of ranks = 13136 
+ rank = 6500 of ranks = 13136 
+ rank = 6600 of ranks = 13136 
+ rank = 6700 of ranks = 13136 
+ rank = 6800 of ranks = 13136 
+ rank = 6900 of ranks = 13136 
+ rank = 7000 of ranks = 13136 
+ rank = 7100 of ranks = 13136 
+ rank = 7200 of ranks = 13136 
+ rank = 7300 of ranks = 13136 
+ rank = 7400 of ranks = 13136 
+ rank = 7500 of ranks = 13136 
+ rank = 7600 of ranks = 13136 
+ rank = 7700 of ranks = 13136 
+ rank = 7800 of ranks = 13136 
+ rank = 7900 of ranks = 13136 
+ rank = 8000 of ranks = 13136 
+ rank = 8100 of ranks = 13136 
+ rank = 8200 of ranks = 13136 
+ rank = 8300 of ranks = 13136 
+ rank = 8400 of ranks = 13136 
+ rank = 8500 of ranks = 13136 
+ rank = 8600 of ranks = 13136 
+ rank = 8700 of ranks = 13136 
+ rank = 8800 of ranks = 13136 
+ rank = 8900 of ranks = 13136 
+ rank = 9000 of ranks = 13136 
+ rank = 9100 of ranks = 13136 
+ rank = 9200 of ranks = 13136 
+ rank = 9300 of ranks = 13136 
+ rank = 9400 of ranks = 13136 
+ rank = 9500 of ranks = 13136 
+ rank = 9600 of ranks = 13136 
+ rank = 9700 of ranks = 13136 
+ rank = 9800 of ranks = 13136 
+ rank = 9900 of ranks = 13136 
+ rank = 10000 of ranks = 13136 
+ rank = 10100 of ranks = 13136 
+ rank = 10200 of ranks = 13136 
+ rank = 10300 of ranks = 13136 
+ rank = 10400 of ranks = 13136 
+ rank = 10500 of ranks = 13136 
+ rank = 10600 of ranks = 13136 
+ rank = 10700 of ranks = 13136 
+ rank = 10800 of ranks = 13136 
+ rank = 10900 of ranks = 13136 
+ rank = 11000 of ranks = 13136 
+ rank = 11100 of ranks = 13136 
+ rank = 11200 of ranks = 13136 
+ rank = 11300 of ranks = 13136 
+ rank = 11400 of ranks = 13136 
+ rank = 11500 of ranks = 13136 
+ rank = 11600 of ranks = 13136 
+ rank = 11700 of ranks = 13136 
+ rank = 11800 of ranks = 13136 
+ rank = 11900 of ranks = 13136 
+ rank = 12000 of ranks = 13136 
+ rank = 12100 of ranks = 13136 
+ rank = 12200 of ranks = 13136 
+ rank = 12300 of ranks = 13136 
+ rank = 12400 of ranks = 13136 
+ rank = 12500 of ranks = 13136 
+ rank = 12600 of ranks = 13136 
+ rank = 12700 of ranks = 13136 
+ rank = 12800 of ranks = 13136 
+ rank = 12900 of ranks = 13136 
+ rank = 13000 of ranks = 13136 
+ rank = 13100 of ranks = 13136 
+class_id = 0, name = upper_body, ap = 86.96%   	 (TP = 1374, FP = 517) 
 class_id = 1, name = head, ap = 88.59%   	 (TP = 1145, FP = 195) 
 class_id = 2, name = whole_body, ap = 97.52%   	 (TP = 1554, FP = 551) 
 
@@ -9997,7 +10945,130 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 12243, unique_truth_count = 4450  
- rank = 0 of ranks = 12243  rank = 100 of ranks = 12243  rank = 200 of ranks = 12243  rank = 300 of ranks = 12243  rank = 400 of ranks = 12243  rank = 500 of ranks = 12243  rank = 600 of ranks = 12243  rank = 700 of ranks = 12243  rank = 800 of ranks = 12243  rank = 900 of ranks = 12243  rank = 1000 of ranks = 12243  rank = 1100 of ranks = 12243  rank = 1200 of ranks = 12243  rank = 1300 of ranks = 12243  rank = 1400 of ranks = 12243  rank = 1500 of ranks = 12243  rank = 1600 of ranks = 12243  rank = 1700 of ranks = 12243  rank = 1800 of ranks = 12243  rank = 1900 of ranks = 12243  rank = 2000 of ranks = 12243  rank = 2100 of ranks = 12243  rank = 2200 of ranks = 12243  rank = 2300 of ranks = 12243  rank = 2400 of ranks = 12243  rank = 2500 of ranks = 12243  rank = 2600 of ranks = 12243  rank = 2700 of ranks = 12243  rank = 2800 of ranks = 12243  rank = 2900 of ranks = 12243  rank = 3000 of ranks = 12243  rank = 3100 of ranks = 12243  rank = 3200 of ranks = 12243  rank = 3300 of ranks = 12243  rank = 3400 of ranks = 12243  rank = 3500 of ranks = 12243  rank = 3600 of ranks = 12243  rank = 3700 of ranks = 12243  rank = 3800 of ranks = 12243  rank = 3900 of ranks = 12243  rank = 4000 of ranks = 12243  rank = 4100 of ranks = 12243  rank = 4200 of ranks = 12243  rank = 4300 of ranks = 12243  rank = 4400 of ranks = 12243  rank = 4500 of ranks = 12243  rank = 4600 of ranks = 12243  rank = 4700 of ranks = 12243  rank = 4800 of ranks = 12243  rank = 4900 of ranks = 12243  rank = 5000 of ranks = 12243  rank = 5100 of ranks = 12243  rank = 5200 of ranks = 12243  rank = 5300 of ranks = 12243  rank = 5400 of ranks = 12243  rank = 5500 of ranks = 12243  rank = 5600 of ranks = 12243  rank = 5700 of ranks = 12243  rank = 5800 of ranks = 12243  rank = 5900 of ranks = 12243  rank = 6000 of ranks = 12243  rank = 6100 of ranks = 12243  rank = 6200 of ranks = 12243  rank = 6300 of ranks = 12243  rank = 6400 of ranks = 12243  rank = 6500 of ranks = 12243  rank = 6600 of ranks = 12243  rank = 6700 of ranks = 12243  rank = 6800 of ranks = 12243  rank = 6900 of ranks = 12243  rank = 7000 of ranks = 12243  rank = 7100 of ranks = 12243  rank = 7200 of ranks = 12243  rank = 7300 of ranks = 12243  rank = 7400 of ranks = 12243  rank = 7500 of ranks = 12243  rank = 7600 of ranks = 12243  rank = 7700 of ranks = 12243  rank = 7800 of ranks = 12243  rank = 7900 of ranks = 12243  rank = 8000 of ranks = 12243  rank = 8100 of ranks = 12243  rank = 8200 of ranks = 12243  rank = 8300 of ranks = 12243  rank = 8400 of ranks = 12243  rank = 8500 of ranks = 12243  rank = 8600 of ranks = 12243  rank = 8700 of ranks = 12243  rank = 8800 of ranks = 12243  rank = 8900 of ranks = 12243  rank = 9000 of ranks = 12243  rank = 9100 of ranks = 12243  rank = 9200 of ranks = 12243  rank = 9300 of ranks = 12243  rank = 9400 of ranks = 12243  rank = 9500 of ranks = 12243  rank = 9600 of ranks = 12243  rank = 9700 of ranks = 12243  rank = 9800 of ranks = 12243  rank = 9900 of ranks = 12243  rank = 10000 of ranks = 12243  rank = 10100 of ranks = 12243  rank = 10200 of ranks = 12243  rank = 10300 of ranks = 12243  rank = 10400 of ranks = 12243  rank = 10500 of ranks = 12243  rank = 10600 of ranks = 12243  rank = 10700 of ranks = 12243  rank = 10800 of ranks = 12243  rank = 10900 of ranks = 12243  rank = 11000 of ranks = 12243  rank = 11100 of ranks = 12243  rank = 11200 of ranks = 12243  rank = 11300 of ranks = 12243  rank = 11400 of ranks = 12243  rank = 11500 of ranks = 12243  rank = 11600 of ranks = 12243  rank = 11700 of ranks = 12243  rank = 11800 of ranks = 12243  rank = 11900 of ranks = 12243  rank = 12000 of ranks = 12243  rank = 12100 of ranks = 12243  rank = 12200 of ranks = 12243 class_id = 0, name = upper_body, ap = 92.14%   	 (TP = 1421, FP = 606) 
+ rank = 0 of ranks = 12243 
+ rank = 100 of ranks = 12243 
+ rank = 200 of ranks = 12243 
+ rank = 300 of ranks = 12243 
+ rank = 400 of ranks = 12243 
+ rank = 500 of ranks = 12243 
+ rank = 600 of ranks = 12243 
+ rank = 700 of ranks = 12243 
+ rank = 800 of ranks = 12243 
+ rank = 900 of ranks = 12243 
+ rank = 1000 of ranks = 12243 
+ rank = 1100 of ranks = 12243 
+ rank = 1200 of ranks = 12243 
+ rank = 1300 of ranks = 12243 
+ rank = 1400 of ranks = 12243 
+ rank = 1500 of ranks = 12243 
+ rank = 1600 of ranks = 12243 
+ rank = 1700 of ranks = 12243 
+ rank = 1800 of ranks = 12243 
+ rank = 1900 of ranks = 12243 
+ rank = 2000 of ranks = 12243 
+ rank = 2100 of ranks = 12243 
+ rank = 2200 of ranks = 12243 
+ rank = 2300 of ranks = 12243 
+ rank = 2400 of ranks = 12243 
+ rank = 2500 of ranks = 12243 
+ rank = 2600 of ranks = 12243 
+ rank = 2700 of ranks = 12243 
+ rank = 2800 of ranks = 12243 
+ rank = 2900 of ranks = 12243 
+ rank = 3000 of ranks = 12243 
+ rank = 3100 of ranks = 12243 
+ rank = 3200 of ranks = 12243 
+ rank = 3300 of ranks = 12243 
+ rank = 3400 of ranks = 12243 
+ rank = 3500 of ranks = 12243 
+ rank = 3600 of ranks = 12243 
+ rank = 3700 of ranks = 12243 
+ rank = 3800 of ranks = 12243 
+ rank = 3900 of ranks = 12243 
+ rank = 4000 of ranks = 12243 
+ rank = 4100 of ranks = 12243 
+ rank = 4200 of ranks = 12243 
+ rank = 4300 of ranks = 12243 
+ rank = 4400 of ranks = 12243 
+ rank = 4500 of ranks = 12243 
+ rank = 4600 of ranks = 12243 
+ rank = 4700 of ranks = 12243 
+ rank = 4800 of ranks = 12243 
+ rank = 4900 of ranks = 12243 
+ rank = 5000 of ranks = 12243 
+ rank = 5100 of ranks = 12243 
+ rank = 5200 of ranks = 12243 
+ rank = 5300 of ranks = 12243 
+ rank = 5400 of ranks = 12243 
+ rank = 5500 of ranks = 12243 
+ rank = 5600 of ranks = 12243 
+ rank = 5700 of ranks = 12243 
+ rank = 5800 of ranks = 12243 
+ rank = 5900 of ranks = 12243 
+ rank = 6000 of ranks = 12243 
+ rank = 6100 of ranks = 12243 
+ rank = 6200 of ranks = 12243 
+ rank = 6300 of ranks = 12243 
+ rank = 6400 of ranks = 12243 
+ rank = 6500 of ranks = 12243 
+ rank = 6600 of ranks = 12243 
+ rank = 6700 of ranks = 12243 
+ rank = 6800 of ranks = 12243 
+ rank = 6900 of ranks = 12243 
+ rank = 7000 of ranks = 12243 
+ rank = 7100 of ranks = 12243 
+ rank = 7200 of ranks = 12243 
+ rank = 7300 of ranks = 12243 
+ rank = 7400 of ranks = 12243 
+ rank = 7500 of ranks = 12243 
+ rank = 7600 of ranks = 12243 
+ rank = 7700 of ranks = 12243 
+ rank = 7800 of ranks = 12243 
+ rank = 7900 of ranks = 12243 
+ rank = 8000 of ranks = 12243 
+ rank = 8100 of ranks = 12243 
+ rank = 8200 of ranks = 12243 
+ rank = 8300 of ranks = 12243 
+ rank = 8400 of ranks = 12243 
+ rank = 8500 of ranks = 12243 
+ rank = 8600 of ranks = 12243 
+ rank = 8700 of ranks = 12243 
+ rank = 8800 of ranks = 12243 
+ rank = 8900 of ranks = 12243 
+ rank = 9000 of ranks = 12243 
+ rank = 9100 of ranks = 12243 
+ rank = 9200 of ranks = 12243 
+ rank = 9300 of ranks = 12243 
+ rank = 9400 of ranks = 12243 
+ rank = 9500 of ranks = 12243 
+ rank = 9600 of ranks = 12243 
+ rank = 9700 of ranks = 12243 
+ rank = 9800 of ranks = 12243 
+ rank = 9900 of ranks = 12243 
+ rank = 10000 of ranks = 12243 
+ rank = 10100 of ranks = 12243 
+ rank = 10200 of ranks = 12243 
+ rank = 10300 of ranks = 12243 
+ rank = 10400 of ranks = 12243 
+ rank = 10500 of ranks = 12243 
+ rank = 10600 of ranks = 12243 
+ rank = 10700 of ranks = 12243 
+ rank = 10800 of ranks = 12243 
+ rank = 10900 of ranks = 12243 
+ rank = 11000 of ranks = 12243 
+ rank = 11100 of ranks = 12243 
+ rank = 11200 of ranks = 12243 
+ rank = 11300 of ranks = 12243 
+ rank = 11400 of ranks = 12243 
+ rank = 11500 of ranks = 12243 
+ rank = 11600 of ranks = 12243 
+ rank = 11700 of ranks = 12243 
+ rank = 11800 of ranks = 12243 
+ rank = 11900 of ranks = 12243 
+ rank = 12000 of ranks = 12243 
+ rank = 12100 of ranks = 12243 
+ rank = 12200 of ranks = 12243 
+class_id = 0, name = upper_body, ap = 92.14%   	 (TP = 1421, FP = 606) 
 class_id = 1, name = head, ap = 90.40%   	 (TP = 1157, FP = 182) 
 class_id = 2, name = whole_body, ap = 97.35%   	 (TP = 1551, FP = 512) 
 
@@ -10908,7 +11979,140 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 13298, unique_truth_count = 4450  
- rank = 0 of ranks = 13298  rank = 100 of ranks = 13298  rank = 200 of ranks = 13298  rank = 300 of ranks = 13298  rank = 400 of ranks = 13298  rank = 500 of ranks = 13298  rank = 600 of ranks = 13298  rank = 700 of ranks = 13298  rank = 800 of ranks = 13298  rank = 900 of ranks = 13298  rank = 1000 of ranks = 13298  rank = 1100 of ranks = 13298  rank = 1200 of ranks = 13298  rank = 1300 of ranks = 13298  rank = 1400 of ranks = 13298  rank = 1500 of ranks = 13298  rank = 1600 of ranks = 13298  rank = 1700 of ranks = 13298  rank = 1800 of ranks = 13298  rank = 1900 of ranks = 13298  rank = 2000 of ranks = 13298  rank = 2100 of ranks = 13298  rank = 2200 of ranks = 13298  rank = 2300 of ranks = 13298  rank = 2400 of ranks = 13298  rank = 2500 of ranks = 13298  rank = 2600 of ranks = 13298  rank = 2700 of ranks = 13298  rank = 2800 of ranks = 13298  rank = 2900 of ranks = 13298  rank = 3000 of ranks = 13298  rank = 3100 of ranks = 13298  rank = 3200 of ranks = 13298  rank = 3300 of ranks = 13298  rank = 3400 of ranks = 13298  rank = 3500 of ranks = 13298  rank = 3600 of ranks = 13298  rank = 3700 of ranks = 13298  rank = 3800 of ranks = 13298  rank = 3900 of ranks = 13298  rank = 4000 of ranks = 13298  rank = 4100 of ranks = 13298  rank = 4200 of ranks = 13298  rank = 4300 of ranks = 13298  rank = 4400 of ranks = 13298  rank = 4500 of ranks = 13298  rank = 4600 of ranks = 13298  rank = 4700 of ranks = 13298  rank = 4800 of ranks = 13298  rank = 4900 of ranks = 13298  rank = 5000 of ranks = 13298  rank = 5100 of ranks = 13298  rank = 5200 of ranks = 13298  rank = 5300 of ranks = 13298  rank = 5400 of ranks = 13298  rank = 5500 of ranks = 13298  rank = 5600 of ranks = 13298  rank = 5700 of ranks = 13298  rank = 5800 of ranks = 13298  rank = 5900 of ranks = 13298  rank = 6000 of ranks = 13298  rank = 6100 of ranks = 13298  rank = 6200 of ranks = 13298  rank = 6300 of ranks = 13298  rank = 6400 of ranks = 13298  rank = 6500 of ranks = 13298  rank = 6600 of ranks = 13298  rank = 6700 of ranks = 13298  rank = 6800 of ranks = 13298  rank = 6900 of ranks = 13298  rank = 7000 of ranks = 13298  rank = 7100 of ranks = 13298  rank = 7200 of ranks = 13298  rank = 7300 of ranks = 13298  rank = 7400 of ranks = 13298  rank = 7500 of ranks = 13298  rank = 7600 of ranks = 13298  rank = 7700 of ranks = 13298  rank = 7800 of ranks = 13298  rank = 7900 of ranks = 13298  rank = 8000 of ranks = 13298  rank = 8100 of ranks = 13298  rank = 8200 of ranks = 13298  rank = 8300 of ranks = 13298  rank = 8400 of ranks = 13298  rank = 8500 of ranks = 13298  rank = 8600 of ranks = 13298  rank = 8700 of ranks = 13298  rank = 8800 of ranks = 13298  rank = 8900 of ranks = 13298  rank = 9000 of ranks = 13298  rank = 9100 of ranks = 13298  rank = 9200 of ranks = 13298  rank = 9300 of ranks = 13298  rank = 9400 of ranks = 13298  rank = 9500 of ranks = 13298  rank = 9600 of ranks = 13298  rank = 9700 of ranks = 13298  rank = 9800 of ranks = 13298  rank = 9900 of ranks = 13298  rank = 10000 of ranks = 13298  rank = 10100 of ranks = 13298  rank = 10200 of ranks = 13298  rank = 10300 of ranks = 13298  rank = 10400 of ranks = 13298  rank = 10500 of ranks = 13298  rank = 10600 of ranks = 13298  rank = 10700 of ranks = 13298  rank = 10800 of ranks = 13298  rank = 10900 of ranks = 13298  rank = 11000 of ranks = 13298  rank = 11100 of ranks = 13298  rank = 11200 of ranks = 13298  rank = 11300 of ranks = 13298  rank = 11400 of ranks = 13298  rank = 11500 of ranks = 13298  rank = 11600 of ranks = 13298  rank = 11700 of ranks = 13298  rank = 11800 of ranks = 13298  rank = 11900 of ranks = 13298  rank = 12000 of ranks = 13298  rank = 12100 of ranks = 13298  rank = 12200 of ranks = 13298  rank = 12300 of ranks = 13298  rank = 12400 of ranks = 13298  rank = 12500 of ranks = 13298  rank = 12600 of ranks = 13298  rank = 12700 of ranks = 13298  rank = 12800 of ranks = 13298  rank = 12900 of ranks = 13298  rank = 13000 of ranks = 13298  rank = 13100 of ranks = 13298  rank = 13200 of ranks = 13298 class_id = 0, name = upper_body, ap = 88.07%   	 (TP = 1362, FP = 608) 
+ rank = 0 of ranks = 13298 
+ rank = 100 of ranks = 13298 
+ rank = 200 of ranks = 13298 
+ rank = 300 of ranks = 13298 
+ rank = 400 of ranks = 13298 
+ rank = 500 of ranks = 13298 
+ rank = 600 of ranks = 13298 
+ rank = 700 of ranks = 13298 
+ rank = 800 of ranks = 13298 
+ rank = 900 of ranks = 13298 
+ rank = 1000 of ranks = 13298 
+ rank = 1100 of ranks = 13298 
+ rank = 1200 of ranks = 13298 
+ rank = 1300 of ranks = 13298 
+ rank = 1400 of ranks = 13298 
+ rank = 1500 of ranks = 13298 
+ rank = 1600 of ranks = 13298 
+ rank = 1700 of ranks = 13298 
+ rank = 1800 of ranks = 13298 
+ rank = 1900 of ranks = 13298 
+ rank = 2000 of ranks = 13298 
+ rank = 2100 of ranks = 13298 
+ rank = 2200 of ranks = 13298 
+ rank = 2300 of ranks = 13298 
+ rank = 2400 of ranks = 13298 
+ rank = 2500 of ranks = 13298 
+ rank = 2600 of ranks = 13298 
+ rank = 2700 of ranks = 13298 
+ rank = 2800 of ranks = 13298 
+ rank = 2900 of ranks = 13298 
+ rank = 3000 of ranks = 13298 
+ rank = 3100 of ranks = 13298 
+ rank = 3200 of ranks = 13298 
+ rank = 3300 of ranks = 13298 
+ rank = 3400 of ranks = 13298 
+ rank = 3500 of ranks = 13298 
+ rank = 3600 of ranks = 13298 
+ rank = 3700 of ranks = 13298 
+ rank = 3800 of ranks = 13298 
+ rank = 3900 of ranks = 13298 
+ rank = 4000 of ranks = 13298 
+ rank = 4100 of ranks = 13298 
+ rank = 4200 of ranks = 13298 
+ rank = 4300 of ranks = 13298 
+ rank = 4400 of ranks = 13298 
+ rank = 4500 of ranks = 13298 
+ rank = 4600 of ranks = 13298 
+ rank = 4700 of ranks = 13298 
+ rank = 4800 of ranks = 13298 
+ rank = 4900 of ranks = 13298 
+ rank = 5000 of ranks = 13298 
+ rank = 5100 of ranks = 13298 
+ rank = 5200 of ranks = 13298 
+ rank = 5300 of ranks = 13298 
+ rank = 5400 of ranks = 13298 
+ rank = 5500 of ranks = 13298 
+ rank = 5600 of ranks = 13298 
+ rank = 5700 of ranks = 13298 
+ rank = 5800 of ranks = 13298 
+ rank = 5900 of ranks = 13298 
+ rank = 6000 of ranks = 13298 
+ rank = 6100 of ranks = 13298 
+ rank = 6200 of ranks = 13298 
+ rank = 6300 of ranks = 13298 
+ rank = 6400 of ranks = 13298 
+ rank = 6500 of ranks = 13298 
+ rank = 6600 of ranks = 13298 
+ rank = 6700 of ranks = 13298 
+ rank = 6800 of ranks = 13298 
+ rank = 6900 of ranks = 13298 
+ rank = 7000 of ranks = 13298 
+ rank = 7100 of ranks = 13298 
+ rank = 7200 of ranks = 13298 
+ rank = 7300 of ranks = 13298 
+ rank = 7400 of ranks = 13298 
+ rank = 7500 of ranks = 13298 
+ rank = 7600 of ranks = 13298 
+ rank = 7700 of ranks = 13298 
+ rank = 7800 of ranks = 13298 
+ rank = 7900 of ranks = 13298 
+ rank = 8000 of ranks = 13298 
+ rank = 8100 of ranks = 13298 
+ rank = 8200 of ranks = 13298 
+ rank = 8300 of ranks = 13298 
+ rank = 8400 of ranks = 13298 
+ rank = 8500 of ranks = 13298 
+ rank = 8600 of ranks = 13298 
+ rank = 8700 of ranks = 13298 
+ rank = 8800 of ranks = 13298 
+ rank = 8900 of ranks = 13298 
+ rank = 9000 of ranks = 13298 
+ rank = 9100 of ranks = 13298 
+ rank = 9200 of ranks = 13298 
+ rank = 9300 of ranks = 13298 
+ rank = 9400 of ranks = 13298 
+ rank = 9500 of ranks = 13298 
+ rank = 9600 of ranks = 13298 
+ rank = 9700 of ranks = 13298 
+ rank = 9800 of ranks = 13298 
+ rank = 9900 of ranks = 13298 
+ rank = 10000 of ranks = 13298 
+ rank = 10100 of ranks = 13298 
+ rank = 10200 of ranks = 13298 
+ rank = 10300 of ranks = 13298 
+ rank = 10400 of ranks = 13298 
+ rank = 10500 of ranks = 13298 
+ rank = 10600 of ranks = 13298 
+ rank = 10700 of ranks = 13298 
+ rank = 10800 of ranks = 13298 
+ rank = 10900 of ranks = 13298 
+ rank = 11000 of ranks = 13298 
+ rank = 11100 of ranks = 13298 
+ rank = 11200 of ranks = 13298 
+ rank = 11300 of ranks = 13298 
+ rank = 11400 of ranks = 13298 
+ rank = 11500 of ranks = 13298 
+ rank = 11600 of ranks = 13298 
+ rank = 11700 of ranks = 13298 
+ rank = 11800 of ranks = 13298 
+ rank = 11900 of ranks = 13298 
+ rank = 12000 of ranks = 13298 
+ rank = 12100 of ranks = 13298 
+ rank = 12200 of ranks = 13298 
+ rank = 12300 of ranks = 13298 
+ rank = 12400 of ranks = 13298 
+ rank = 12500 of ranks = 13298 
+ rank = 12600 of ranks = 13298 
+ rank = 12700 of ranks = 13298 
+ rank = 12800 of ranks = 13298 
+ rank = 12900 of ranks = 13298 
+ rank = 13000 of ranks = 13298 
+ rank = 13100 of ranks = 13298 
+ rank = 13200 of ranks = 13298 
+class_id = 0, name = upper_body, ap = 88.07%   	 (TP = 1362, FP = 608) 
 class_id = 1, name = head, ap = 88.85%   	 (TP = 1151, FP = 204) 
 class_id = 2, name = whole_body, ap = 97.83%   	 (TP = 1559, FP = 517) 
 
@@ -11818,7 +13022,135 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 12721, unique_truth_count = 4450  
- rank = 0 of ranks = 12721  rank = 100 of ranks = 12721  rank = 200 of ranks = 12721  rank = 300 of ranks = 12721  rank = 400 of ranks = 12721  rank = 500 of ranks = 12721  rank = 600 of ranks = 12721  rank = 700 of ranks = 12721  rank = 800 of ranks = 12721  rank = 900 of ranks = 12721  rank = 1000 of ranks = 12721  rank = 1100 of ranks = 12721  rank = 1200 of ranks = 12721  rank = 1300 of ranks = 12721  rank = 1400 of ranks = 12721  rank = 1500 of ranks = 12721  rank = 1600 of ranks = 12721  rank = 1700 of ranks = 12721  rank = 1800 of ranks = 12721  rank = 1900 of ranks = 12721  rank = 2000 of ranks = 12721  rank = 2100 of ranks = 12721  rank = 2200 of ranks = 12721  rank = 2300 of ranks = 12721  rank = 2400 of ranks = 12721  rank = 2500 of ranks = 12721  rank = 2600 of ranks = 12721  rank = 2700 of ranks = 12721  rank = 2800 of ranks = 12721  rank = 2900 of ranks = 12721  rank = 3000 of ranks = 12721  rank = 3100 of ranks = 12721  rank = 3200 of ranks = 12721  rank = 3300 of ranks = 12721  rank = 3400 of ranks = 12721  rank = 3500 of ranks = 12721  rank = 3600 of ranks = 12721  rank = 3700 of ranks = 12721  rank = 3800 of ranks = 12721  rank = 3900 of ranks = 12721  rank = 4000 of ranks = 12721  rank = 4100 of ranks = 12721  rank = 4200 of ranks = 12721  rank = 4300 of ranks = 12721  rank = 4400 of ranks = 12721  rank = 4500 of ranks = 12721  rank = 4600 of ranks = 12721  rank = 4700 of ranks = 12721  rank = 4800 of ranks = 12721  rank = 4900 of ranks = 12721  rank = 5000 of ranks = 12721  rank = 5100 of ranks = 12721  rank = 5200 of ranks = 12721  rank = 5300 of ranks = 12721  rank = 5400 of ranks = 12721  rank = 5500 of ranks = 12721  rank = 5600 of ranks = 12721  rank = 5700 of ranks = 12721  rank = 5800 of ranks = 12721  rank = 5900 of ranks = 12721  rank = 6000 of ranks = 12721  rank = 6100 of ranks = 12721  rank = 6200 of ranks = 12721  rank = 6300 of ranks = 12721  rank = 6400 of ranks = 12721  rank = 6500 of ranks = 12721  rank = 6600 of ranks = 12721  rank = 6700 of ranks = 12721  rank = 6800 of ranks = 12721  rank = 6900 of ranks = 12721  rank = 7000 of ranks = 12721  rank = 7100 of ranks = 12721  rank = 7200 of ranks = 12721  rank = 7300 of ranks = 12721  rank = 7400 of ranks = 12721  rank = 7500 of ranks = 12721  rank = 7600 of ranks = 12721  rank = 7700 of ranks = 12721  rank = 7800 of ranks = 12721  rank = 7900 of ranks = 12721  rank = 8000 of ranks = 12721  rank = 8100 of ranks = 12721  rank = 8200 of ranks = 12721  rank = 8300 of ranks = 12721  rank = 8400 of ranks = 12721  rank = 8500 of ranks = 12721  rank = 8600 of ranks = 12721  rank = 8700 of ranks = 12721  rank = 8800 of ranks = 12721  rank = 8900 of ranks = 12721  rank = 9000 of ranks = 12721  rank = 9100 of ranks = 12721  rank = 9200 of ranks = 12721  rank = 9300 of ranks = 12721  rank = 9400 of ranks = 12721  rank = 9500 of ranks = 12721  rank = 9600 of ranks = 12721  rank = 9700 of ranks = 12721  rank = 9800 of ranks = 12721  rank = 9900 of ranks = 12721  rank = 10000 of ranks = 12721  rank = 10100 of ranks = 12721  rank = 10200 of ranks = 12721  rank = 10300 of ranks = 12721  rank = 10400 of ranks = 12721  rank = 10500 of ranks = 12721  rank = 10600 of ranks = 12721  rank = 10700 of ranks = 12721  rank = 10800 of ranks = 12721  rank = 10900 of ranks = 12721  rank = 11000 of ranks = 12721  rank = 11100 of ranks = 12721  rank = 11200 of ranks = 12721  rank = 11300 of ranks = 12721  rank = 11400 of ranks = 12721  rank = 11500 of ranks = 12721  rank = 11600 of ranks = 12721  rank = 11700 of ranks = 12721  rank = 11800 of ranks = 12721  rank = 11900 of ranks = 12721  rank = 12000 of ranks = 12721  rank = 12100 of ranks = 12721  rank = 12200 of ranks = 12721  rank = 12300 of ranks = 12721  rank = 12400 of ranks = 12721  rank = 12500 of ranks = 12721  rank = 12600 of ranks = 12721  rank = 12700 of ranks = 12721 class_id = 0, name = upper_body, ap = 81.06%   	 (TP = 1324, FP = 635) 
+ rank = 0 of ranks = 12721 
+ rank = 100 of ranks = 12721 
+ rank = 200 of ranks = 12721 
+ rank = 300 of ranks = 12721 
+ rank = 400 of ranks = 12721 
+ rank = 500 of ranks = 12721 
+ rank = 600 of ranks = 12721 
+ rank = 700 of ranks = 12721 
+ rank = 800 of ranks = 12721 
+ rank = 900 of ranks = 12721 
+ rank = 1000 of ranks = 12721 
+ rank = 1100 of ranks = 12721 
+ rank = 1200 of ranks = 12721 
+ rank = 1300 of ranks = 12721 
+ rank = 1400 of ranks = 12721 
+ rank = 1500 of ranks = 12721 
+ rank = 1600 of ranks = 12721 
+ rank = 1700 of ranks = 12721 
+ rank = 1800 of ranks = 12721 
+ rank = 1900 of ranks = 12721 
+ rank = 2000 of ranks = 12721 
+ rank = 2100 of ranks = 12721 
+ rank = 2200 of ranks = 12721 
+ rank = 2300 of ranks = 12721 
+ rank = 2400 of ranks = 12721 
+ rank = 2500 of ranks = 12721 
+ rank = 2600 of ranks = 12721 
+ rank = 2700 of ranks = 12721 
+ rank = 2800 of ranks = 12721 
+ rank = 2900 of ranks = 12721 
+ rank = 3000 of ranks = 12721 
+ rank = 3100 of ranks = 12721 
+ rank = 3200 of ranks = 12721 
+ rank = 3300 of ranks = 12721 
+ rank = 3400 of ranks = 12721 
+ rank = 3500 of ranks = 12721 
+ rank = 3600 of ranks = 12721 
+ rank = 3700 of ranks = 12721 
+ rank = 3800 of ranks = 12721 
+ rank = 3900 of ranks = 12721 
+ rank = 4000 of ranks = 12721 
+ rank = 4100 of ranks = 12721 
+ rank = 4200 of ranks = 12721 
+ rank = 4300 of ranks = 12721 
+ rank = 4400 of ranks = 12721 
+ rank = 4500 of ranks = 12721 
+ rank = 4600 of ranks = 12721 
+ rank = 4700 of ranks = 12721 
+ rank = 4800 of ranks = 12721 
+ rank = 4900 of ranks = 12721 
+ rank = 5000 of ranks = 12721 
+ rank = 5100 of ranks = 12721 
+ rank = 5200 of ranks = 12721 
+ rank = 5300 of ranks = 12721 
+ rank = 5400 of ranks = 12721 
+ rank = 5500 of ranks = 12721 
+ rank = 5600 of ranks = 12721 
+ rank = 5700 of ranks = 12721 
+ rank = 5800 of ranks = 12721 
+ rank = 5900 of ranks = 12721 
+ rank = 6000 of ranks = 12721 
+ rank = 6100 of ranks = 12721 
+ rank = 6200 of ranks = 12721 
+ rank = 6300 of ranks = 12721 
+ rank = 6400 of ranks = 12721 
+ rank = 6500 of ranks = 12721 
+ rank = 6600 of ranks = 12721 
+ rank = 6700 of ranks = 12721 
+ rank = 6800 of ranks = 12721 
+ rank = 6900 of ranks = 12721 
+ rank = 7000 of ranks = 12721 
+ rank = 7100 of ranks = 12721 
+ rank = 7200 of ranks = 12721 
+ rank = 7300 of ranks = 12721 
+ rank = 7400 of ranks = 12721 
+ rank = 7500 of ranks = 12721 
+ rank = 7600 of ranks = 12721 
+ rank = 7700 of ranks = 12721 
+ rank = 7800 of ranks = 12721 
+ rank = 7900 of ranks = 12721 
+ rank = 8000 of ranks = 12721 
+ rank = 8100 of ranks = 12721 
+ rank = 8200 of ranks = 12721 
+ rank = 8300 of ranks = 12721 
+ rank = 8400 of ranks = 12721 
+ rank = 8500 of ranks = 12721 
+ rank = 8600 of ranks = 12721 
+ rank = 8700 of ranks = 12721 
+ rank = 8800 of ranks = 12721 
+ rank = 8900 of ranks = 12721 
+ rank = 9000 of ranks = 12721 
+ rank = 9100 of ranks = 12721 
+ rank = 9200 of ranks = 12721 
+ rank = 9300 of ranks = 12721 
+ rank = 9400 of ranks = 12721 
+ rank = 9500 of ranks = 12721 
+ rank = 9600 of ranks = 12721 
+ rank = 9700 of ranks = 12721 
+ rank = 9800 of ranks = 12721 
+ rank = 9900 of ranks = 12721 
+ rank = 10000 of ranks = 12721 
+ rank = 10100 of ranks = 12721 
+ rank = 10200 of ranks = 12721 
+ rank = 10300 of ranks = 12721 
+ rank = 10400 of ranks = 12721 
+ rank = 10500 of ranks = 12721 
+ rank = 10600 of ranks = 12721 
+ rank = 10700 of ranks = 12721 
+ rank = 10800 of ranks = 12721 
+ rank = 10900 of ranks = 12721 
+ rank = 11000 of ranks = 12721 
+ rank = 11100 of ranks = 12721 
+ rank = 11200 of ranks = 12721 
+ rank = 11300 of ranks = 12721 
+ rank = 11400 of ranks = 12721 
+ rank = 11500 of ranks = 12721 
+ rank = 11600 of ranks = 12721 
+ rank = 11700 of ranks = 12721 
+ rank = 11800 of ranks = 12721 
+ rank = 11900 of ranks = 12721 
+ rank = 12000 of ranks = 12721 
+ rank = 12100 of ranks = 12721 
+ rank = 12200 of ranks = 12721 
+ rank = 12300 of ranks = 12721 
+ rank = 12400 of ranks = 12721 
+ rank = 12500 of ranks = 12721 
+ rank = 12600 of ranks = 12721 
+ rank = 12700 of ranks = 12721 
+class_id = 0, name = upper_body, ap = 81.06%   	 (TP = 1324, FP = 635) 
 class_id = 1, name = head, ap = 89.55%   	 (TP = 1159, FP = 198) 
 class_id = 2, name = whole_body, ap = 96.62%   	 (TP = 1564, FP = 596) 
 
@@ -12728,7 +14060,128 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 12057, unique_truth_count = 4450  
- rank = 0 of ranks = 12057  rank = 100 of ranks = 12057  rank = 200 of ranks = 12057  rank = 300 of ranks = 12057  rank = 400 of ranks = 12057  rank = 500 of ranks = 12057  rank = 600 of ranks = 12057  rank = 700 of ranks = 12057  rank = 800 of ranks = 12057  rank = 900 of ranks = 12057  rank = 1000 of ranks = 12057  rank = 1100 of ranks = 12057  rank = 1200 of ranks = 12057  rank = 1300 of ranks = 12057  rank = 1400 of ranks = 12057  rank = 1500 of ranks = 12057  rank = 1600 of ranks = 12057  rank = 1700 of ranks = 12057  rank = 1800 of ranks = 12057  rank = 1900 of ranks = 12057  rank = 2000 of ranks = 12057  rank = 2100 of ranks = 12057  rank = 2200 of ranks = 12057  rank = 2300 of ranks = 12057  rank = 2400 of ranks = 12057  rank = 2500 of ranks = 12057  rank = 2600 of ranks = 12057  rank = 2700 of ranks = 12057  rank = 2800 of ranks = 12057  rank = 2900 of ranks = 12057  rank = 3000 of ranks = 12057  rank = 3100 of ranks = 12057  rank = 3200 of ranks = 12057  rank = 3300 of ranks = 12057  rank = 3400 of ranks = 12057  rank = 3500 of ranks = 12057  rank = 3600 of ranks = 12057  rank = 3700 of ranks = 12057  rank = 3800 of ranks = 12057  rank = 3900 of ranks = 12057  rank = 4000 of ranks = 12057  rank = 4100 of ranks = 12057  rank = 4200 of ranks = 12057  rank = 4300 of ranks = 12057  rank = 4400 of ranks = 12057  rank = 4500 of ranks = 12057  rank = 4600 of ranks = 12057  rank = 4700 of ranks = 12057  rank = 4800 of ranks = 12057  rank = 4900 of ranks = 12057  rank = 5000 of ranks = 12057  rank = 5100 of ranks = 12057  rank = 5200 of ranks = 12057  rank = 5300 of ranks = 12057  rank = 5400 of ranks = 12057  rank = 5500 of ranks = 12057  rank = 5600 of ranks = 12057  rank = 5700 of ranks = 12057  rank = 5800 of ranks = 12057  rank = 5900 of ranks = 12057  rank = 6000 of ranks = 12057  rank = 6100 of ranks = 12057  rank = 6200 of ranks = 12057  rank = 6300 of ranks = 12057  rank = 6400 of ranks = 12057  rank = 6500 of ranks = 12057  rank = 6600 of ranks = 12057  rank = 6700 of ranks = 12057  rank = 6800 of ranks = 12057  rank = 6900 of ranks = 12057  rank = 7000 of ranks = 12057  rank = 7100 of ranks = 12057  rank = 7200 of ranks = 12057  rank = 7300 of ranks = 12057  rank = 7400 of ranks = 12057  rank = 7500 of ranks = 12057  rank = 7600 of ranks = 12057  rank = 7700 of ranks = 12057  rank = 7800 of ranks = 12057  rank = 7900 of ranks = 12057  rank = 8000 of ranks = 12057  rank = 8100 of ranks = 12057  rank = 8200 of ranks = 12057  rank = 8300 of ranks = 12057  rank = 8400 of ranks = 12057  rank = 8500 of ranks = 12057  rank = 8600 of ranks = 12057  rank = 8700 of ranks = 12057  rank = 8800 of ranks = 12057  rank = 8900 of ranks = 12057  rank = 9000 of ranks = 12057  rank = 9100 of ranks = 12057  rank = 9200 of ranks = 12057  rank = 9300 of ranks = 12057  rank = 9400 of ranks = 12057  rank = 9500 of ranks = 12057  rank = 9600 of ranks = 12057  rank = 9700 of ranks = 12057  rank = 9800 of ranks = 12057  rank = 9900 of ranks = 12057  rank = 10000 of ranks = 12057  rank = 10100 of ranks = 12057  rank = 10200 of ranks = 12057  rank = 10300 of ranks = 12057  rank = 10400 of ranks = 12057  rank = 10500 of ranks = 12057  rank = 10600 of ranks = 12057  rank = 10700 of ranks = 12057  rank = 10800 of ranks = 12057  rank = 10900 of ranks = 12057  rank = 11000 of ranks = 12057  rank = 11100 of ranks = 12057  rank = 11200 of ranks = 12057  rank = 11300 of ranks = 12057  rank = 11400 of ranks = 12057  rank = 11500 of ranks = 12057  rank = 11600 of ranks = 12057  rank = 11700 of ranks = 12057  rank = 11800 of ranks = 12057  rank = 11900 of ranks = 12057  rank = 12000 of ranks = 12057 class_id = 0, name = upper_body, ap = 91.15%   	 (TP = 1429, FP = 536) 
+ rank = 0 of ranks = 12057 
+ rank = 100 of ranks = 12057 
+ rank = 200 of ranks = 12057 
+ rank = 300 of ranks = 12057 
+ rank = 400 of ranks = 12057 
+ rank = 500 of ranks = 12057 
+ rank = 600 of ranks = 12057 
+ rank = 700 of ranks = 12057 
+ rank = 800 of ranks = 12057 
+ rank = 900 of ranks = 12057 
+ rank = 1000 of ranks = 12057 
+ rank = 1100 of ranks = 12057 
+ rank = 1200 of ranks = 12057 
+ rank = 1300 of ranks = 12057 
+ rank = 1400 of ranks = 12057 
+ rank = 1500 of ranks = 12057 
+ rank = 1600 of ranks = 12057 
+ rank = 1700 of ranks = 12057 
+ rank = 1800 of ranks = 12057 
+ rank = 1900 of ranks = 12057 
+ rank = 2000 of ranks = 12057 
+ rank = 2100 of ranks = 12057 
+ rank = 2200 of ranks = 12057 
+ rank = 2300 of ranks = 12057 
+ rank = 2400 of ranks = 12057 
+ rank = 2500 of ranks = 12057 
+ rank = 2600 of ranks = 12057 
+ rank = 2700 of ranks = 12057 
+ rank = 2800 of ranks = 12057 
+ rank = 2900 of ranks = 12057 
+ rank = 3000 of ranks = 12057 
+ rank = 3100 of ranks = 12057 
+ rank = 3200 of ranks = 12057 
+ rank = 3300 of ranks = 12057 
+ rank = 3400 of ranks = 12057 
+ rank = 3500 of ranks = 12057 
+ rank = 3600 of ranks = 12057 
+ rank = 3700 of ranks = 12057 
+ rank = 3800 of ranks = 12057 
+ rank = 3900 of ranks = 12057 
+ rank = 4000 of ranks = 12057 
+ rank = 4100 of ranks = 12057 
+ rank = 4200 of ranks = 12057 
+ rank = 4300 of ranks = 12057 
+ rank = 4400 of ranks = 12057 
+ rank = 4500 of ranks = 12057 
+ rank = 4600 of ranks = 12057 
+ rank = 4700 of ranks = 12057 
+ rank = 4800 of ranks = 12057 
+ rank = 4900 of ranks = 12057 
+ rank = 5000 of ranks = 12057 
+ rank = 5100 of ranks = 12057 
+ rank = 5200 of ranks = 12057 
+ rank = 5300 of ranks = 12057 
+ rank = 5400 of ranks = 12057 
+ rank = 5500 of ranks = 12057 
+ rank = 5600 of ranks = 12057 
+ rank = 5700 of ranks = 12057 
+ rank = 5800 of ranks = 12057 
+ rank = 5900 of ranks = 12057 
+ rank = 6000 of ranks = 12057 
+ rank = 6100 of ranks = 12057 
+ rank = 6200 of ranks = 12057 
+ rank = 6300 of ranks = 12057 
+ rank = 6400 of ranks = 12057 
+ rank = 6500 of ranks = 12057 
+ rank = 6600 of ranks = 12057 
+ rank = 6700 of ranks = 12057 
+ rank = 6800 of ranks = 12057 
+ rank = 6900 of ranks = 12057 
+ rank = 7000 of ranks = 12057 
+ rank = 7100 of ranks = 12057 
+ rank = 7200 of ranks = 12057 
+ rank = 7300 of ranks = 12057 
+ rank = 7400 of ranks = 12057 
+ rank = 7500 of ranks = 12057 
+ rank = 7600 of ranks = 12057 
+ rank = 7700 of ranks = 12057 
+ rank = 7800 of ranks = 12057 
+ rank = 7900 of ranks = 12057 
+ rank = 8000 of ranks = 12057 
+ rank = 8100 of ranks = 12057 
+ rank = 8200 of ranks = 12057 
+ rank = 8300 of ranks = 12057 
+ rank = 8400 of ranks = 12057 
+ rank = 8500 of ranks = 12057 
+ rank = 8600 of ranks = 12057 
+ rank = 8700 of ranks = 12057 
+ rank = 8800 of ranks = 12057 
+ rank = 8900 of ranks = 12057 
+ rank = 9000 of ranks = 12057 
+ rank = 9100 of ranks = 12057 
+ rank = 9200 of ranks = 12057 
+ rank = 9300 of ranks = 12057 
+ rank = 9400 of ranks = 12057 
+ rank = 9500 of ranks = 12057 
+ rank = 9600 of ranks = 12057 
+ rank = 9700 of ranks = 12057 
+ rank = 9800 of ranks = 12057 
+ rank = 9900 of ranks = 12057 
+ rank = 10000 of ranks = 12057 
+ rank = 10100 of ranks = 12057 
+ rank = 10200 of ranks = 12057 
+ rank = 10300 of ranks = 12057 
+ rank = 10400 of ranks = 12057 
+ rank = 10500 of ranks = 12057 
+ rank = 10600 of ranks = 12057 
+ rank = 10700 of ranks = 12057 
+ rank = 10800 of ranks = 12057 
+ rank = 10900 of ranks = 12057 
+ rank = 11000 of ranks = 12057 
+ rank = 11100 of ranks = 12057 
+ rank = 11200 of ranks = 12057 
+ rank = 11300 of ranks = 12057 
+ rank = 11400 of ranks = 12057 
+ rank = 11500 of ranks = 12057 
+ rank = 11600 of ranks = 12057 
+ rank = 11700 of ranks = 12057 
+ rank = 11800 of ranks = 12057 
+ rank = 11900 of ranks = 12057 
+ rank = 12000 of ranks = 12057 
+class_id = 0, name = upper_body, ap = 91.15%   	 (TP = 1429, FP = 536) 
 class_id = 1, name = head, ap = 89.19%   	 (TP = 1159, FP = 215) 
 class_id = 2, name = whole_body, ap = 97.71%   	 (TP = 1551, FP = 530) 
 
@@ -13638,7 +15091,114 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 10635, unique_truth_count = 4450  
- rank = 0 of ranks = 10635  rank = 100 of ranks = 10635  rank = 200 of ranks = 10635  rank = 300 of ranks = 10635  rank = 400 of ranks = 10635  rank = 500 of ranks = 10635  rank = 600 of ranks = 10635  rank = 700 of ranks = 10635  rank = 800 of ranks = 10635  rank = 900 of ranks = 10635  rank = 1000 of ranks = 10635  rank = 1100 of ranks = 10635  rank = 1200 of ranks = 10635  rank = 1300 of ranks = 10635  rank = 1400 of ranks = 10635  rank = 1500 of ranks = 10635  rank = 1600 of ranks = 10635  rank = 1700 of ranks = 10635  rank = 1800 of ranks = 10635  rank = 1900 of ranks = 10635  rank = 2000 of ranks = 10635  rank = 2100 of ranks = 10635  rank = 2200 of ranks = 10635  rank = 2300 of ranks = 10635  rank = 2400 of ranks = 10635  rank = 2500 of ranks = 10635  rank = 2600 of ranks = 10635  rank = 2700 of ranks = 10635  rank = 2800 of ranks = 10635  rank = 2900 of ranks = 10635  rank = 3000 of ranks = 10635  rank = 3100 of ranks = 10635  rank = 3200 of ranks = 10635  rank = 3300 of ranks = 10635  rank = 3400 of ranks = 10635  rank = 3500 of ranks = 10635  rank = 3600 of ranks = 10635  rank = 3700 of ranks = 10635  rank = 3800 of ranks = 10635  rank = 3900 of ranks = 10635  rank = 4000 of ranks = 10635  rank = 4100 of ranks = 10635  rank = 4200 of ranks = 10635  rank = 4300 of ranks = 10635  rank = 4400 of ranks = 10635  rank = 4500 of ranks = 10635  rank = 4600 of ranks = 10635  rank = 4700 of ranks = 10635  rank = 4800 of ranks = 10635  rank = 4900 of ranks = 10635  rank = 5000 of ranks = 10635  rank = 5100 of ranks = 10635  rank = 5200 of ranks = 10635  rank = 5300 of ranks = 10635  rank = 5400 of ranks = 10635  rank = 5500 of ranks = 10635  rank = 5600 of ranks = 10635  rank = 5700 of ranks = 10635  rank = 5800 of ranks = 10635  rank = 5900 of ranks = 10635  rank = 6000 of ranks = 10635  rank = 6100 of ranks = 10635  rank = 6200 of ranks = 10635  rank = 6300 of ranks = 10635  rank = 6400 of ranks = 10635  rank = 6500 of ranks = 10635  rank = 6600 of ranks = 10635  rank = 6700 of ranks = 10635  rank = 6800 of ranks = 10635  rank = 6900 of ranks = 10635  rank = 7000 of ranks = 10635  rank = 7100 of ranks = 10635  rank = 7200 of ranks = 10635  rank = 7300 of ranks = 10635  rank = 7400 of ranks = 10635  rank = 7500 of ranks = 10635  rank = 7600 of ranks = 10635  rank = 7700 of ranks = 10635  rank = 7800 of ranks = 10635  rank = 7900 of ranks = 10635  rank = 8000 of ranks = 10635  rank = 8100 of ranks = 10635  rank = 8200 of ranks = 10635  rank = 8300 of ranks = 10635  rank = 8400 of ranks = 10635  rank = 8500 of ranks = 10635  rank = 8600 of ranks = 10635  rank = 8700 of ranks = 10635  rank = 8800 of ranks = 10635  rank = 8900 of ranks = 10635  rank = 9000 of ranks = 10635  rank = 9100 of ranks = 10635  rank = 9200 of ranks = 10635  rank = 9300 of ranks = 10635  rank = 9400 of ranks = 10635  rank = 9500 of ranks = 10635  rank = 9600 of ranks = 10635  rank = 9700 of ranks = 10635  rank = 9800 of ranks = 10635  rank = 9900 of ranks = 10635  rank = 10000 of ranks = 10635  rank = 10100 of ranks = 10635  rank = 10200 of ranks = 10635  rank = 10300 of ranks = 10635  rank = 10400 of ranks = 10635  rank = 10500 of ranks = 10635  rank = 10600 of ranks = 10635 class_id = 0, name = upper_body, ap = 89.92%   	 (TP = 1417, FP = 537) 
+ rank = 0 of ranks = 10635 
+ rank = 100 of ranks = 10635 
+ rank = 200 of ranks = 10635 
+ rank = 300 of ranks = 10635 
+ rank = 400 of ranks = 10635 
+ rank = 500 of ranks = 10635 
+ rank = 600 of ranks = 10635 
+ rank = 700 of ranks = 10635 
+ rank = 800 of ranks = 10635 
+ rank = 900 of ranks = 10635 
+ rank = 1000 of ranks = 10635 
+ rank = 1100 of ranks = 10635 
+ rank = 1200 of ranks = 10635 
+ rank = 1300 of ranks = 10635 
+ rank = 1400 of ranks = 10635 
+ rank = 1500 of ranks = 10635 
+ rank = 1600 of ranks = 10635 
+ rank = 1700 of ranks = 10635 
+ rank = 1800 of ranks = 10635 
+ rank = 1900 of ranks = 10635 
+ rank = 2000 of ranks = 10635 
+ rank = 2100 of ranks = 10635 
+ rank = 2200 of ranks = 10635 
+ rank = 2300 of ranks = 10635 
+ rank = 2400 of ranks = 10635 
+ rank = 2500 of ranks = 10635 
+ rank = 2600 of ranks = 10635 
+ rank = 2700 of ranks = 10635 
+ rank = 2800 of ranks = 10635 
+ rank = 2900 of ranks = 10635 
+ rank = 3000 of ranks = 10635 
+ rank = 3100 of ranks = 10635 
+ rank = 3200 of ranks = 10635 
+ rank = 3300 of ranks = 10635 
+ rank = 3400 of ranks = 10635 
+ rank = 3500 of ranks = 10635 
+ rank = 3600 of ranks = 10635 
+ rank = 3700 of ranks = 10635 
+ rank = 3800 of ranks = 10635 
+ rank = 3900 of ranks = 10635 
+ rank = 4000 of ranks = 10635 
+ rank = 4100 of ranks = 10635 
+ rank = 4200 of ranks = 10635 
+ rank = 4300 of ranks = 10635 
+ rank = 4400 of ranks = 10635 
+ rank = 4500 of ranks = 10635 
+ rank = 4600 of ranks = 10635 
+ rank = 4700 of ranks = 10635 
+ rank = 4800 of ranks = 10635 
+ rank = 4900 of ranks = 10635 
+ rank = 5000 of ranks = 10635 
+ rank = 5100 of ranks = 10635 
+ rank = 5200 of ranks = 10635 
+ rank = 5300 of ranks = 10635 
+ rank = 5400 of ranks = 10635 
+ rank = 5500 of ranks = 10635 
+ rank = 5600 of ranks = 10635 
+ rank = 5700 of ranks = 10635 
+ rank = 5800 of ranks = 10635 
+ rank = 5900 of ranks = 10635 
+ rank = 6000 of ranks = 10635 
+ rank = 6100 of ranks = 10635 
+ rank = 6200 of ranks = 10635 
+ rank = 6300 of ranks = 10635 
+ rank = 6400 of ranks = 10635 
+ rank = 6500 of ranks = 10635 
+ rank = 6600 of ranks = 10635 
+ rank = 6700 of ranks = 10635 
+ rank = 6800 of ranks = 10635 
+ rank = 6900 of ranks = 10635 
+ rank = 7000 of ranks = 10635 
+ rank = 7100 of ranks = 10635 
+ rank = 7200 of ranks = 10635 
+ rank = 7300 of ranks = 10635 
+ rank = 7400 of ranks = 10635 
+ rank = 7500 of ranks = 10635 
+ rank = 7600 of ranks = 10635 
+ rank = 7700 of ranks = 10635 
+ rank = 7800 of ranks = 10635 
+ rank = 7900 of ranks = 10635 
+ rank = 8000 of ranks = 10635 
+ rank = 8100 of ranks = 10635 
+ rank = 8200 of ranks = 10635 
+ rank = 8300 of ranks = 10635 
+ rank = 8400 of ranks = 10635 
+ rank = 8500 of ranks = 10635 
+ rank = 8600 of ranks = 10635 
+ rank = 8700 of ranks = 10635 
+ rank = 8800 of ranks = 10635 
+ rank = 8900 of ranks = 10635 
+ rank = 9000 of ranks = 10635 
+ rank = 9100 of ranks = 10635 
+ rank = 9200 of ranks = 10635 
+ rank = 9300 of ranks = 10635 
+ rank = 9400 of ranks = 10635 
+ rank = 9500 of ranks = 10635 
+ rank = 9600 of ranks = 10635 
+ rank = 9700 of ranks = 10635 
+ rank = 9800 of ranks = 10635 
+ rank = 9900 of ranks = 10635 
+ rank = 10000 of ranks = 10635 
+ rank = 10100 of ranks = 10635 
+ rank = 10200 of ranks = 10635 
+ rank = 10300 of ranks = 10635 
+ rank = 10400 of ranks = 10635 
+ rank = 10500 of ranks = 10635 
+ rank = 10600 of ranks = 10635 
+class_id = 0, name = upper_body, ap = 89.92%   	 (TP = 1417, FP = 537) 
 class_id = 1, name = head, ap = 92.04%   	 (TP = 1190, FP = 178) 
 class_id = 2, name = whole_body, ap = 98.17%   	 (TP = 1570, FP = 540) 
 
@@ -14554,7 +16114,125 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 11786, unique_truth_count = 4450  
- rank = 0 of ranks = 11786  rank = 100 of ranks = 11786  rank = 200 of ranks = 11786  rank = 300 of ranks = 11786  rank = 400 of ranks = 11786  rank = 500 of ranks = 11786  rank = 600 of ranks = 11786  rank = 700 of ranks = 11786  rank = 800 of ranks = 11786  rank = 900 of ranks = 11786  rank = 1000 of ranks = 11786  rank = 1100 of ranks = 11786  rank = 1200 of ranks = 11786  rank = 1300 of ranks = 11786  rank = 1400 of ranks = 11786  rank = 1500 of ranks = 11786  rank = 1600 of ranks = 11786  rank = 1700 of ranks = 11786  rank = 1800 of ranks = 11786  rank = 1900 of ranks = 11786  rank = 2000 of ranks = 11786  rank = 2100 of ranks = 11786  rank = 2200 of ranks = 11786  rank = 2300 of ranks = 11786  rank = 2400 of ranks = 11786  rank = 2500 of ranks = 11786  rank = 2600 of ranks = 11786  rank = 2700 of ranks = 11786  rank = 2800 of ranks = 11786  rank = 2900 of ranks = 11786  rank = 3000 of ranks = 11786  rank = 3100 of ranks = 11786  rank = 3200 of ranks = 11786  rank = 3300 of ranks = 11786  rank = 3400 of ranks = 11786  rank = 3500 of ranks = 11786  rank = 3600 of ranks = 11786  rank = 3700 of ranks = 11786  rank = 3800 of ranks = 11786  rank = 3900 of ranks = 11786  rank = 4000 of ranks = 11786  rank = 4100 of ranks = 11786  rank = 4200 of ranks = 11786  rank = 4300 of ranks = 11786  rank = 4400 of ranks = 11786  rank = 4500 of ranks = 11786  rank = 4600 of ranks = 11786  rank = 4700 of ranks = 11786  rank = 4800 of ranks = 11786  rank = 4900 of ranks = 11786  rank = 5000 of ranks = 11786  rank = 5100 of ranks = 11786  rank = 5200 of ranks = 11786  rank = 5300 of ranks = 11786  rank = 5400 of ranks = 11786  rank = 5500 of ranks = 11786  rank = 5600 of ranks = 11786  rank = 5700 of ranks = 11786  rank = 5800 of ranks = 11786  rank = 5900 of ranks = 11786  rank = 6000 of ranks = 11786  rank = 6100 of ranks = 11786  rank = 6200 of ranks = 11786  rank = 6300 of ranks = 11786  rank = 6400 of ranks = 11786  rank = 6500 of ranks = 11786  rank = 6600 of ranks = 11786  rank = 6700 of ranks = 11786  rank = 6800 of ranks = 11786  rank = 6900 of ranks = 11786  rank = 7000 of ranks = 11786  rank = 7100 of ranks = 11786  rank = 7200 of ranks = 11786  rank = 7300 of ranks = 11786  rank = 7400 of ranks = 11786  rank = 7500 of ranks = 11786  rank = 7600 of ranks = 11786  rank = 7700 of ranks = 11786  rank = 7800 of ranks = 11786  rank = 7900 of ranks = 11786  rank = 8000 of ranks = 11786  rank = 8100 of ranks = 11786  rank = 8200 of ranks = 11786  rank = 8300 of ranks = 11786  rank = 8400 of ranks = 11786  rank = 8500 of ranks = 11786  rank = 8600 of ranks = 11786  rank = 8700 of ranks = 11786  rank = 8800 of ranks = 11786  rank = 8900 of ranks = 11786  rank = 9000 of ranks = 11786  rank = 9100 of ranks = 11786  rank = 9200 of ranks = 11786  rank = 9300 of ranks = 11786  rank = 9400 of ranks = 11786  rank = 9500 of ranks = 11786  rank = 9600 of ranks = 11786  rank = 9700 of ranks = 11786  rank = 9800 of ranks = 11786  rank = 9900 of ranks = 11786  rank = 10000 of ranks = 11786  rank = 10100 of ranks = 11786  rank = 10200 of ranks = 11786  rank = 10300 of ranks = 11786  rank = 10400 of ranks = 11786  rank = 10500 of ranks = 11786  rank = 10600 of ranks = 11786  rank = 10700 of ranks = 11786  rank = 10800 of ranks = 11786  rank = 10900 of ranks = 11786  rank = 11000 of ranks = 11786  rank = 11100 of ranks = 11786  rank = 11200 of ranks = 11786  rank = 11300 of ranks = 11786  rank = 11400 of ranks = 11786  rank = 11500 of ranks = 11786  rank = 11600 of ranks = 11786  rank = 11700 of ranks = 11786 class_id = 0, name = upper_body, ap = 91.85%   	 (TP = 1419, FP = 560) 
+ rank = 0 of ranks = 11786 
+ rank = 100 of ranks = 11786 
+ rank = 200 of ranks = 11786 
+ rank = 300 of ranks = 11786 
+ rank = 400 of ranks = 11786 
+ rank = 500 of ranks = 11786 
+ rank = 600 of ranks = 11786 
+ rank = 700 of ranks = 11786 
+ rank = 800 of ranks = 11786 
+ rank = 900 of ranks = 11786 
+ rank = 1000 of ranks = 11786 
+ rank = 1100 of ranks = 11786 
+ rank = 1200 of ranks = 11786 
+ rank = 1300 of ranks = 11786 
+ rank = 1400 of ranks = 11786 
+ rank = 1500 of ranks = 11786 
+ rank = 1600 of ranks = 11786 
+ rank = 1700 of ranks = 11786 
+ rank = 1800 of ranks = 11786 
+ rank = 1900 of ranks = 11786 
+ rank = 2000 of ranks = 11786 
+ rank = 2100 of ranks = 11786 
+ rank = 2200 of ranks = 11786 
+ rank = 2300 of ranks = 11786 
+ rank = 2400 of ranks = 11786 
+ rank = 2500 of ranks = 11786 
+ rank = 2600 of ranks = 11786 
+ rank = 2700 of ranks = 11786 
+ rank = 2800 of ranks = 11786 
+ rank = 2900 of ranks = 11786 
+ rank = 3000 of ranks = 11786 
+ rank = 3100 of ranks = 11786 
+ rank = 3200 of ranks = 11786 
+ rank = 3300 of ranks = 11786 
+ rank = 3400 of ranks = 11786 
+ rank = 3500 of ranks = 11786 
+ rank = 3600 of ranks = 11786 
+ rank = 3700 of ranks = 11786 
+ rank = 3800 of ranks = 11786 
+ rank = 3900 of ranks = 11786 
+ rank = 4000 of ranks = 11786 
+ rank = 4100 of ranks = 11786 
+ rank = 4200 of ranks = 11786 
+ rank = 4300 of ranks = 11786 
+ rank = 4400 of ranks = 11786 
+ rank = 4500 of ranks = 11786 
+ rank = 4600 of ranks = 11786 
+ rank = 4700 of ranks = 11786 
+ rank = 4800 of ranks = 11786 
+ rank = 4900 of ranks = 11786 
+ rank = 5000 of ranks = 11786 
+ rank = 5100 of ranks = 11786 
+ rank = 5200 of ranks = 11786 
+ rank = 5300 of ranks = 11786 
+ rank = 5400 of ranks = 11786 
+ rank = 5500 of ranks = 11786 
+ rank = 5600 of ranks = 11786 
+ rank = 5700 of ranks = 11786 
+ rank = 5800 of ranks = 11786 
+ rank = 5900 of ranks = 11786 
+ rank = 6000 of ranks = 11786 
+ rank = 6100 of ranks = 11786 
+ rank = 6200 of ranks = 11786 
+ rank = 6300 of ranks = 11786 
+ rank = 6400 of ranks = 11786 
+ rank = 6500 of ranks = 11786 
+ rank = 6600 of ranks = 11786 
+ rank = 6700 of ranks = 11786 
+ rank = 6800 of ranks = 11786 
+ rank = 6900 of ranks = 11786 
+ rank = 7000 of ranks = 11786 
+ rank = 7100 of ranks = 11786 
+ rank = 7200 of ranks = 11786 
+ rank = 7300 of ranks = 11786 
+ rank = 7400 of ranks = 11786 
+ rank = 7500 of ranks = 11786 
+ rank = 7600 of ranks = 11786 
+ rank = 7700 of ranks = 11786 
+ rank = 7800 of ranks = 11786 
+ rank = 7900 of ranks = 11786 
+ rank = 8000 of ranks = 11786 
+ rank = 8100 of ranks = 11786 
+ rank = 8200 of ranks = 11786 
+ rank = 8300 of ranks = 11786 
+ rank = 8400 of ranks = 11786 
+ rank = 8500 of ranks = 11786 
+ rank = 8600 of ranks = 11786 
+ rank = 8700 of ranks = 11786 
+ rank = 8800 of ranks = 11786 
+ rank = 8900 of ranks = 11786 
+ rank = 9000 of ranks = 11786 
+ rank = 9100 of ranks = 11786 
+ rank = 9200 of ranks = 11786 
+ rank = 9300 of ranks = 11786 
+ rank = 9400 of ranks = 11786 
+ rank = 9500 of ranks = 11786 
+ rank = 9600 of ranks = 11786 
+ rank = 9700 of ranks = 11786 
+ rank = 9800 of ranks = 11786 
+ rank = 9900 of ranks = 11786 
+ rank = 10000 of ranks = 11786 
+ rank = 10100 of ranks = 11786 
+ rank = 10200 of ranks = 11786 
+ rank = 10300 of ranks = 11786 
+ rank = 10400 of ranks = 11786 
+ rank = 10500 of ranks = 11786 
+ rank = 10600 of ranks = 11786 
+ rank = 10700 of ranks = 11786 
+ rank = 10800 of ranks = 11786 
+ rank = 10900 of ranks = 11786 
+ rank = 11000 of ranks = 11786 
+ rank = 11100 of ranks = 11786 
+ rank = 11200 of ranks = 11786 
+ rank = 11300 of ranks = 11786 
+ rank = 11400 of ranks = 11786 
+ rank = 11500 of ranks = 11786 
+ rank = 11600 of ranks = 11786 
+ rank = 11700 of ranks = 11786 
+class_id = 0, name = upper_body, ap = 91.85%   	 (TP = 1419, FP = 560) 
 class_id = 1, name = head, ap = 90.79%   	 (TP = 1175, FP = 224) 
 class_id = 2, name = whole_body, ap = 98.10%   	 (TP = 1570, FP = 539) 
 
@@ -15465,7 +17143,124 @@ Resizing to initial size: 416 x 416  try to allocate additional workspace_size =
  Detection layer: 161 - type = 28 
 
  detections_count = 11624, unique_truth_count = 4450  
- rank = 0 of ranks = 11624  rank = 100 of ranks = 11624  rank = 200 of ranks = 11624  rank = 300 of ranks = 11624  rank = 400 of ranks = 11624  rank = 500 of ranks = 11624  rank = 600 of ranks = 11624  rank = 700 of ranks = 11624  rank = 800 of ranks = 11624  rank = 900 of ranks = 11624  rank = 1000 of ranks = 11624  rank = 1100 of ranks = 11624  rank = 1200 of ranks = 11624  rank = 1300 of ranks = 11624  rank = 1400 of ranks = 11624  rank = 1500 of ranks = 11624  rank = 1600 of ranks = 11624  rank = 1700 of ranks = 11624  rank = 1800 of ranks = 11624  rank = 1900 of ranks = 11624  rank = 2000 of ranks = 11624  rank = 2100 of ranks = 11624  rank = 2200 of ranks = 11624  rank = 2300 of ranks = 11624  rank = 2400 of ranks = 11624  rank = 2500 of ranks = 11624  rank = 2600 of ranks = 11624  rank = 2700 of ranks = 11624  rank = 2800 of ranks = 11624  rank = 2900 of ranks = 11624  rank = 3000 of ranks = 11624  rank = 3100 of ranks = 11624  rank = 3200 of ranks = 11624  rank = 3300 of ranks = 11624  rank = 3400 of ranks = 11624  rank = 3500 of ranks = 11624  rank = 3600 of ranks = 11624  rank = 3700 of ranks = 11624  rank = 3800 of ranks = 11624  rank = 3900 of ranks = 11624  rank = 4000 of ranks = 11624  rank = 4100 of ranks = 11624  rank = 4200 of ranks = 11624  rank = 4300 of ranks = 11624  rank = 4400 of ranks = 11624  rank = 4500 of ranks = 11624  rank = 4600 of ranks = 11624  rank = 4700 of ranks = 11624  rank = 4800 of ranks = 11624  rank = 4900 of ranks = 11624  rank = 5000 of ranks = 11624  rank = 5100 of ranks = 11624  rank = 5200 of ranks = 11624  rank = 5300 of ranks = 11624  rank = 5400 of ranks = 11624  rank = 5500 of ranks = 11624  rank = 5600 of ranks = 11624  rank = 5700 of ranks = 11624  rank = 5800 of ranks = 11624  rank = 5900 of ranks = 11624  rank = 6000 of ranks = 11624  rank = 6100 of ranks = 11624  rank = 6200 of ranks = 11624  rank = 6300 of ranks = 11624  rank = 6400 of ranks = 11624  rank = 6500 of ranks = 11624  rank = 6600 of ranks = 11624  rank = 6700 of ranks = 11624  rank = 6800 of ranks = 11624  rank = 6900 of ranks = 11624  rank = 7000 of ranks = 11624  rank = 7100 of ranks = 11624  rank = 7200 of ranks = 11624  rank = 7300 of ranks = 11624  rank = 7400 of ranks = 11624  rank = 7500 of ranks = 11624  rank = 7600 of ranks = 11624  rank = 7700 of ranks = 11624  rank = 7800 of ranks = 11624  rank = 7900 of ranks = 11624  rank = 8000 of ranks = 11624  rank = 8100 of ranks = 11624  rank = 8200 of ranks = 11624  rank = 8300 of ranks = 11624  rank = 8400 of ranks = 11624  rank = 8500 of ranks = 11624  rank = 8600 of ranks = 11624  rank = 8700 of ranks = 11624  rank = 8800 of ranks = 11624  rank = 8900 of ranks = 11624  rank = 9000 of ranks = 11624  rank = 9100 of ranks = 11624  rank = 9200 of ranks = 11624  rank = 9300 of ranks = 11624  rank = 9400 of ranks = 11624  rank = 9500 of ranks = 11624  rank = 9600 of ranks = 11624  rank = 9700 of ranks = 11624  rank = 9800 of ranks = 11624  rank = 9900 of ranks = 11624  rank = 10000 of ranks = 11624  rank = 10100 of ranks = 11624  rank = 10200 of ranks = 11624  rank = 10300 of ranks = 11624  rank = 10400 of ranks = 11624  rank = 10500 of ranks = 11624  rank = 10600 of ranks = 11624  rank = 10700 of ranks = 11624  rank = 10800 of ranks = 11624  rank = 10900 of ranks = 11624  rank = 11000 of ranks = 11624  rank = 11100 of ranks = 11624  rank = 11200 of ranks = 11624  rank = 11300 of ranks = 11624  rank = 11400 of ranks = 11624  rank = 11500 of ranks = 11624  rank = 11600 of ranks = 11624 class_id = 0, name = upper_body, ap = 87.76%   	 (TP = 1377, FP = 621) 
+ rank = 0 of ranks = 11624 
+ rank = 100 of ranks = 11624 
+ rank = 200 of ranks = 11624 
+ rank = 300 of ranks = 11624 
+ rank = 400 of ranks = 11624 
+ rank = 500 of ranks = 11624 
+ rank = 600 of ranks = 11624 
+ rank = 700 of ranks = 11624 
+ rank = 800 of ranks = 11624 
+ rank = 900 of ranks = 11624 
+ rank = 1000 of ranks = 11624 
+ rank = 1100 of ranks = 11624 
+ rank = 1200 of ranks = 11624 
+ rank = 1300 of ranks = 11624 
+ rank = 1400 of ranks = 11624 
+ rank = 1500 of ranks = 11624 
+ rank = 1600 of ranks = 11624 
+ rank = 1700 of ranks = 11624 
+ rank = 1800 of ranks = 11624 
+ rank = 1900 of ranks = 11624 
+ rank = 2000 of ranks = 11624 
+ rank = 2100 of ranks = 11624 
+ rank = 2200 of ranks = 11624 
+ rank = 2300 of ranks = 11624 
+ rank = 2400 of ranks = 11624 
+ rank = 2500 of ranks = 11624 
+ rank = 2600 of ranks = 11624 
+ rank = 2700 of ranks = 11624 
+ rank = 2800 of ranks = 11624 
+ rank = 2900 of ranks = 11624 
+ rank = 3000 of ranks = 11624 
+ rank = 3100 of ranks = 11624 
+ rank = 3200 of ranks = 11624 
+ rank = 3300 of ranks = 11624 
+ rank = 3400 of ranks = 11624 
+ rank = 3500 of ranks = 11624 
+ rank = 3600 of ranks = 11624 
+ rank = 3700 of ranks = 11624 
+ rank = 3800 of ranks = 11624 
+ rank = 3900 of ranks = 11624 
+ rank = 4000 of ranks = 11624 
+ rank = 4100 of ranks = 11624 
+ rank = 4200 of ranks = 11624 
+ rank = 4300 of ranks = 11624 
+ rank = 4400 of ranks = 11624 
+ rank = 4500 of ranks = 11624 
+ rank = 4600 of ranks = 11624 
+ rank = 4700 of ranks = 11624 
+ rank = 4800 of ranks = 11624 
+ rank = 4900 of ranks = 11624 
+ rank = 5000 of ranks = 11624 
+ rank = 5100 of ranks = 11624 
+ rank = 5200 of ranks = 11624 
+ rank = 5300 of ranks = 11624 
+ rank = 5400 of ranks = 11624 
+ rank = 5500 of ranks = 11624 
+ rank = 5600 of ranks = 11624 
+ rank = 5700 of ranks = 11624 
+ rank = 5800 of ranks = 11624 
+ rank = 5900 of ranks = 11624 
+ rank = 6000 of ranks = 11624 
+ rank = 6100 of ranks = 11624 
+ rank = 6200 of ranks = 11624 
+ rank = 6300 of ranks = 11624 
+ rank = 6400 of ranks = 11624 
+ rank = 6500 of ranks = 11624 
+ rank = 6600 of ranks = 11624 
+ rank = 6700 of ranks = 11624 
+ rank = 6800 of ranks = 11624 
+ rank = 6900 of ranks = 11624 
+ rank = 7000 of ranks = 11624 
+ rank = 7100 of ranks = 11624 
+ rank = 7200 of ranks = 11624 
+ rank = 7300 of ranks = 11624 
+ rank = 7400 of ranks = 11624 
+ rank = 7500 of ranks = 11624 
+ rank = 7600 of ranks = 11624 
+ rank = 7700 of ranks = 11624 
+ rank = 7800 of ranks = 11624 
+ rank = 7900 of ranks = 11624 
+ rank = 8000 of ranks = 11624 
+ rank = 8100 of ranks = 11624 
+ rank = 8200 of ranks = 11624 
+ rank = 8300 of ranks = 11624 
+ rank = 8400 of ranks = 11624 
+ rank = 8500 of ranks = 11624 
+ rank = 8600 of ranks = 11624 
+ rank = 8700 of ranks = 11624 
+ rank = 8800 of ranks = 11624 
+ rank = 8900 of ranks = 11624 
+ rank = 9000 of ranks = 11624 
+ rank = 9100 of ranks = 11624 
+ rank = 9200 of ranks = 11624 
+ rank = 9300 of ranks = 11624 
+ rank = 9400 of ranks = 11624 
+ rank = 9500 of ranks = 11624 
+ rank = 9600 of ranks = 11624 
+ rank = 9700 of ranks = 11624 
+ rank = 9800 of ranks = 11624 
+ rank = 9900 of ranks = 11624 
+ rank = 10000 of ranks = 11624 
+ rank = 10100 of ranks = 11624 
+ rank = 10200 of ranks = 11624 
+ rank = 10300 of ranks = 11624 
+ rank = 10400 of ranks = 11624 
+ rank = 10500 of ranks = 11624 
+ rank = 10600 of ranks = 11624 
+ rank = 10700 of ranks = 11624 
+ rank = 10800 of ranks = 11624 
+ rank = 10900 of ranks = 11624 
+ rank = 11000 of ranks = 11624 
+ rank = 11100 of ranks = 11624 
+ rank = 11200 of ranks = 11624 
+ rank = 11300 of ranks = 11624 
+ rank = 11400 of ranks = 11624 
+ rank = 11500 of ranks = 11624 
+ rank = 11600 of ranks = 11624 
+class_id = 0, name = upper_body, ap = 87.76%   	 (TP = 1377, FP = 621) 
 class_id = 1, name = head, ap = 89.85%   	 (TP = 1170, FP = 224) 
 class_id = 2, name = whole_body, ap = 98.45%   	 (TP = 1564, FP = 419) 
 
