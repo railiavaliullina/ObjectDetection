@@ -19,7 +19,7 @@ class Dataset:
         self.dataset = self.get_dataset_as_dataframe()
 
         self.logger.info('getting dataset stats for EDA')
-        # collect dataset stats and info for eda
+        # collect dataset stats and info for eda_plots
         self.get_common_stats()
 
         if self.cfg['split_data']:
