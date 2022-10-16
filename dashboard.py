@@ -1,5 +1,4 @@
 import os
-
 import dash
 import dash_bootstrap_components as dbc
 import dash_daq as daq
@@ -149,7 +148,8 @@ class Dashboard:
                     ], style={'marginLeft': '25.7%'}),
 
                     # distribution of boxes across images
-                    dbc.Row([dbc.Col(html.P('3. Distribution of boxes across images'), width=9,
+                    dbc.Row([dbc.Col(html.P('3. Distribution of boxes across images, Distribution of Boxes areas'),
+                                     width=9,
                                      style={'marginTop': '1%', 'marginLeft': '27%'})]),
                     dbc.Row([
                         dbc.Col(
