@@ -11,13 +11,13 @@ Test Assignment
   * [Information about Training](#information-about-training)
     * [Hyperparameters](#hyperparameters)
     * [Train and Test sets](#train-and-test-sets)
-    * [GPU and Training Time:](#gpu-and-training-time-)
+    * [GPU and Training Time](#gpu-and-training-time)
     * [Metrics with best weights](#metrics-with-best-weights)
     * [Loss and mAP plots](#loss-and-map-plots)
     * [Predictions examples on test set images](#predictions-examples-on-test-set-images)
-* [How to Train and Inference Net](#how-to-train-and-inference-net)
+* [How to Train and Inference](#how-to-train-and-inference)
   * [Kaggle](#kaggle)
-  * [Colab](#colab)
+  * [Google Colab](#google-colab)
 <!-- TOC -->
 
 # EDA
@@ -116,7 +116,7 @@ Test Assignment
     Train set size: 2578 (80% from dataset)
     Test set size: 644 (20% from dataset)
 
-### GPU and Training Time:
+### GPU and Training Time
   
     GPU: Tesla P100-PCIE-16GB (Kaggle), Tesla T4 16gb (Google Colab)
     Training time on Kaggle: ~ 25 h
