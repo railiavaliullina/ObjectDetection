@@ -154,18 +154,17 @@ Test Assignment
 
 # How to Train and Inference
 
-- общая информация об обучении (гиперпараметры, время, гпу и тд)
-- ссылки на ноутбуки с инструкциями
-- графики с обучения
-- что пробовала менять
-- что бы хотела попробовать дальше
+- Обучение происходило на Kaggle и на Google Colab
 
-## Kaggle 
-- Tesla P100 16gb
-- Training time: ~ 25 hours (6000 iterations)
-- https://www.kaggle.com/railyavaliullina/testassignment
+## Kaggle
+
+- Модель GPU: Tesla P100 16gb
+- Время обучения: ~ 25 hours (6000 iterations)
+
+- Notebook с кодом для обучения и инференса:
+https://www.kaggle.com/railyavaliullina/testassignment
 
 ## Google Colab
-- Tesla T4 16gb
-- Training time: ~ 27 hours (6000 iterations)
-- https://colab.research.google.com/drive/1NtEQRal8Yu_0k1TlSTvFIen5VBGEiEpj?usp=sharing
+- Модель GPU: Tesla T4 16gb
+- Время обучения: ~ 27 hours (6000 iterations)
+- Notebook с кодом для обучения и инференса: https://colab.research.google.com/drive/1NtEQRal8Yu_0k1TlSTvFIen5VBGEiEpj?usp=sharing
