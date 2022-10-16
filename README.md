@@ -76,7 +76,7 @@ Test Assignment
 
 ## Information about Training
 
-### hyperparameters
+### Hyperparameters
 - были использованы рекомендуемые значения гиперпараметров
 - по рекомендациям из документации darknet был увеличен размер входного изображения 
   (с [416, 416] до [512, 512], что позволило получить прирост в mAP с 97.29 % до 97.38 % и добавило 2 часа при обучении) 
@@ -111,7 +111,7 @@ Test Assignment
 
 - при использовании размера больше 512, памяти использованных GPU было недостаточно
 
-### Train and Test set
+### Train and Test sets
 
     Train set size: 2578 (80% from dataset)
     Test set size: 644 (20% from dataset)
