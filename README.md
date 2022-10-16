@@ -89,45 +89,41 @@ Test Assignment
 
 - подробные метрики с размером изображения [416, 416]:
 
+      detections_count = 8830, unique_truth_count = 4450  
+      class_id = 0, name = upper_body, ap = 96.70%   	 (TP = 1506, FP = 488) 
+      class_id = 1, name = head, ap = 96.19%   	 (TP = 1231, FP = 120) 
+      class_id = 2, name = whole_body, ap = 98.97%   	 (TP = 1584, FP = 479) 
 
-    detections_count = 8830, unique_truth_count = 4450  
-    class_id = 0, name = upper_body, ap = 96.70%   	 (TP = 1506, FP = 488) 
-    class_id = 1, name = head, ap = 96.19%   	 (TP = 1231, FP = 120) 
-    class_id = 2, name = whole_body, ap = 98.97%   	 (TP = 1584, FP = 479) 
-    
-    for conf_thresh = 0.25, precision = 0.80, recall = 0.97, F1-score = 0.88 
-    for conf_thresh = 0.25, TP = 4321, FP = 1087, FN = 129, average IoU = 67.07 % 
-    
-    IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
-    mean average precision (mAP@0.50) = 0.972875, or 97.29 % 
-    Total Detection Time: 55 Seconds
+      for conf_thresh = 0.25, precision = 0.80, recall = 0.97, F1-score = 0.88 
+      for conf_thresh = 0.25, TP = 4321, FP = 1087, FN = 129, average IoU = 67.07 % 
+
+      IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+      mean average precision (mAP@0.50) = 0.972875, or 97.29 % 
+      Total Detection Time: 55 Seconds
 
 - подробные метрики с размером изображения [512, 512]:
 
+      detections_count = 8785, unique_truth_count = 4450  
+      class_id = 0, name = upper_body, ap = 97.17%   	 (TP = 1508, FP = 490) 
+      class_id = 1, name = head, ap = 96.02%   	 (TP = 1239, FP = 122) 
+      class_id = 2, name = whole_body, ap = 98.96%   	 (TP = 1585, FP = 500) 
 
-    detections_count = 8785, unique_truth_count = 4450  
-    class_id = 0, name = upper_body, ap = 97.17%   	 (TP = 1508, FP = 490) 
-    class_id = 1, name = head, ap = 96.02%   	 (TP = 1239, FP = 122) 
-    class_id = 2, name = whole_body, ap = 98.96%   	 (TP = 1585, FP = 500) 
+      for conf_thresh = 0.25, precision = 0.80, recall = 0.97, F1-score = 0.88 
+      for conf_thresh = 0.25, TP = 4332, FP = 1112, FN = 118, average IoU = 66.64 % 
 
-    for conf_thresh = 0.25, precision = 0.80, recall = 0.97, F1-score = 0.88 
-    for conf_thresh = 0.25, TP = 4332, FP = 1112, FN = 118, average IoU = 66.64 % 
-    
-    IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
-    mean average precision (mAP@0.50) = 0.973817, or 97.38 % 
-    Total Detection Time: 55 Seconds
+      IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+      mean average precision (mAP@0.50) = 0.973817, or 97.38 % 
+      Total Detection Time: 55 Seconds
 
 - при использовании размера больше 512, памяти использованных GPU было недостаточно
 
 ### Train and Test set
-
 
     Train set size: 2578 (80% from dataset)
     Test set size: 644 (20% from dataset)
 
 ### GPU and Training Time:
   
-
     GPU: Tesla P100-PCIE-16GB (Kaggle), Tesla T4 16gb (Google Colab)
     Training time on Kaggle: ~ 25 h
     Training time on Google Colab: ~ 26 h
