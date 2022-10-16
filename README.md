@@ -20,7 +20,7 @@
 
 ![](../../../Downloads/videos_2_convert_2_gif/2.gif)
 
-### Запуск dashboard
+### Run dashboard
 - dashboard запускается локально, для этого необходимо:
   - склонировать проект
   - в конфиге config.json изменить параметр ["dataset"]["data_path"] на путь до датасета (папки "dataset" из 
