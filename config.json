@@ -20,10 +20,14 @@
   },
 
   "evaluation": {
-    "save_parsed_logs": true,
+    "save_parsed_logs": false,
+    "load_parsed_logs": true,
     "logs_dir": {
       "raw": "logs/raw",
       "parsed": "logs/parsed"
-    }
+    },
+    "predictions_results_main_path": "predictions_results/",
+    "thresholds": [0.3, 0.4, 0.5],
+    "default_thr": 0.5
   }
 }

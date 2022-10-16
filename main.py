@@ -38,6 +38,6 @@ if __name__ == '__main__':
     with open('/dataset', 'rb') as f:
         dataset = pickle.load(f)
 
-    evaluation_results = Evaluation(cfg=cfg, logger=logger).parsed_logs
-    dashboard_obj = Dashboard(cfg=cfg, logger=logger, dataset=dataset, evaluation_results=evaluation_results)
+    evaluation = Evaluation(cfg=cfg, logger=logger)
+    dashboard_obj = Dashboard(cfg=cfg, logger=logger, dataset=dataset, evaluation=evaluation)
     dashboard_obj()

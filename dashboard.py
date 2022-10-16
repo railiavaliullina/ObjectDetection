@@ -6,29 +6,47 @@ import dash_daq as daq
 import numpy as np
 import plotly.express as px
 from PIL import Image
-from dash import dcc
-from dash import html
+from dash import dcc, ctx, html
 from dash.dependencies import Input, Output
 from dash_bootstrap_templates import load_figure_template
 
 
 class Dashboard:
-    def __init__(self, cfg, logger, dataset, evaluation_results):
+    def __init__(self, cfg, logger, dataset, evaluation):
         self.cfg = cfg['dashboard']
         self.dataset_cfg = cfg['dataset']
+        self.eval_cfg = cfg['evaluation']
         self.logger = logger
         self.dataset = dataset
-        self.evaluation_results = evaluation_results
+        self.evaluation_results = evaluation.parsed_logs
+        self.predictions_results_paths = evaluation.predictions_results_paths
         self.slider_size = len(self.dataset)
+        self.results_thr_slider_size = evaluation.thresholds_num
 
         self.logger.info('initializing dashboard for EDA and training results visualization')
         load_figure_template('LUX')
         self.app = dash.Dash(external_stylesheets=[dbc.themes.LUX])
 
         self.slider_data = self.dataset.dataset
-        self.get_images_figures(idx=0)
+        self.get_images_figures()
+        self.get_predictions_figures(thr=self.eval_cfg["default_thr"])
         self.init_sidebar()
         self.init_main_part_div()
+
+        @self.app.callback(
+            Output("result-image-0", "figure"),
+            Output("result-image-1", "figure"),
+            Output("chosen-thr-text", "children"),
+            Input("results-thr-slider", "value"),
+            Input("results-btn", "n_clicks"),
+        )
+        def change_results_boxes_by_thr(thr, n_clicks):
+            if "results-btn" == ctx.triggered_id:
+                random_idxs = np.random.choice(np.arange(len(self.predictions_results_paths)), 2, replace=False)
+                self.get_predictions_figures(thr=thr, idx=random_idxs)
+            else:
+                self.change_predictions_figures(thr=thr)
+            return self.predictions_figures[0], self.predictions_figures[1], f"Chosen Threshold: {thr}"
 
         @self.app.callback(
             Output("dataset-image-0", "figure"),
@@ -186,11 +204,59 @@ class Dashboard:
                         dbc.Col(html.H1('Object Detection Problem, Training Results'), width=9,
                                 style={'marginTop': '1.5%'},
                                 id='main-title'),
-                    ])
+                    ]),
+                    # training details (hyperparams etc., training time on kaggle and colab, metrics on test set)
+                    dbc.Row([
+                        dbc.Col(),
+                        dbc.Col(html.H3('Training details'), width=9, style={'marginTop': '4%',
+                                                                             'marginBottom': '1.5%'}),
+                        html.P(f"Hyperparameters (recommended values)", style={'marginLeft': '27%',
+                                                                               'marginBottom': '0.5%'}),
+                        html.P(f"Train set, Test set sizes: {None}", style={'marginLeft': '27%',
+                                                                            'marginBottom': '0.5%'}),
+                        html.P(f"Training time on Kaggle (GPU: ): ~ 25 h", style={'marginLeft': '27%',
+                                                                                  'marginBottom': '0.5%'}),
+                        html.P(f"Training time on Google Colab (GPU: ): ~ 27 h", style={'marginLeft': '27%',
+                                                                                        'marginBottom': '0.5%'}),
+                        html.P(f"Number of Iterations: {None}", style={'marginLeft': '27%', 'marginBottom': '0.5%'}),
+                    ]),
+
+                    dbc.Row([
+                        dbc.Col(),
+                        dbc.Col(html.H3('Training Process Visualization'), width=9, style={'marginTop': '4%',
+                                                                                           'marginBottom': '1.5%'}),
+                        html.P('Loss on train set', style={'marginLeft': '27%', 'marginBottom': '0.5%'}),
+
+                        html.P('mAP on test set', style={'marginLeft': '27%', 'marginBottom': '0.5%'}),
+
+                    ]),
+
+                    dbc.Row([
+                        dbc.Col(),
+                        dbc.Col(html.H3('View Results'), width=9, style={'marginTop': '4%', 'marginBottom': '1.5%'}),
+                        html.P(f"Chosen Threshold: {self.eval_cfg['default_thr']}",
+                               style={'marginLeft': '51%', 'marginBottom': '1%'}, id='chosen-thr-text'),
+                        dbc.Row([dcc.Slider(self.eval_cfg['thresholds'][0], self.eval_cfg['thresholds'][-1], 0.1,
+                                            id='results-thr-slider', marks={i: self.eval_cfg['thresholds'][i]
+                                                                            for i in
+                                                                            range(self.results_thr_slider_size)},
+                                            value=self.eval_cfg['default_thr'], updatemode='drag',)
+                                 ], style={'width': '30%', 'marginLeft': '40%'}),
+
+                        dbc.Row(
+                            [dbc.Col(self.sidebar, style={'display': 'inline-block'}),
+                             dbc.Col(dcc.Graph(id='result-image-0', figure=self.predictions_figures[0]),
+                                     style={'display': 'inline-block'}),
+                             dbc.Col(dcc.Graph(id='result-image-1', figure=self.predictions_figures[1]),
+                                     style={'display': 'inline-block', 'marginRight': '10%',
+                                            'marginBottom': '1%'})
+                             ]),
+
+                        dbc.Row([dbc.Button("View Random Results", color="success", id='results-btn', n_clicks=0)
+                                 ], style={'width': '10%', 'marginLeft': '54%', 'marginBottom': '5%'}),
+                    ]),
+
                 ], id='main-part-div')
-
-                # TODO: add training details (hyperparams etc., training time on kaggle and colab, metrics on test set)
-
             return updated_div, value
 
     def get_images_figures(self, idx=0, img_count=2, show_boxes=True):
@@ -223,6 +289,35 @@ class Dashboard:
                                   line=dict(color=px.colors.qualitative.Plotly[object_class], width=2))
                     fig.update_shapes(dict(xref='x', yref='y'))
             self.figures.append(fig)
+
+    def get_predictions_figures(self, idx=None, img_count=2, thr=None):
+        self.predictions_figures, self.predictions_figures_paths = [], []
+        paths = self.predictions_results_paths[:img_count] if idx is None \
+            else self.predictions_results_paths[idx]
+        for image_path in paths:
+            image = Image.open(
+                os.path.join(os.path.join(self.eval_cfg['predictions_results_main_path'], f"thr_{thr}"), image_path))
+            fig = px.imshow(image)
+            images_layout = {'plot_bgcolor': 'white', 'paper_bgcolor': 'white', 'margin': dict(t=20, b=0, l=0, r=0),
+                             'xaxis': dict(showgrid=False, showticklabels=False, linewidth=0),
+                             'yaxis': dict(showgrid=False, showticklabels=False, linewidth=0),
+                             'hovermode': False}
+            fig.update_layout(**images_layout)
+            self.predictions_figures.append(fig)
+            self.predictions_figures_paths.append(image_path)
+
+    def change_predictions_figures(self, thr):
+        self.predictions_figures = []
+        for image_path in self.predictions_figures_paths:
+            image = Image.open(
+                os.path.join(os.path.join(self.eval_cfg['predictions_results_main_path'], f"thr_{thr}"), image_path))
+            fig = px.imshow(image)
+            images_layout = {'plot_bgcolor': 'white', 'paper_bgcolor': 'white', 'margin': dict(t=20, b=0, l=0, r=0),
+                             'xaxis': dict(showgrid=False, showticklabels=False, linewidth=0),
+                             'yaxis': dict(showgrid=False, showticklabels=False, linewidth=0),
+                             'hovermode': False}
+            fig.update_layout(**images_layout)
+            self.predictions_figures.append(fig)
 
     def init_sidebar(self):
         self.sidebar = html.Div(
