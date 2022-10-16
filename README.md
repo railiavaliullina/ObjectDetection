@@ -1,5 +1,6 @@
 # Object Detection Problem
 
+## 1) EDA
 
 ### Kaggle 
 - Tesla P100 16gb
