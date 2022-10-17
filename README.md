@@ -183,4 +183,4 @@ Test Assignment
 - Модель GPU: Tesla T4 16gb
 - Время обучения: ~ 26 ч (6000 итераций)
 - Notebook с кодом для обучения и инференса: https://colab.research.google.com/drive/1NtEQRal8Yu_0k1TlSTvFIen5VBGEiEpj?usp=sharing
-- - Notebook с кодом также есть по пути `/ipython-notebooks/kaggle/google-colab`
+- Notebook с кодом также есть по пути `/ipython-notebooks/kaggle/google-colab`
