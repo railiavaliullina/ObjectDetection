@@ -11,7 +11,11 @@ from PIL import Image
 
 class Dataset:
     def __init__(self, cfg, logger):
-
+        """
+        class for collecting dataset info and stats, which are used for visualization
+        :param cfg: 'dataset' part of config
+        :param logger: logger object
+        """
         self.cfg = cfg['dataset']
         self.logger = logger
 

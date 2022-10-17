@@ -12,7 +12,9 @@
       "0": "Upper Body",
       "1": "Head",
       "2": "Whole Body"
-    }
+    },
+    "save_dataset_obj": false,
+    "load_dataset_obj": false
   },
 
   "dashboard": {
