@@ -16,6 +16,8 @@ Test Assignment
     * [Loss and mAP plots](#loss-and-map-plots)
     * [Predictions examples on test set images](#predictions-examples-on-test-set-images)
 * [How to Train and Inference](#how-to-train-and-inference)
+  * [Training](#training)
+  * [Inference](#inference)
   * [Kaggle](#kaggle)
   * [Google Colab](#google-colab)
 <!-- TOC -->
@@ -154,7 +156,19 @@ Test Assignment
 
 # How to Train and Inference
 
+## Training
 - Обучение происходило на Kaggle и на Google Colab
+- по ссылкам ниже можно запустить обучение на Kaggle или Colab
+
+## Inference
+- в ноутбуке Kaggle по ссылке ниже настроен инференс c лучшими весами, 
+  он запскается на тестовой выборке до начала обучения
+- для этого достаточно:
+  - перейти по ссылке 
+  - нажать Edit
+  - выполнить 1. шаг из инструкции в ноутбуке
+  - нажать на Run All
+- в результате инференса будут выведены метрики и пример предсказания на тестовом изображении
 
 ## Kaggle
 
