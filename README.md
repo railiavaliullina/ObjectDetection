@@ -33,10 +33,11 @@ Test Assignment
 
 ## How to run dashboard
 - dashboard запускается локально, для этого необходимо:
-  - склонировать проект
-  - в конфиге config.json изменить параметр ["dataset"]["data_path"] на путь до датасета (папки "dataset" из 
-  описания тестового задания)
-  - запустить main.py
+
+
+        git clone https://github.com/railiavaliullina/TestAssignment.git
+        python main.py -d <путь-до-папки-dataset>
+        
 
 ## EDA Plots 
 
