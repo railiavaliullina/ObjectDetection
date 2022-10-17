@@ -177,10 +177,10 @@ Test Assignment
 - Время обучения: ~ 25 ч (6000 итераций)
 - Notebook с кодом для обучения и инференса: https://www.kaggle.com/railyavaliullina/testassignment
 - Необходимо нажать Edit после перехода по ссылке, после чего создастся копия ноутбука
-- Notebook с кодом также есть по пути `/ipython-notebooks/kaggle/`
+- Notebook также находится по пути `/ipython-notebooks/kaggle/`
 
 ## Google Colab
 - Модель GPU: Tesla T4 16gb
 - Время обучения: ~ 26 ч (6000 итераций)
 - Notebook с кодом для обучения и инференса: https://colab.research.google.com/drive/1NtEQRal8Yu_0k1TlSTvFIen5VBGEiEpj?usp=sharing
-- Notebook с кодом также есть по пути `/ipython-notebooks/kaggle/google-colab`
+- Notebook также находится по пути `/ipython-notebooks/google-colab`
