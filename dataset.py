@@ -5,7 +5,6 @@ from tqdm import tqdm
 
 import numpy as np
 import pandas as pd
-import plotly.express as px
 from PIL import Image
 
 
@@ -31,9 +30,16 @@ class Dataset:
             self.split_data()
 
     def __len__(self):
+        """
+        :return: size of dataset
+        """
         return len(self.dataset)
 
     def get_dataset_as_dataframe(self):
+        """
+        saves dataset as dataframe with columns (img_path, label), each row is associated with image
+        :return: dataset dataframe
+        """
         files_list = np.asarray(os.listdir(self.cfg['data_path']))
         files_num = len(files_list)
         jpg_files_id = np.asarray([idx for idx, file_name in enumerate(files_list) if file_name.endswith('.jpg')])
@@ -47,12 +53,15 @@ class Dataset:
         dataset_df = pd.DataFrame()
         dataset_df['img_path'] = files_list[jpg_files_id]
         dataset_df['label'] = labels
-
         self.size = len(dataset_df)
-
         return dataset_df
 
     def read_labels(self, txt_files):
+        """
+        reads bboxes info
+        :param txt_files:
+        :return: bboxes info
+        """
         labels = []
         for txt_file in txt_files:
             with open(os.path.join(self.cfg['data_path'], txt_file), 'r') as f:
@@ -67,6 +76,11 @@ class Dataset:
 
     @staticmethod
     def get_sizes_stats(sizes):
+        """
+        Gets stats about images and boxes sizes
+        :param sizes: list of sizes (w, h)
+        :return: aggregated stats
+        """
         sizes = np.asarray(sizes)
         widths, heights = sizes[:, 0], sizes[:, 1]
         sizes_stats = {'avg_w': int(round(widths.mean())), 'avg_h': int(round(heights.mean())),
@@ -75,9 +89,10 @@ class Dataset:
         return sizes_stats
 
     def get_common_stats(self):
-        # collect images samples with bboxes to visualize in dashboard
-        # and get common stats about dataset
-
+        """
+        collect images samples with bboxes to visualize in dashboard
+        and get common stats about dataset
+        """
         images_sizes, bboxes_sizes = [], []
         images_aspect_ratios, bboxes_aspect_ratios = [], []
         num_boxes_per_image, boxes_area, classes_id = [], [], []
@@ -130,8 +145,7 @@ class Dataset:
 
     def split_data(self):
         """
-        Splits data into train and valid sets.
-        :return:
+        Splits data into train and valid sets
         """
         # split dataset ids
         np.random.seed(int(self.cfg['seed']))
