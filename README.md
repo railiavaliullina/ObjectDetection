@@ -14,7 +14,7 @@ Test Assignment
     * [GPU and Training Time](#gpu-and-training-time)
     * [Metrics with best weights](#metrics-with-best-weights)
     * [Loss and mAP plots](#loss-and-map-plots)
-    * [Predictions examples on test set images](#predictions-examples-on-test-set-images)
+    * [Predictions example on test set images](#predictions-example-on-test-set-images)
 * [How to Train and Inference](#how-to-train-and-inference)
   * [Training](#training)
   * [Inference](#inference)
@@ -140,7 +140,7 @@ Test Assignment
 
 ![img.png](training_process_plots/4.PNG)
 
-### Predictions examples on test set images
+### Predictions example on test set images
 
 - Визуализация в dashboard
 
