@@ -1,4 +1,5 @@
 import pickle
+import argparse
 
 from utils import init_logger, init_config
 from dataset import Dataset
@@ -11,6 +12,13 @@ if __name__ == '__main__':
     # define logger and config
     logger = init_logger()
     cfg = init_config(logger)
+
+    # if running from terminal with needed data-path
+    if cfg["use_argparse"]:
+        parser = argparse.ArgumentParser()
+        parser.add_argument('-d', '--data-path', required=True, type=str, help="Path to dataset dir")
+        args = parser.parse_args()
+        cfg["dataset"]["data_path"] = args.data_path
 
     # saving and loading dataset stats for speeding up
     if cfg["dataset"]["load_dataset_obj"]:

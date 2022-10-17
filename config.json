@@ -1,4 +1,5 @@
 {
+  "use_argparse": true,
   "dataset": {
     "data_path": "D:\\dataset",
     "split_data": false,
