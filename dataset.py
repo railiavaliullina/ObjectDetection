@@ -2,7 +2,6 @@ import os
 import shutil
 from collections import Counter
 from tqdm import tqdm
-
 import numpy as np
 import pandas as pd
 from PIL import Image
