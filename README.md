@@ -2,7 +2,7 @@
 Test Assignment
 
 <!-- TOC -->
-* [Object Detection Problem](#object-detection-problem)
+* [Object Detection using Darknet](#object-detection-using-darknet)
 * [EDA](#eda)
   * [How to run dashboard](#how-to-run-dashboard)
   * [EDA Plots](#eda-plots)
