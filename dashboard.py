@@ -13,6 +13,13 @@ from dash_bootstrap_templates import load_figure_template
 
 class Dashboard:
     def __init__(self, cfg, logger, dataset, evaluation):
+        """
+        class for making visualization tool, which contains EDA and training results info
+        :param cfg: config
+        :param logger: logger object
+        :param dataset: dataset object
+        :param evaluation: evaluation object
+        """
         self.cfg = cfg['dashboard']
         self.dataset_cfg = cfg['dataset']
         self.eval_cfg = cfg['evaluation']
@@ -43,6 +50,13 @@ class Dashboard:
             Input("results-btn", "n_clicks"),
         )
         def change_results_boxes_by_thr(thr, n_clicks):
+            """
+            changes images with predictions results (removes/adds boxes if thr slider changes
+            or replaces images with new random ones)
+            :param thr: thr from slider
+            :param n_clicks: number of clicks on the button
+            :return: updated figures for images
+            """
             if "results-btn" == ctx.triggered_id:
                 random_idxs = np.random.choice(np.arange(len(self.predictions_results_paths)), 2, replace=False)
                 self.get_predictions_figures(thr=thr, idx=random_idxs)
@@ -57,6 +71,12 @@ class Dashboard:
             Input("show-boxes-switch", "on"),
         )
         def slide_through_dataset_samples(slider_value, switch_value):
+            """
+            updates images in dataset viewer when changing slider
+            :param slider_value: slider current value
+            :param switch_value: switch value (whether to show boxes on images or not)
+            :return: updated figures for images
+            """
             self.get_images_figures(idx=slider_value // 2, show_boxes=switch_value)
             return self.figures[0], self.figures[1]
 
@@ -66,6 +86,11 @@ class Dashboard:
             Input("dropdown_0", "value")
         )
         def show_dropdown_result(value):
+            """
+            shows dash components depending on dropdown value (EDA or Training Results)
+            :param value: dropdown value
+            :return: updated dash page
+            """
             if value is None:
                 return self.app.layout, value
             elif value == 'EDA':
@@ -273,6 +298,13 @@ class Dashboard:
             return updated_div, value
 
     def get_images_figures(self, idx=0, img_count=2, show_boxes=True):
+        """
+        gets next pair of images when sliding through dataset in dataset viewer
+        :param idx: idx of first images
+        :param img_count: count of images to show
+        :param show_boxes: bool, whether to show boxes on images or not
+        :return: updated figures with images
+        """
         self.figures = []
         for row in self.slider_data[idx:idx + img_count].iterrows():
             image = Image.open(os.path.join(self.dataset_cfg['data_path'], row[1]['img_path']))
@@ -304,6 +336,12 @@ class Dashboard:
             self.figures.append(fig)
 
     def get_predictions_figures(self, idx=None, img_count=2, thr=None):
+        """
+        gets random images with predictions results
+        :param idx: random indexes of images
+        :param img_count: count of images to show
+        :param thr: thr from slider
+        """
         self.predictions_figures, self.predictions_figures_paths = [], []
         paths = self.predictions_results_paths[:img_count] if idx is None \
             else self.predictions_results_paths[idx]
@@ -320,6 +358,10 @@ class Dashboard:
             self.predictions_figures_paths.append(image_path)
 
     def change_predictions_figures(self, thr):
+        """
+        changes boxes on images with predictions results depending on slider
+        :param thr: thr value from slider
+        """
         self.predictions_figures = []
         for image_path in self.predictions_figures_paths:
             image = Image.open(
@@ -333,6 +375,10 @@ class Dashboard:
             self.predictions_figures.append(fig)
 
     def init_sidebar(self):
+        """
+        initializes sidebar on dash page
+        :return:
+        """
         self.sidebar = html.Div(
             [
                 html.H3("Settings", style={'marginBottom': '2%'}),
@@ -349,6 +395,9 @@ class Dashboard:
         )
 
     def init_main_part_div(self):
+        """
+        initializes main part of dash page
+        """
         self.app.layout = html.Div(children=[
             dbc.Row([
                 dbc.Col(self.sidebar, style={'display': 'inline-block'}),
@@ -357,5 +406,8 @@ class Dashboard:
         ], id='main-part-div')
 
     def __call__(self, *args, **kwargs):
+        """
+        runs dashboard locally
+        """
         self.logger.info('running dashboard for EDA and training results visualization')
         self.app.run_server(debug=self.cfg['debug_mode'])
