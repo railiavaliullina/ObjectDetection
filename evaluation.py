@@ -6,6 +6,11 @@ import numpy as np
 
 class Evaluation:
     def __init__(self, cfg, logger):
+        """
+        class for parsing logs from training, collecting metrics and loss values
+        :param cfg: "evaluation" part of config
+        :param logger: logger object
+        """
 
         self.cfg = cfg['evaluation']
         self.logger = logger
@@ -17,6 +22,9 @@ class Evaluation:
         self.read_train_and_inference_details()
 
     def parse_logs(self):
+        """
+        parses logs from training, collects all metrics anf losses values
+        """
         if self.cfg['load_parsed_logs']:
             self.parsed_logs = pickle.load(open(os.path.join(self.cfg['logs_dir']['parsed'], 'parsed_logs'), 'rb'))
             self.logger.info(f'successfully loaded parsed logs from {self.cfg["logs_dir"]["parsed"]}')
@@ -81,6 +89,9 @@ class Evaluation:
                 self.logger.info(f'successfully saved parsed logs to {self.cfg["logs_dir"]["parsed"]}')
 
     def get_meanAP_and_loss_values(self):
+        """
+        prepares lists with loss and mAP values for visualization in dashboard
+        """
         mean_ap_list = [(0, .0)]
         losses_list = []
         for log_id, log_dict in self.parsed_logs.items():
@@ -97,5 +108,8 @@ class Evaluation:
         self.losses_list = np.asarray(losses_list)
 
     def read_train_and_inference_details(self):
+        """
+        reads info from 'best_result_info', 'training_details' files to show it in dashboard
+        """
         self.best_result_info = open(self.cfg['best_result_info_path']).read()
         self.training_details = open(self.cfg['training_details_path']).read()
