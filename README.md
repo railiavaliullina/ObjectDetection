@@ -1,4 +1,4 @@
-# Object Detection Problem
+# Object Detection using Darknet
 Test Assignment
 
 <!-- TOC -->
