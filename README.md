@@ -1,5 +1,5 @@
 # Object Detection using Darknet
-Test Assignment
+
 
 <!-- TOC -->
 * [Object Detection using Darknet](#object-detection-using-darknet)
